@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\paridise\\desktop\\engineeringfanalproject\\bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\bp\\businesslogic\\common\\common_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\common_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|solutionrelative:app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\app\\finalapp\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\app\\finalapp\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\app\\finalapp\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\activation\\activation_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\activation\\activation_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\app\\finalapp\\autenticate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\autenticate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\bp\\businesslogic\\common\\common_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\common_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|solutionrelative:app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\app\\finalapp\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,39 +42,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1449176975:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Activation_BL.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Activation\\Activation_BL.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Activation\\Activation_BL.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Activation\\Activation_BL.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Activation\\Activation_BL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:34:01.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Presenter.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T17:57:42.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MethodsType.cs",
-              "DocumentMoniker": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\MethodsType.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\MethodsType.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\MethodsType.cs",
-              "ToolTip": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\MethodsType.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\MethodsType.cs",
               "RelativeToolTip": "Common\\DataModel\\Enum\\MethodsType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,11 +84,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RequestBaseLog_VM.cs",
-              "DocumentMoniker": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
-              "ToolTip": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
               "RelativeToolTip": "Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,24 +96,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Presenter.cs",
-              "DocumentMoniker": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "ToolTip": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T17:57:42.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Common_BL.cs",
-              "DocumentMoniker": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Common_BL.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Common_BL.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Common_BL.cs",
-              "ToolTip": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Common_BL.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Common_BL.cs",
               "RelativeToolTip": "BP\\BusinessLogic\\Common\\Common_BL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,11 +108,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AppPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
               "RelativeDocumentMoniker": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "ToolTip": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
               "RelativeToolTip": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -131,37 +120,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Register.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Register.xaml.cs",
-              "ToolTip": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml.cs",
               "RelativeToolTip": "APP\\FinalApp\\Register.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T17:36:18.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.xaml",
-              "DocumentMoniker": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Register.xaml",
-              "ToolTip": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\Register.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-26T06:12:50.734Z"
+              "WhenOpened": "2025-04-27T17:36:18.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Autenticate.xaml",
-              "DocumentMoniker": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Autenticate.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Autenticate.xaml",
-              "ToolTip": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Autenticate.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\Autenticate.xaml",
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\Register.xaml",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml",
+              "RelativeToolTip": "APP\\FinalApp\\Register.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-26T06:12:04.441Z"
+              "WhenOpened": "2025-04-26T06:12:50.734Z"
             }
           ]
         }

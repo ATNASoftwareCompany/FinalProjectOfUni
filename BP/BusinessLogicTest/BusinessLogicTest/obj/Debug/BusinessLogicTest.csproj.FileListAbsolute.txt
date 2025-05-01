@@ -32,7 +32,6 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\Busine
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\BusinessLogic.pdb
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\DataAccess.pdb
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\DataAccess.dll.config
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\EntityFramework.xml
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\BusinessLogicTest.csproj.AssemblyReference.cache
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\BusinessLogicTest.csproj.CoreCompileInputs.cache
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\Business.4736E9D0.Up2Date
@@ -120,3 +119,6 @@ C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessL
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\BusinessLogicTest.dll
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\BusinessLogicTest.pdb
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\SR.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\SR.pdb

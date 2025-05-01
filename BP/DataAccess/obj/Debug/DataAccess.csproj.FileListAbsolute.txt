@@ -45,3 +45,5 @@ C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\Entity
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.xml

@@ -1,5 +1,4 @@
-﻿using BusinessLogic.Activation;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +26,7 @@ namespace FinalApp
 
         private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
-            var result = new Activation_BL().InsertActivation(new DataModel.ViewModel.Activation_VM { PhoneNo = txtMobile.Text.Trim() });
+            //var result = new Activation_BL().InsertActivation(new DataModel.ViewModel.Activation_VM { PhoneNo = txtMobile.Text.Trim() });
         }
     }
 }

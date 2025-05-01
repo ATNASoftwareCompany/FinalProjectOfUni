@@ -1,4 +1,5 @@
-﻿using DataModel.Logging;
+﻿using DataAccess;
+using DataModel.Logging;
 using DataModel.ViewModel;
 using Newtonsoft.Json;
 using System;
@@ -13,12 +14,16 @@ namespace BusinessLogic.Common.Methods
     {
         public BaseResult_VM HandleResponse<T>(Func<T , BaseResult_VM> func ,T methodInput, RequestBaseLog_VM requestLog )
         {
-
+            LogDb logDb = new LogDb();
             requestLog.MethodInput = requestLog.MethodInput == null ? JsonConvert.SerializeObject(methodInput) : null;
 
             try
             {
-                 
+                requestLog = new RequestBaseLog_VM
+                {
+                    CallTime = DateTime.Now,
+
+                };
             }
             catch (Exception)
             {

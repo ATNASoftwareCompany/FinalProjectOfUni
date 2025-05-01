@@ -88,3 +88,9 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\Syst
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\AppPresenter.pdb
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\System.Data.SqlClient.xml
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Autenticate.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\BusinessLogic.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\DataAccess.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\BusinessLogic.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\DataAccess.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\DataAccess.dll.config

@@ -57,6 +57,7 @@
     <Compile Include="Enum\PersonStatus.cs" />
     <Compile Include="Enum\UserStatus.cs" />
     <Compile Include="Logging\RequestBaseLog_VM.cs" />
+    <Compile Include="Logging\ResponseBaseLog_VM.cs" />
     <Compile Include="SRModel\SmsConfig_VM.cs" />
     <Compile Include="ViewModel\Access_VM.cs" />
     <Compile Include="ViewModel\Action_VM.cs" />

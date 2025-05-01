@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\app\\finalapp\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\activation\\activation_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\bp\\businesslogic\\activation\\activation_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\activation\\activation_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "BP\\BusinessLogic\\Activation\\Activation_BL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:34:01.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T10:34:01.888Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T17:57:42.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T17:57:42.747Z"
             },
             {
               "$type": "Document",
@@ -126,7 +124,7 @@
               "RelativeDocumentMoniker": "APP\\FinalApp\\Register.xaml.cs",
               "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register.xaml.cs",
               "RelativeToolTip": "APP\\FinalApp\\Register.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T17:36:18.155Z",
               "EditorCaption": ""

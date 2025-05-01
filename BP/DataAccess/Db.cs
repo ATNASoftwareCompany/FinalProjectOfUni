@@ -1,4 +1,5 @@
 ﻿using DataModel;
+using DataModel.Logging;
 using DataModel.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -30,6 +31,9 @@ namespace DataAccess
 
         }
 
-        
+        public DbSet<RequestBaseLog_VM> RequestLog { get; set; }
+
+        public DbSet<ResponseBaseLog_VM> responseLog { get; set; }
+
     }
 }

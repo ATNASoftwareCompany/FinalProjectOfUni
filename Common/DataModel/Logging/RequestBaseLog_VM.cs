@@ -14,6 +14,7 @@ namespace DataModel.Logging
         }
         public long RequestId { get; set; }
         public string MethodInput { get; set; }
+        public string MethodOutput { get; set; }
         public string Exception { get; set; }
         public int MethodId { get; set; }
         public long PointerId { get; set; }

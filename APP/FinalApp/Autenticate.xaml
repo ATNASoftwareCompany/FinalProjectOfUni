@@ -1,0 +1,26 @@
+﻿<Window x:Class="FinalApp.Autenticate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalApp"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="اعتبارسنجی پیامکی" Height="150" Width="300" FontFamily="B Zar">
+    <Grid Background="#B3D9FF">
+        <Border Height="120" Width="285" Background="#E292B6" BorderBrush="#E292B6" CornerRadius="10" >
+            <Grid >
+                <Border Background="#86DEB7" BorderBrush="#E292B6" CornerRadius="10" Margin="10,10,10,10">
+
+                    <Grid>
+                        <TextBlock Text="لطفا کد اعتبار سنجی پیامکی را وارد نمایید" Height="20" Margin="105,10,7,70"/>
+                        <TextBox Height="20" Margin="7,30,7,50"/>
+                        <Button Height="25" Width="150" Margin="58,65,57,10" Content="اعتبارسنجی" Click="Button_Click"/>
+                    </Grid>
+                </Border>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</Window>

@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj",
+        "projectName": "BusinessLogic",
+        "projectPath": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Paridise\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Paridise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj",
+        "projectName": "DataModel",
+        "projectPath": "C:\\Users\\Paridise\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

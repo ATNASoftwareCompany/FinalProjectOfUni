@@ -8,6 +8,6 @@ namespace DataModel.Enum
 {
     public enum MethodsType
     {
-        None,
+        InsertActivation = 10000,
     }
 }

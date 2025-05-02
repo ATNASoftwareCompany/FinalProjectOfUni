@@ -64,6 +64,7 @@
     <Compile Include="ViewModel\Activation_VM.cs" />
     <Compile Include="ViewModel\BaseResult_VM.cs" />
     <Compile Include="ViewModel\Base_VM.cs" />
+    <Compile Include="ViewModel\MessageBox_VM.cs" />
     <Compile Include="ViewModel\Person_VM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\User_VM.cs" />

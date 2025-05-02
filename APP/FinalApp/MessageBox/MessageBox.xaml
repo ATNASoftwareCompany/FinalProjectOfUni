@@ -1,0 +1,19 @@
+﻿<Window x:Class="FinalApp.MessageBox.MessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalApp.MessageBox"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Height="190" Width="400" FontFamily="B Titr" FontSize="20">
+    <Grid x:Name="gridbase" Background="DodgerBlue" >
+        <Label x:Name="lblTextTitle" Content="تیتر" FontSize="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" Margin="113,0,10,127" />
+        <Label x:Name="lblTextInfo" Content="متن" FontSize="18" HorizontalContentAlignment="Right" FontFamily="B ZAr" VerticalContentAlignment="Top" Margin="10,46,10,41" />
+        <Button x:Name="btnOk" Content="تایید" Height="25" Width="65" Margin="325,144,10,5"  FontSize="12" Foreground="Green" Visibility="Hidden" Click="btnOk_Click" />
+        <Button x:Name="btnCancle" Content="نصراف" Height="25" Width="65" Margin="243,144,92,5" FontSize="12" Foreground="Red" Visibility="Hidden" Click="btnCancle_Click" />
+        <Button x:Name="btnYes" Content="بله" Height="25" Width="65" Margin="325,144,10,5" FontSize="12" Foreground="Green" Visibility="Visible" Click="btnYes_Click" />
+        <Button x:Name="btnNo" Content="خیر" Height="25" Width="65" Margin="243,144,92,5" FontSize="12" Foreground="Red" Visibility="Visible" Click="btnNo_Click" />
+        <Image x:Name="imgIcon" Margin="10,10,346,122" Source="/Images/icons8-information-50.png" Stretch="Fill"/>
+    </Grid>
+</Window>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppPresenter;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,7 +27,7 @@ namespace FinalApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            var res = new AppPresenter.AppPresenter().InsertActivation(new DataModel.ViewModel.Activation_VM { });
         }
     }
 }

@@ -1,5 +1,8 @@
-﻿using System;
+﻿using DataModel.Enum;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,11 +15,13 @@ namespace DataModel.Logging
         {
             CallTime = DateTime.Now;
         }
-        public long RequestId { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public long RequestId { get; set; } 
         public string MethodInput { get; set; }
-        public string MethodOutput { get; set; }
+        public string MethodOutput { get; set; } = null;
         public string Exception { get; set; }
-        public int MethodId { get; set; }
+        public MethodsType MethodId { get; set; }
         public long PointerId { get; set; }
         public DateTime CallTime { get; set; }
 

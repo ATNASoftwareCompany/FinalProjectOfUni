@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,9 @@ namespace DataAccess.User
 {
     public partial class User_DL
     {
-        public void GetUser()
+        public User_VM GetUser(User_VM inputModel)
         {
-
+            return db.Users.Where(x => x.UserName == inputModel.UserName).FirstOrDefault();
         }
     }
 }

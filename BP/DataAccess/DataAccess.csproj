@@ -70,6 +70,12 @@
     <Compile Include="Activation\Command\InsertActivation.cs" />
     <Compile Include="Activation\Command\UpdateActivation.cs" />
     <Compile Include="Db.cs" />
+    <Compile Include="Logging\Request\Command\GetRequest.cs" />
+    <Compile Include="Logging\Request\Command\InserRequest.cs" />
+    <Compile Include="Logging\Request\Request_DL.cs" />
+    <Compile Include="Logging\Response\Command\GetResponse.cs" />
+    <Compile Include="Logging\Response\Command\InsertResponse.cs" />
+    <Compile Include="Logging\Response\Response_DL.cs" />
     <Compile Include="Person\Command\DeletePerson.cs" />
     <Compile Include="Person\Command\GetPerson.cs" />
     <Compile Include="Person\Command\InsertPerson.cs" />

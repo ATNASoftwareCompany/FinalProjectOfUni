@@ -122,3 +122,45 @@ C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessL
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\SR.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\SR.pdb
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\BusinessLogicTest.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\BusinessLogicTest.pdb
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\EntityFramework.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Extensions.Http.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Extensions.Options.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\Newtonsoft.Json.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\System.Buffers.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\System.Memory.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\System.Numerics.Vectors.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\System.ValueTuple.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\BusinessLogic.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\DataAccess.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\DataModel.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\SR.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\DataModel.pdb
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\DataModel.dll.config
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\SR.pdb
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\BusinessLogic.pdb
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\DataAccess.pdb
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\bin\Debug\DataAccess.dll.config
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\BusinessLogicTest.csproj.AssemblyReference.cache
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\BusinessLogicTest.csproj.CoreCompileInputs.cache
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\Business.4736E9D0.Up2Date
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\BusinessLogicTest.dll
+D:\final\BP\BusinessLogicTest\BusinessLogicTest\obj\Debug\BusinessLogicTest.pdb

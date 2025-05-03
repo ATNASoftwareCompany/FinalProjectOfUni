@@ -47,3 +47,20 @@ C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.xml
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.xml
+D:\final\BP\DataAccess\bin\Debug\DataAccess.dll.config
+D:\final\BP\DataAccess\bin\Debug\DataAccess.dll
+D:\final\BP\DataAccess\bin\Debug\DataAccess.pdb
+D:\final\BP\DataAccess\bin\Debug\DataModel.dll
+D:\final\BP\DataAccess\bin\Debug\EntityFramework.dll
+D:\final\BP\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\final\BP\DataAccess\bin\Debug\System.Data.SqlClient.dll
+D:\final\BP\DataAccess\bin\Debug\DataModel.pdb
+D:\final\BP\DataAccess\bin\Debug\DataModel.dll.config
+D:\final\BP\DataAccess\bin\Debug\EntityFramework.xml
+D:\final\BP\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\final\BP\DataAccess\bin\Debug\System.Data.SqlClient.xml
+D:\final\BP\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\final\BP\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\final\BP\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
+D:\final\BP\DataAccess\obj\Debug\DataAccess.dll
+D:\final\BP\DataAccess\obj\Debug\DataAccess.pdb

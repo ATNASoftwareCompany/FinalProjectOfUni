@@ -94,3 +94,42 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\Newt
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\BusinessLogic.pdb
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\DataAccess.pdb
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\DataAccess.dll.config
+D:\final\APP\FinalApp\bin\Debug\FinalApp.exe.config
+D:\final\APP\FinalApp\bin\Debug\FinalApp.exe
+D:\final\APP\FinalApp\bin\Debug\FinalApp.pdb
+D:\final\APP\FinalApp\bin\Debug\AppPresenter.dll
+D:\final\APP\FinalApp\bin\Debug\DataModel.dll
+D:\final\APP\FinalApp\bin\Debug\EntityFramework.dll
+D:\final\APP\FinalApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\final\APP\FinalApp\bin\Debug\System.Data.SqlClient.dll
+D:\final\APP\FinalApp\bin\Debug\BusinessLogic.dll
+D:\final\APP\FinalApp\bin\Debug\Newtonsoft.Json.dll
+D:\final\APP\FinalApp\bin\Debug\DataAccess.dll
+D:\final\APP\FinalApp\bin\Debug\DataModel.pdb
+D:\final\APP\FinalApp\bin\Debug\DataModel.dll.config
+D:\final\APP\FinalApp\bin\Debug\AppPresenter.pdb
+D:\final\APP\FinalApp\bin\Debug\EntityFramework.xml
+D:\final\APP\FinalApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\final\APP\FinalApp\bin\Debug\System.Data.SqlClient.xml
+D:\final\APP\FinalApp\bin\Debug\BusinessLogic.pdb
+D:\final\APP\FinalApp\bin\Debug\DataAccess.pdb
+D:\final\APP\FinalApp\bin\Debug\DataAccess.dll.config
+D:\final\APP\FinalApp\obj\Debug\FinalApp.csproj.AssemblyReference.cache
+D:\final\APP\FinalApp\obj\Debug\MessageBox\MessageBox.g.cs
+D:\final\APP\FinalApp\obj\Debug\Register\Autenticate.g.cs
+D:\final\APP\FinalApp\obj\Debug\MainWindow.g.cs
+D:\final\APP\FinalApp\obj\Debug\Register\Register.g.cs
+D:\final\APP\FinalApp\obj\Debug\App.g.cs
+D:\final\APP\FinalApp\obj\Debug\FinalApp_MarkupCompile.cache
+D:\final\APP\FinalApp\obj\Debug\FinalApp_MarkupCompile.lref
+D:\final\APP\FinalApp\obj\Debug\MessageBox\MessageBox.baml
+D:\final\APP\FinalApp\obj\Debug\Register\Autenticate.baml
+D:\final\APP\FinalApp\obj\Debug\MainWindow.baml
+D:\final\APP\FinalApp\obj\Debug\Register\Register.baml
+D:\final\APP\FinalApp\obj\Debug\FinalApp.g.resources
+D:\final\APP\FinalApp\obj\Debug\FinalApp.Properties.Resources.resources
+D:\final\APP\FinalApp\obj\Debug\FinalApp.csproj.GenerateResource.cache
+D:\final\APP\FinalApp\obj\Debug\FinalApp.csproj.CoreCompileInputs.cache
+D:\final\APP\FinalApp\obj\Debug\FinalApp.csproj.Up2Date
+D:\final\APP\FinalApp\obj\Debug\FinalApp.exe
+D:\final\APP\FinalApp\obj\Debug\FinalApp.pdb

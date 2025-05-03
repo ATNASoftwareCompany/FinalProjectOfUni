@@ -1,61 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\",
+  "WorkspaceRootPath": "D:\\final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\messagebox\\messagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\messagebox\\messagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\user_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\user_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\messagebox\\messagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\messagebox\\messagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\viewmodel\\messagebox_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\messagebox_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|d:\\final\\bp\\businesslogic\\user\\methods\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\bp\\businesslogic\\common\\common_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\common_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\viewmodel\\user_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\user_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\register\\autenticate.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register\\autenticate.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\getusersingle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\getusersingle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\enum\\errortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\errortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\getusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\getusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\insertuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\insertuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\user\\command\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\user\\command\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\user\\command\\insertuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\insertuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\user\\command\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|D:\\final\\app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|solutionrelative:app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\register\\autenticate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register\\autenticate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|D:\\final\\app\\finalapp\\register\\autenticate.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register\\autenticate.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\logging\\responsebaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\responsebaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\logging\\response\\response_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|D:\\final\\app\\finalapp\\messagebox\\messagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\messagebox\\messagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|D:\\final\\app\\finalapp\\messagebox\\messagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\messagebox\\messagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\viewmodel\\messagebox_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\messagebox_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\common\\common_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\common_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\enum\\errortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\errortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|D:\\final\\app\\finalapp\\register\\autenticate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register\\autenticate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\logging\\responsebaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\responsebaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\logging\\response\\response_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\logging\\response\\response_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\logginghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\logginghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\logginghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,187 +110,332 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorType.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\ErrorType.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\ErrorType.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\ErrorType.cs",
-              "RelativeToolTip": "Common\\DataModel\\Enum\\ErrorType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T00:41:17.424Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1449176975:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MessageBox_VM.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
-              "RelativeToolTip": "Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Title": "DeleteUser.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\DeleteUser.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\DeleteUser.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\DeleteUser.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\User\\Methods\\DeleteUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T00:40:28.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MessageBox.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T00:38:52.047Z",
+              "WhenOpened": "2025-05-02T02:28:29.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MessageBox.xaml",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MessageBox\\MessageBox.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\MessageBox\\MessageBox.xaml",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MessageBox\\MessageBox.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\MessageBox\\MessageBox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-01T22:37:18.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Autenticate.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Autenticate.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Autenticate.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Register\\Autenticate.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABkAAAAAAAAAA==",
+              "Title": "UpdateUser.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\UpdateUser.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\UpdateUser.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\UpdateUser.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\User\\Methods\\UpdateUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T22:31:09.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Autenticate.xaml",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Autenticate.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Autenticate.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\Register\\Autenticate.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-01T22:31:04.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResponseBaseLog_VM.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
-              "RelativeToolTip": "Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T22:27:15.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RequestBaseLog_VM.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
-              "RelativeToolTip": "Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T22:26:28.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MethodsType.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\MethodsType.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\MethodsType.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\MethodsType.cs",
-              "RelativeToolTip": "Common\\DataModel\\Enum\\MethodsType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T22:25:44.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Response_DL.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Logging\\Response\\Response_DL.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Logging\\Response\\Response_DL.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Logging\\Response\\Response_DL.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Logging\\Response\\Response_DL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:58:49.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Presenter.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:56:10.802Z",
+              "WhenOpened": "2025-05-02T02:28:20.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AppPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "RelativeDocumentMoniker": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "RelativeToolTip": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAApAAAAAAAAAA==",
+              "Title": "InsertUser.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\InsertUser.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\InsertUser.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\InsertUser.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\User\\Methods\\InsertUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:55:49.378Z",
+              "WhenOpened": "2025-05-02T02:28:11.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetUsers.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\GetUsers.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\GetUsers.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\GetUsers.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\User\\Methods\\GetUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:27:56.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetUserSingle.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\GetUserSingle.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\GetUserSingle.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\GetUserSingle.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\User\\Methods\\GetUserSingle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:27:45.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User_BL.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\User_BL.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\User_BL.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\User\\User_BL.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\User\\User_BL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:26:31.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Common_BL.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Common_BL.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Common_BL.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Common_BL.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Common_BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "User_VM.cs",
+              "DocumentMoniker": "D:\\final\\Common\\DataModel\\ViewModel\\User_VM.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\User_VM.cs",
+              "ToolTip": "D:\\final\\Common\\DataModel\\ViewModel\\User_VM.cs",
+              "RelativeToolTip": "Common\\DataModel\\ViewModel\\User_VM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T17:56:49.887Z",
+              "WhenOpened": "2025-05-02T02:25:13.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetUser.cs",
+              "DocumentMoniker": "D:\\final\\BP\\DataAccess\\User\\Command\\GetUser.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\GetUser.cs",
+              "ToolTip": "D:\\final\\BP\\DataAccess\\User\\Command\\GetUser.cs",
+              "RelativeToolTip": "BP\\DataAccess\\User\\Command\\GetUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:24:57.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateUser.cs",
+              "DocumentMoniker": "D:\\final\\BP\\DataAccess\\User\\Command\\UpdateUser.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\UpdateUser.cs",
+              "ToolTip": "D:\\final\\BP\\DataAccess\\User\\Command\\UpdateUser.cs",
+              "RelativeToolTip": "BP\\DataAccess\\User\\Command\\UpdateUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:24:55.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InsertUser.cs",
+              "DocumentMoniker": "D:\\final\\BP\\DataAccess\\User\\Command\\InsertUser.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\InsertUser.cs",
+              "ToolTip": "D:\\final\\BP\\DataAccess\\User\\Command\\InsertUser.cs",
+              "RelativeToolTip": "BP\\DataAccess\\User\\Command\\InsertUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:24:54.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteUser.cs",
+              "DocumentMoniker": "D:\\final\\BP\\DataAccess\\User\\Command\\DeleteUser.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\DeleteUser.cs",
+              "ToolTip": "D:\\final\\BP\\DataAccess\\User\\Command\\DeleteUser.cs",
+              "RelativeToolTip": "BP\\DataAccess\\User\\Command\\DeleteUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:24:53.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorType.cs",
+              "DocumentMoniker": "D:\\final\\Common\\DataModel\\Enum\\ErrorType.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\ErrorType.cs",
+              "ToolTip": "D:\\final\\Common\\DataModel\\Enum\\ErrorType.cs",
+              "RelativeToolTip": "Common\\DataModel\\Enum\\ErrorType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:41:17.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MessageBox_VM.cs",
+              "DocumentMoniker": "D:\\final\\Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
+              "ToolTip": "D:\\final\\Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
+              "RelativeToolTip": "Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:40:28.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MessageBox.xaml.cs",
+              "DocumentMoniker": "D:\\final\\APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
+              "ToolTip": "D:\\final\\APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
+              "RelativeToolTip": "APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCoAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:38:52.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MessageBox.xaml",
+              "DocumentMoniker": "D:\\final\\APP\\FinalApp\\MessageBox\\MessageBox.xaml",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\MessageBox\\MessageBox.xaml",
+              "ToolTip": "D:\\final\\APP\\FinalApp\\MessageBox\\MessageBox.xaml",
+              "RelativeToolTip": "APP\\FinalApp\\MessageBox\\MessageBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T22:37:18.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Autenticate.xaml.cs",
+              "DocumentMoniker": "D:\\final\\APP\\FinalApp\\Register\\Autenticate.xaml.cs",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml.cs",
+              "ToolTip": "D:\\final\\APP\\FinalApp\\Register\\Autenticate.xaml.cs",
+              "RelativeToolTip": "APP\\FinalApp\\Register\\Autenticate.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vx0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:31:09.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Autenticate.xaml",
+              "DocumentMoniker": "D:\\final\\APP\\FinalApp\\Register\\Autenticate.xaml",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml",
+              "ToolTip": "D:\\final\\APP\\FinalApp\\Register\\Autenticate.xaml",
+              "RelativeToolTip": "APP\\FinalApp\\Register\\Autenticate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-01T22:31:04.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ResponseBaseLog_VM.cs",
+              "DocumentMoniker": "D:\\final\\Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
+              "ToolTip": "D:\\final\\Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
+              "RelativeToolTip": "Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:27:15.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RequestBaseLog_VM.cs",
+              "DocumentMoniker": "D:\\final\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
+              "ToolTip": "D:\\final\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
+              "RelativeToolTip": "Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:26:28.123Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "MethodsType.cs",
+              "DocumentMoniker": "D:\\final\\Common\\DataModel\\Enum\\MethodsType.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\MethodsType.cs",
+              "ToolTip": "D:\\final\\Common\\DataModel\\Enum\\MethodsType.cs",
+              "RelativeToolTip": "Common\\DataModel\\Enum\\MethodsType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:25:44.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Response_DL.cs",
+              "DocumentMoniker": "D:\\final\\BP\\DataAccess\\Logging\\Response\\Response_DL.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\Logging\\Response\\Response_DL.cs",
+              "ToolTip": "D:\\final\\BP\\DataAccess\\Logging\\Response\\Response_DL.cs",
+              "RelativeToolTip": "BP\\DataAccess\\Logging\\Response\\Response_DL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T18:58:49.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Presenter.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T18:56:10.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppPresenter.cs",
+              "DocumentMoniker": "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "RelativeDocumentMoniker": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "ToolTip": "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "RelativeToolTip": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T18:55:49.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Common_BL.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\Common\\Common_BL.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Common_BL.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\Common\\Common_BL.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Common_BL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T17:56:49.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "LoggingHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\LoggingHandler.cs",
+              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\LoggingHandler.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\LoggingHandler.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\LoggingHandler.cs",
+              "ToolTip": "D:\\final\\BP\\BusinessLogic\\LoggingHandler.cs",
               "RelativeToolTip": "BP\\BusinessLogic\\LoggingHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:52:58.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T18:52:58.319Z"
             }
           ]
         }

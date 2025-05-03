@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataModel.Enum
 {
-    public enum MethodsType
+    public enum GenreType
     {
-        InsertActivation = 10000,
-        GetUserSingle = 10001,
+        User = 1,
+        Person = 2,
+        Activation = 3,
+        Action = 4,
+        Access = 5,
     }
 }

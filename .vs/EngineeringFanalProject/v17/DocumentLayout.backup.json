@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\final\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\getusersingle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\getusersingle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\user\\command\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\getusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\getusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|D:\\final\\app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|solutionrelative:app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|d:\\final\\common\\datamodel\\enum\\genretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\genretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\viewmodel\\user_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\user_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\user_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\user_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +47,8 @@
       "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\viewmodel\\user_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\user_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\getusersingle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\getusersingle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\getusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\getusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\user\\methods\\insertuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\insertuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\user\\command\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\user\\command\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\deleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|D:\\final\\app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|solutionrelative:app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|D:\\final\\app\\finalapp\\register\\autenticate.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register\\autenticate.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|D:\\final\\app\\finalapp\\messagebox\\messagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -83,16 +91,8 @@
       "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register\\autenticate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|D:\\final\\bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\logging\\responsebaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\responsebaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|D:\\final\\common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\logging\\requestbaselog_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|D:\\final\\bp\\dataaccess\\logging\\response\\response_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,8 +110,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppPresenter.cs",
+              "DocumentMoniker": "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "RelativeDocumentMoniker": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "ToolTip": "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "RelativeToolTip": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA9wEIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T18:55:49.378Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenreType.cs",
+              "DocumentMoniker": "D:\\final\\Common\\DataModel\\Enum\\GenreType.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\GenreType.cs",
+              "ToolTip": "D:\\final\\Common\\DataModel\\Enum\\GenreType.cs",
+              "RelativeToolTip": "Common\\DataModel\\Enum\\GenreType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:11:44.104Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -134,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "DeleteUser.cs",
               "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\DeleteUser.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\DeleteUser.cs",
@@ -147,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "UpdateUser.cs",
               "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\UpdateUser.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\UpdateUser.cs",
@@ -160,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "InsertUser.cs",
               "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\InsertUser.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\InsertUser.cs",
@@ -173,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "GetUsers.cs",
               "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\GetUsers.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\GetUsers.cs",
@@ -186,58 +213,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GetUserSingle.cs",
               "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\GetUserSingle.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\GetUserSingle.cs",
               "ToolTip": "D:\\final\\BP\\BusinessLogic\\User\\Methods\\GetUserSingle.cs",
               "RelativeToolTip": "BP\\BusinessLogic\\User\\Methods\\GetUserSingle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T02:27:45.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "User_BL.cs",
               "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\User\\User_BL.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\User_BL.cs",
               "ToolTip": "D:\\final\\BP\\BusinessLogic\\User\\User_BL.cs",
               "RelativeToolTip": "BP\\BusinessLogic\\User\\User_BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T02:26:31.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "User_VM.cs",
               "DocumentMoniker": "D:\\final\\Common\\DataModel\\ViewModel\\User_VM.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\User_VM.cs",
               "ToolTip": "D:\\final\\Common\\DataModel\\ViewModel\\User_VM.cs",
               "RelativeToolTip": "Common\\DataModel\\ViewModel\\User_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T02:25:13.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "GetUser.cs",
               "DocumentMoniker": "D:\\final\\BP\\DataAccess\\User\\Command\\GetUser.cs",
               "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\GetUser.cs",
               "ToolTip": "D:\\final\\BP\\DataAccess\\User\\Command\\GetUser.cs",
               "RelativeToolTip": "BP\\DataAccess\\User\\Command\\GetUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T02:24:57.132Z"
+              "WhenOpened": "2025-05-02T02:24:57.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "UpdateUser.cs",
               "DocumentMoniker": "D:\\final\\BP\\DataAccess\\User\\Command\\UpdateUser.cs",
               "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\UpdateUser.cs",
@@ -249,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "InsertUser.cs",
               "DocumentMoniker": "D:\\final\\BP\\DataAccess\\User\\Command\\InsertUser.cs",
               "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\InsertUser.cs",
@@ -261,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "DeleteUser.cs",
               "DocumentMoniker": "D:\\final\\BP\\DataAccess\\User\\Command\\DeleteUser.cs",
               "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\DeleteUser.cs",
@@ -273,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ErrorType.cs",
               "DocumentMoniker": "D:\\final\\Common\\DataModel\\Enum\\ErrorType.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\ErrorType.cs",
@@ -285,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "MessageBox_VM.cs",
               "DocumentMoniker": "D:\\final\\Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\MessageBox_VM.cs",
@@ -297,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MessageBox.xaml.cs",
               "DocumentMoniker": "D:\\final\\APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\MessageBox\\MessageBox.xaml.cs",
@@ -309,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "MessageBox.xaml",
               "DocumentMoniker": "D:\\final\\APP\\FinalApp\\MessageBox\\MessageBox.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\MessageBox\\MessageBox.xaml",
@@ -320,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Autenticate.xaml.cs",
               "DocumentMoniker": "D:\\final\\APP\\FinalApp\\Register\\Autenticate.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml.cs",
@@ -332,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Autenticate.xaml",
               "DocumentMoniker": "D:\\final\\APP\\FinalApp\\Register\\Autenticate.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml",
@@ -343,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ResponseBaseLog_VM.cs",
               "DocumentMoniker": "D:\\final\\Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\Logging\\ResponseBaseLog_VM.cs",
@@ -355,27 +383,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
               "Title": "RequestBaseLog_VM.cs",
               "DocumentMoniker": "D:\\final\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
               "ToolTip": "D:\\final\\Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
               "RelativeToolTip": "Common\\DataModel\\Logging\\RequestBaseLog_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T22:26:28.123Z"
+              "WhenOpened": "2025-05-01T22:26:28.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "MethodsType.cs",
               "DocumentMoniker": "D:\\final\\Common\\DataModel\\Enum\\MethodsType.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\MethodsType.cs",
               "ToolTip": "D:\\final\\Common\\DataModel\\Enum\\MethodsType.cs",
               "RelativeToolTip": "Common\\DataModel\\Enum\\MethodsType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T22:25:44.82Z"
+              "WhenOpened": "2025-05-01T22:25:44.82Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -391,31 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Presenter.cs",
-              "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "ToolTip": "D:\\final\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:56:10.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppPresenter.cs",
-              "DocumentMoniker": "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "RelativeDocumentMoniker": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "ToolTip": "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "RelativeToolTip": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:55:49.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Common_BL.cs",
               "DocumentMoniker": "D:\\final\\BP\\BusinessLogic\\Common\\Common_BL.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Common_BL.cs",

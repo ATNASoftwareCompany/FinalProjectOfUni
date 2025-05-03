@@ -36,7 +36,7 @@ namespace AppPresenter
                 CallTime = DateTime.Now,
                 MethodId = DataModel.Enum.MethodsType.InsertActivation,
                 MethodInput = JsonConvert.SerializeObject(inputModel),
-                PointerId = Convert.ToInt64(inputModel.PhoneNo),
+                PointerId = inputModel.PhoneNo,
             });
         }
         #endregion
@@ -46,16 +46,36 @@ namespace AppPresenter
         #endregion
 
         #region User
+        /// <summary>
+        /// دریافت اطلاعات یک یوزر
+        /// </summary>
+        /// <param name="inputModel"></param>
+        /// <returns></returns>
         public BaseResult_VM GetUserSingle(User_VM inputModel)
         {
             return _presenter.HandleResponse(new User_BL().GetUserSingle, inputModel, new DataModel.Logging.RequestBaseLog_VM
             {
                 CallTime = DateTime.Now,
-                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodId = DataModel.Enum.MethodsType.GetUserSingle,
+                GenreId = DataModel.Enum.GenreType.User,
                 MethodInput = JsonConvert.SerializeObject(inputModel),
-                PointerId = Convert.ToInt64(inputModel.UserName),
+                PointerId = inputModel.UserName,
             });
         }
+
+
+        public BaseResult_VM GetUserSinglee(User_VM inputModel)
+        {
+            return _presenter.HandleResponse(new User_BL().GetUserSingle, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.GetUserSingle,
+                GenreId = DataModel.Enum.GenreType.User,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = inputModel.UserName,
+            });
+        }
+
         #endregion
 
 

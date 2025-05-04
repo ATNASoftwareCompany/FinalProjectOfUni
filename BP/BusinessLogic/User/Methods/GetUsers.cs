@@ -12,7 +12,8 @@ namespace BusinessLogic.User
     {
         public BaseResult_VM GetUsers(User_VM inputModel)
         {
-            return null;
+            var result = _user_DL.GetUsers();
+            return new BaseResult_VM(result, 0, "عملیات با موفقیت انجام شد", DataModel.Enum.ErrorType.Sussess);
         }
     }
 }

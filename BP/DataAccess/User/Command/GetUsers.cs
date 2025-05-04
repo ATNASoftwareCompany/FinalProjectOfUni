@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Person
+namespace DataAccess.User
 {
-    public partial class Person_DL
+    public partial class User_DL
     {
-        public bool DeletePerson(Person_VM inputModel)
+        public List<User_VM> GetUsers()
         {
-            return UpdatePerson(inputModel);
+            return db.Users.ToList();
         }
     }
 }

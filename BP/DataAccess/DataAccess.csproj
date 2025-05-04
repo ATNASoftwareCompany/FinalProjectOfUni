@@ -84,6 +84,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\Command\DeleteUser.cs" />
     <Compile Include="User\Command\GetUser.cs" />
+    <Compile Include="User\Command\GetUsers.cs" />
     <Compile Include="User\Command\InsertUser.cs" />
     <Compile Include="User\Command\UpdateUser.cs" />
     <Compile Include="User\User_DL.cs" />

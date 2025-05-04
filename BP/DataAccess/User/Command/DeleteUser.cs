@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,9 @@ namespace DataAccess.User
 {
     public partial class User_DL
     {
-        public void DeleteUser()
+        public bool DeleteUser(User_VM inputModel)
         {
-
+			return UpdateUser(inputModel);
         }
     }
 }

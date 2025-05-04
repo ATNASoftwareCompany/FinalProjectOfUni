@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DataModel;
+using DataModel.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +10,9 @@ namespace BusinessLogic.User
 {
     public partial class User_BL
     {
-        public void GetUsers()
+        public BaseResult_VM GetUsers(User_VM inputModel)
         {
-
+            return null;
         }
     }
 }

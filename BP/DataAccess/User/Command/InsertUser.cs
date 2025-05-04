@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,17 @@ namespace DataAccess.User
 {
     public partial class User_DL
     {
-        public void InsertUser()
+        public int InsertUser(User_VM inputModel)
         {
+            try
+            {
+                var result = db.Users.Add(inputModel);
+                return result.Id;
+            }
+            catch (Exception ex)
+            {
+                return -1;
+            }
 
         }
     }

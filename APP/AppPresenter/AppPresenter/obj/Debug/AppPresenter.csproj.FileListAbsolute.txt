@@ -16,3 +16,37 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresent
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\obj\Debug\AppPrese.BAD4D026.Up2Date
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.pdb
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\AppPresenter.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\AppPresenter.pdb
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Http.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Options.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\Newtonsoft.Json.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\System.Buffers.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\System.Memory.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\System.Numerics.Vectors.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\System.ValueTuple.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\BusinessLogic.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\DataModel.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\DataAccess.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\EntityFramework.dll
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\BusinessLogic.pdb
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\DataModel.pdb
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\DataModel.dll.config
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\DataAccess.pdb
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\DataAccess.dll.config
+D:\final\APP\AppPresenter\AppPresenter\bin\Debug\EntityFramework.xml
+D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.csproj.AssemblyReference.cache
+D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.csproj.CoreCompileInputs.cache
+D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPrese.BAD4D026.Up2Date
+D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.dll
+D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.pdb

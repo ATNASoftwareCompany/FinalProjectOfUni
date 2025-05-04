@@ -36,3 +36,22 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Debug\SR.csproj.C
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Debug\SR.csproj.Up2Date
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Debug\SR.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Debug\SR.pdb
+D:\final\SR\SR\bin\Debug\SR.dll
+D:\final\SR\SR\bin\Debug\SR.pdb
+D:\final\SR\SR\bin\Debug\BusinessLogic.dll
+D:\final\SR\SR\bin\Debug\DataModel.dll
+D:\final\SR\SR\bin\Debug\Newtonsoft.Json.dll
+D:\final\SR\SR\bin\Debug\DataAccess.dll
+D:\final\SR\SR\bin\Debug\EntityFramework.dll
+D:\final\SR\SR\bin\Debug\BusinessLogic.pdb
+D:\final\SR\SR\bin\Debug\DataModel.pdb
+D:\final\SR\SR\bin\Debug\DataModel.dll.config
+D:\final\SR\SR\bin\Debug\Newtonsoft.Json.xml
+D:\final\SR\SR\bin\Debug\DataAccess.pdb
+D:\final\SR\SR\bin\Debug\DataAccess.dll.config
+D:\final\SR\SR\bin\Debug\EntityFramework.xml
+D:\final\SR\SR\obj\Debug\SR.csproj.AssemblyReference.cache
+D:\final\SR\SR\obj\Debug\SR.csproj.CoreCompileInputs.cache
+D:\final\SR\SR\obj\Debug\SR.csproj.Up2Date
+D:\final\SR\SR\obj\Debug\SR.dll
+D:\final\SR\SR\obj\Debug\SR.pdb

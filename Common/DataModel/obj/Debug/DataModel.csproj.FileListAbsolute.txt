@@ -34,3 +34,15 @@ C:\Users\Paridise\Desktop\EngineeringFanalProject\Common\DataModel\obj\Debug\Dat
 C:\Users\Paridise\Desktop\EngineeringFanalProject\Common\DataModel\obj\Debug\DataModel.csproj.Up2Date
 C:\Users\Paridise\Desktop\EngineeringFanalProject\Common\DataModel\obj\Debug\DataModel.dll
 C:\Users\Paridise\Desktop\EngineeringFanalProject\Common\DataModel\obj\Debug\DataModel.pdb
+D:\final\Common\DataModel\bin\Debug\DataModel.dll.config
+D:\final\Common\DataModel\bin\Debug\DataModel.dll
+D:\final\Common\DataModel\bin\Debug\DataModel.pdb
+D:\final\Common\DataModel\bin\Debug\EntityFramework.dll
+D:\final\Common\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\final\Common\DataModel\bin\Debug\EntityFramework.xml
+D:\final\Common\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\final\Common\DataModel\obj\Debug\DataModel.csproj.AssemblyReference.cache
+D:\final\Common\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+D:\final\Common\DataModel\obj\Debug\DataModel.csproj.Up2Date
+D:\final\Common\DataModel\obj\Debug\DataModel.dll
+D:\final\Common\DataModel\obj\Debug\DataModel.pdb

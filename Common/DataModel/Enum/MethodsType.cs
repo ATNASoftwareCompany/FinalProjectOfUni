@@ -9,5 +9,6 @@ namespace DataModel.Enum
     public enum MethodsType
     {
         InsertActivation = 10000,
+        GetUserSingle = 10001,
     }
 }

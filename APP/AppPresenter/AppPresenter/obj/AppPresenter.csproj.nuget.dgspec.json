@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj": {}
+    "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj": {
+    "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj",
+        "projectUniqueName": "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj",
         "projectName": "AppPresenter",
-        "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj",
-        "packagesPath": "C:\\Users\\Arman Heart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\obj\\",
+        "projectPath": "D:\\final\\APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj",
+        "packagesPath": "C:\\Users\\Paridise\\.nuget\\packages\\",
+        "outputPath": "D:\\final\\APP\\AppPresenter\\AppPresenter\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Arman Heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Paridise\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +32,11 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj"
+              "D:\\final\\BP\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "D:\\final\\BP\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
-                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj"
+              "D:\\final\\Common\\DataModel\\DataModel.csproj": {
+                "projectPath": "D:\\final\\Common\\DataModel\\DataModel.csproj"
               }
             }
           }
@@ -73,22 +72,21 @@
         }
       }
     },
-    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj": {
+    "D:\\final\\BP\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "D:\\final\\BP\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Arman Heart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\obj\\",
+        "projectPath": "D:\\final\\BP\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Paridise\\.nuget\\packages\\",
+        "outputPath": "D:\\final\\BP\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Arman Heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Paridise\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -102,11 +100,11 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj"
+              "D:\\final\\BP\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\final\\BP\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
-                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj"
+              "D:\\final\\Common\\DataModel\\DataModel.csproj": {
+                "projectPath": "D:\\final\\Common\\DataModel\\DataModel.csproj"
               }
             }
           }
@@ -150,17 +148,16 @@
         }
       }
     },
-    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj": {
+    "D:\\final\\BP\\DataAccess\\DataAccess.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\final\\BP\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj",
-        "UsingMicrosoftNETSdk": false,
+        "projectPath": "D:\\final\\BP\\DataAccess\\DataAccess.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
-                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj"
+              "D:\\final\\Common\\DataModel\\DataModel.csproj": {
+                "projectPath": "D:\\final\\Common\\DataModel\\DataModel.csproj"
               }
             }
           }
@@ -170,12 +167,11 @@
         "net48": {}
       }
     },
-    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
+    "D:\\final\\Common\\DataModel\\DataModel.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "D:\\final\\Common\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj",
-        "UsingMicrosoftNETSdk": false,
+        "projectPath": "D:\\final\\Common\\DataModel\\DataModel.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}

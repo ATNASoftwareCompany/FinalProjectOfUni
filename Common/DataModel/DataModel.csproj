@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Enum\BStatus.cs" />
     <Compile Include="Enum\ErrorType.cs" />
+    <Compile Include="Enum\GenreType.cs" />
     <Compile Include="Enum\MethodsType.cs" />
     <Compile Include="Enum\PersonStatus.cs" />
     <Compile Include="Enum\UserStatus.cs" />

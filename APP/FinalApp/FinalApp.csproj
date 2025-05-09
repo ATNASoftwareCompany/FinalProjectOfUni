@@ -68,6 +68,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Book\AddNewBook.xaml.cs">
+      <DependentUpon>AddNewBook.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Book\AddNewPublisher.xaml.cs">
+      <DependentUpon>AddNewPublisher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Book\BookCollection.xaml.cs">
+      <DependentUpon>BookCollection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Book\BookManagment.xaml.cs">
+      <DependentUpon>BookManagment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Book\DTOs\CollectionDTOs.cs" />
     <Compile Include="MessageBox\MessageBox.xaml.cs">
       <DependentUpon>MessageBox.xaml</DependentUpon>
     </Compile>
@@ -77,6 +90,22 @@
     <Compile Include="Register\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
+    <Page Include="Book\AddNewBook.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Book\AddNewPublisher.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Book\BookCollection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Book\BookManagment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MessageBox\MessageBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

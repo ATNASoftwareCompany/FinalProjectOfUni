@@ -45,6 +45,11 @@
     <Compile Include="Activation\Methods\GenerateActicationCode.cs" />
     <Compile Include="Activation\Methods\GetActivationCode.cs" />
     <Compile Include="Activation\Methods\InsertActivation.cs" />
+    <Compile Include="BookPublisher\BookPublisher_BL.cs" />
+    <Compile Include="BookPublisher\Methods\GetAllPublishers.cs" />
+    <Compile Include="BookPublisher\Methods\InsertBookPublisher.cs" />
+    <Compile Include="Book\Book_BL.cs" />
+    <Compile Include="Book\Methods\InsertBook.cs" />
     <Compile Include="Common\Common_BL.cs" />
     <Compile Include="Common\Methods\Presenter.cs" />
     <Compile Include="LoggingHandler.cs" />

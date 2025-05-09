@@ -50,3 +50,19 @@ D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.csproj.CoreCompile
 D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPrese.BAD4D026.Up2Date
 D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.dll
 D:\final\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Http.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Buffers.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Memory.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.ValueTuple.dll

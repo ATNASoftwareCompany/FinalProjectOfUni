@@ -12,9 +12,9 @@ namespace DataModel.ViewModel
         public string Title { get; set; }
         public string Message { get; set; }
         public ErrorType ErrorType { get; set; }
-        public bool Yes { get; set; }
-        public bool No { get; set; }
-        public bool OK { get; set; }
-        public bool Cancel { get; set; }
+        public bool Yes { get; set; } = false;
+        public bool No { get; set; } = false ;
+        public bool OK { get; set; } = false;
+        public bool Cancel { get; set; } = false;
     }
 }

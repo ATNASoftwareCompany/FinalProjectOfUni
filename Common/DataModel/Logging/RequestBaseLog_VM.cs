@@ -23,7 +23,7 @@ namespace DataModel.Logging
         public string Exception { get; set; }
         public MethodsType MethodId { get; set; }
         public GenreType GenreId { get; set; }
-        public object PointerId { get; set; }
+        public long PointerId { get; set; }
         public DateTime CallTime { get; set; }
 
     }

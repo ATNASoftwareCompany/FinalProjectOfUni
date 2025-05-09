@@ -22,6 +22,10 @@ namespace DataAccess
         public DbSet<Person_VM> Persons { get; set; }
         public DbSet<Action_VM> Actions { get; set; }
         public DbSet<Activation_VM> Activations { get; set; }
+        public DbSet<Book_VM> Books { get; set; }
+        public DbSet<BookGenre> BookGenres { get; set; }
+        public DbSet<BookPublisher_VM> BookPublishers { get; set; }
+        public DbSet<BookAuthor_VM> BookAuthors { get; set; }
     }
 
     public class LogDb : DbContext

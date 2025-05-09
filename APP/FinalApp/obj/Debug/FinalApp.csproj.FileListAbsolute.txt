@@ -133,3 +133,10 @@ D:\final\APP\FinalApp\obj\Debug\FinalApp.csproj.CoreCompileInputs.cache
 D:\final\APP\FinalApp\obj\Debug\FinalApp.csproj.Up2Date
 D:\final\APP\FinalApp\obj\Debug\FinalApp.exe
 D:\final\APP\FinalApp\obj\Debug\FinalApp.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\AddNewBook.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\AddNewPublisher.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\BookCollection.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\BookManagment.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\MessageBox\MessageBox.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register\Autenticate.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register\Register.g.cs

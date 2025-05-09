@@ -1,4 +1,5 @@
 ﻿using BusinessLogic.Activation;
+using BusinessLogic.BookPublisher;
 using BusinessLogic.Common.Methods;
 using BusinessLogic.User;
 using DataModel;
@@ -36,7 +37,7 @@ namespace AppPresenter
                 CallTime = DateTime.Now,
                 MethodId = DataModel.Enum.MethodsType.InsertActivation,
                 MethodInput = JsonConvert.SerializeObject(inputModel),
-                PointerId = inputModel.PhoneNo,
+                PointerId = Convert.ToInt64(inputModel.ActivationCode),
             });
         }
         #endregion
@@ -59,7 +60,7 @@ namespace AppPresenter
                 MethodId = DataModel.Enum.MethodsType.GetUserSingle,
                 GenreId = DataModel.Enum.GenreType.User,
                 MethodInput = JsonConvert.SerializeObject(inputModel),
-                PointerId = inputModel.UserName,
+                PointerId = Convert.ToInt64(inputModel.UserName),
             });
         }
 
@@ -72,10 +73,34 @@ namespace AppPresenter
                 MethodId = DataModel.Enum.MethodsType.GetUserSingle,
                 GenreId = DataModel.Enum.GenreType.User,
                 MethodInput = JsonConvert.SerializeObject(inputModel),
-                PointerId = inputModel.UserName,
+                PointerId = Convert.ToInt64(inputModel.UserName),
             });
         }
 
+        #endregion
+
+        #region bookPublisher
+        public BaseResult_VM InsertBookPublisher(BookPublisher_VM inputModel)
+        {
+            return _presenter.HandleResponse(new BookPublisher_BL().InsertBookPublisher, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
+
+        public BaseResult_VM GetAllPublishers(BookPublisher_VM inputModel)
+        {
+            return _presenter.HandleResponse(new BookPublisher_BL().GetAllPublishers, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
         #endregion
 
 

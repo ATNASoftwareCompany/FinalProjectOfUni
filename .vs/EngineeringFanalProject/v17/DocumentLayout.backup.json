@@ -7,104 +7,56 @@
       "RelativeMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|solutionrelative:app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\bookpublisher\\methods\\insertbookpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\bookpublisher\\methods\\insertbookpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\user\\user_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\user_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\bookpublisher\\bookpublisher_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\bookpublisher\\bookpublisher_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\user\\methods\\getuserscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\user\\methods\\getuserscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\bookpublisher\\command\\insertbookpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\bookpublisher\\command\\insertbookpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\user\\command\\getusercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\getusercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\bookpublisher\\bookpublisher_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\bookpublisher\\bookpublisher_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\user\\user_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\user_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\addnewpublisher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\addnewpublisher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\user\\command\\insertuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\user\\command\\insertuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\enum\\bstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\bstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\viewmodel\\bookpublisher_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\bookpublisher_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\book\\command\\getbookscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\book\\command\\getbookscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\addnewbook.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\addnewbook.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\book\\methods\\getbookscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\book\\methods\\getbookscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\addnewpublisher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\addnewpublisher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\book\\command\\insertbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\book\\command\\insertbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\bookmanagment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\bookmanagment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\bookmanagment.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\bookmanagment.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\bookmanagment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\bookmanagment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\bookcollection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\bookcollection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\bookcollection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\bookcollection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\viewmodel\\bookgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\bookgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\viewmodel\\bookauthor_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\bookauthor_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\addnewbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\addnewbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\dtos\\collectiondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\dtos\\collectiondtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\book\\methods\\insertbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\book\\methods\\insertbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\book\\book_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\bp\\businesslogic\\book\\book_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\book\\book_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\book\\book_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\bp\\dataaccess\\book\\book_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\book\\book_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\book\\command\\deletebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\book\\command\\deletebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\book\\command\\getbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\book\\command\\getbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\book\\command\\updatebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\book\\command\\updatebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,374 +74,179 @@
               "Title": "AppPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
               "RelativeDocumentMoniker": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs*",
-              "RelativeToolTip": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "RelativeToolTip": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:43:45.95Z",
+              "WhenOpened": "2025-05-09T20:52:36.374Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InsertBookPublisher.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BookPublisher\\Methods\\InsertBookPublisher.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\BookPublisher\\Methods\\InsertBookPublisher.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BookPublisher\\Methods\\InsertBookPublisher.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\BookPublisher\\Methods\\InsertBookPublisher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABtAAAAAAAAAA==",
+              "Title": "User_BL.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\User\\User_BL.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\User_BL.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\User\\User_BL.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\User\\User_BL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:41:16.116Z",
+              "WhenOpened": "2025-05-09T21:18:42.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BookPublisher_BL.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BookPublisher\\BookPublisher_BL.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\BookPublisher\\BookPublisher_BL.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BookPublisher\\BookPublisher_BL.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\BookPublisher\\BookPublisher_BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "GetUsersCount.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\User\\Methods\\GetUsersCount.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\User\\Methods\\GetUsersCount.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\User\\Methods\\GetUsersCount.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\User\\Methods\\GetUsersCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:40:00.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InsertBookPublisher.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\BookPublisher\\Command\\InsertBookPublisher.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\BookPublisher\\Command\\InsertBookPublisher.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\BookPublisher\\Command\\InsertBookPublisher.cs",
-              "RelativeToolTip": "BP\\DataAccess\\BookPublisher\\Command\\InsertBookPublisher.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:36:46.767Z",
+              "WhenOpened": "2025-05-09T21:17:58.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BookPublisher_DL.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\BookPublisher\\BookPublisher_DL.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\BookPublisher\\BookPublisher_DL.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\BookPublisher\\BookPublisher_DL.cs",
-              "RelativeToolTip": "BP\\DataAccess\\BookPublisher\\BookPublisher_DL.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "User_DL.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\User\\User_DL.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\User\\User_DL.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\User\\User_DL.cs",
+              "RelativeToolTip": "BP\\DataAccess\\User\\User_DL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:35:14.856Z",
+              "WhenOpened": "2025-05-09T21:16:43.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\BStatus.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\BStatus.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\BStatus.cs",
-              "RelativeToolTip": "Common\\DataModel\\Enum\\BStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GetUserCount.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\User\\Command\\GetUserCount.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\GetUserCount.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\User\\Command\\GetUserCount.cs",
+              "RelativeToolTip": "BP\\DataAccess\\User\\Command\\GetUserCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:33:30.712Z",
+              "WhenOpened": "2025-05-09T21:14:46.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Book\\AddNewPublisher.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewPublisher.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\AddNewPublisher.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewPublisher.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\AddNewPublisher.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAIAwwDQAAAAOAAAAAAAAAA==",
+              "Title": "InsertUser.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\User\\Command\\InsertUser.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\User\\Command\\InsertUser.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\User\\Command\\InsertUser.cs",
+              "RelativeToolTip": "BP\\DataAccess\\User\\Command\\InsertUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:30:08.514Z",
+              "WhenOpened": "2025-05-09T21:14:21.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddNewPublisher.xaml",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewPublisher.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\AddNewPublisher.xaml",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewPublisher.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\AddNewPublisher.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-09T14:23:21.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Book\\BookCollection.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookCollection.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\BookCollection.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookCollection.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\BookCollection.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAhwB4AAAAOAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "GetBooksCount.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Book\\Methods\\GetBooksCount.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Book\\Methods\\GetBooksCount.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Book\\Methods\\GetBooksCount.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Book\\Methods\\GetBooksCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T11:33:53.735Z",
+              "WhenOpened": "2025-05-09T21:00:55.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookCollection.xaml",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookCollection.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\BookCollection.xaml",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookCollection.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\BookCollection.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-09T11:23:47.402Z",
+              "DocumentIndex": 7,
+              "Title": "GetBooksCount.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\GetBooksCount.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\Book\\Command\\GetBooksCount.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\GetBooksCount.cs",
+              "RelativeToolTip": "BP\\DataAccess\\Book\\Command\\GetBooksCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:59:09.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookManagment.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookManagment.xaml.cs",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\BookManagment.xaml.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookManagment.xaml.cs",
+              "RelativeToolTip": "APP\\FinalApp\\Book\\BookManagment.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:49:41.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Book\\BookManagment.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookManagment.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\BookManagment.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookManagment.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\BookManagment.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAewB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:49:43.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "BookManagment.xaml",
               "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookManagment.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\BookManagment.xaml",
               "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\BookManagment.xaml",
               "RelativeToolTip": "APP\\FinalApp\\Book\\BookManagment.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-09T09:18:55.601Z",
+              "WhenOpened": "2025-05-09T20:49:39.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "InsertBook.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Book\\Methods\\InsertBook.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Book\\Methods\\InsertBook.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Book\\Methods\\InsertBook.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Book\\Methods\\InsertBook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "APP\\FinalApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:09:04.621Z",
+              "WhenOpened": "2025-05-09T20:49:01.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MainWindow.xaml",
+              "RelativeToolTip": "APP\\FinalApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T19:47:15.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Book_BL.cs",
               "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Book\\Book_BL.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\Book\\Book_BL.cs",
               "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Book\\Book_BL.cs",
               "RelativeToolTip": "BP\\BusinessLogic\\Book\\Book_BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T09:08:08.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Db.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Db.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Db.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Db.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Db.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAWwBsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:05:12.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DeleteBook.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\DeleteBook.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Book\\Command\\DeleteBook.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\DeleteBook.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Book\\Command\\DeleteBook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:00:57.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GetBook.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\GetBook.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Book\\Command\\GetBook.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\GetBook.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Book\\Command\\GetBook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:00:46.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UpdateBook.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\UpdateBook.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Book\\Command\\UpdateBook.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\UpdateBook.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Book\\Command\\UpdateBook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:00:24.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InsertBook.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\InsertBook.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Book\\Command\\InsertBook.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Command\\InsertBook.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Book\\Command\\InsertBook.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwB8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:00:05.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 13,
               "Title": "Book_DL.cs",
               "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Book_DL.cs",
               "RelativeDocumentMoniker": "BP\\DataAccess\\Book\\Book_DL.cs",
               "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Book\\Book_DL.cs",
               "RelativeToolTip": "BP\\DataAccess\\Book\\Book_DL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T08:42:36.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BookGenre.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\BookGenre.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\BookGenre.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\BookGenre.cs",
-              "RelativeToolTip": "Common\\DataModel\\ViewModel\\BookGenre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:35:02.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookPublisher_VM.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\BookPublisher_VM.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\BookPublisher_VM.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\BookPublisher_VM.cs",
-              "RelativeToolTip": "Common\\DataModel\\ViewModel\\BookPublisher_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:32:56.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BookAuthor_VM.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\BookAuthor_VM.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\BookAuthor_VM.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\BookAuthor_VM.cs",
-              "RelativeToolTip": "Common\\DataModel\\ViewModel\\BookAuthor_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:29:01.495Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "5d994816-a256-44ef-a7e5-aa3535fd8e14",
-        "Display": 1,
-        "X": -227,
-        "Y": 258,
-        "Width": 1882,
-        "Height": 935,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CollectionDTOs.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\DTOs\\CollectionDTOs.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\DTOs\\CollectionDTOs.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\DTOs\\CollectionDTOs.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\DTOs\\CollectionDTOs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:09:55.553Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "ea2624aa-74e5-4079-8857-679584a4b784",
-        "Display": 1,
-        "X": 727,
-        "Y": 324,
-        "Width": 1882,
-        "Height": 935,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddNewBook.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewBook.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\AddNewBook.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewBook.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\AddNewBook.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:58:05.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AddNewBook.xaml",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewBook.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\AddNewBook.xaml",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewBook.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\AddNewBook.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-09T09:50:01.731Z",
               "EditorCaption": ""
             }
           ]

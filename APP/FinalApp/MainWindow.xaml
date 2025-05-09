@@ -5,8 +5,58 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinalApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Title="MainWindow" Height="720" Width="1280" FontFamily="B Titr" Loaded="Window_Loaded">
+    <Border BorderThickness="5" BorderBrush="#494947" CornerRadius="15">
+        <Grid Background="#494947">
+            <Border BorderThickness="5" Height="60" BorderBrush="#44CCFF" CornerRadius="15" Margin="10,10,10,640">
+                <Rectangle Fill="#44CCFF">
+
+                </Rectangle>
+            </Border>
+            <Image Margin="24,16,1196,644" Source="/Images/icons8-shutdown-50.png" Stretch="Fill"/>
+            <Image Margin="90,16,1132,646" Source="/Images/icons8-users-48.png" Stretch="Fill"/>
+            <Image Margin="150,16,1070,644" Source="/icons8-information-50.png" Stretch="Fill"/>
+            <Image Margin="1192,16,28,644" Source="/Images/icons8-setting-50.png" Stretch="Fill"/>
+
+            <Border BorderBrush="#E9FFDB" BorderThickness="5" CornerRadius="15" Height="300" Width="420" Margin="458,92,392,318">
+                <Grid Background="#E9FFDB"  >
+                    <TextBlock x:Name="txbBooksNODesc" Text=":کتاب های ثبت شده" FontSize="40" Width="400" Margin="5,33,5,175" TextAlignment="Center"/>
+                    <TextBlock x:Name="txbBooksNO" Text="" FontSize="40" Width="400" Margin="5,145,5,63" TextAlignment="Center"/>
+                </Grid>
+            </Border>
+
+            <Border BorderBrush="#F5F5DC" BorderThickness="5" CornerRadius="15" Height="300" Width="420" Margin="16,91,834,319">
+                <Grid Background="#F5F5DC"  >
+                    <TextBlock x:Name="txbUserNODesc" Text=":کاربران ثبت نام شده" FontSize="40" Width="400" Margin="5,33,5,175" TextAlignment="Center"/>
+                    <TextBlock x:Name="txbUserNO" Text="" FontSize="40" Width="400" Margin="5,145,5,63" TextAlignment="Center"/>
+                </Grid>
+            </Border>
+
+            <Border BorderBrush="#F4C2C2" BorderThickness="5" CornerRadius="15" Margin="16,403,392,18">
+                <Grid Background="#F4C2C2"  />
+            </Border>
+
+            <Border BorderBrush="#00A693" BorderThickness="5" CornerRadius="15" Height="600" Margin="908,92,10,18">
+                <Grid Background="#00A693" >
+                    <TextBlock x:Name="txbBooks" Text="لیست کتاب ها" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="113,48,45,472" MouseLeftButtonDown="txbBooks_MouseLeftButtonDown"/>
+                    <TextBlock x:Name="txbSells" Text="فروش و فاکتور" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="98,136,42,376"/>
+                    <TextBlock x:Name="txbAccess" Text="عملیات دسترسی" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="92,233,38,299"/>
+                    <TextBlock x:Name="txbLogging" Text="مدیریت لاگ ها" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="102,422,28,110"/>
+                    <TextBlock x:Name="txbRoles" Text="مدیریت کاربران" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="95,328,35,204"/>
+                    <Image Margin="45,150,247,390" Source="/Images/icons8-dollar-sign-50.png" Stretch="Fill"/>
+                    <Image Margin="45,58,247,482" Source="/Images/icons8-books-50.png" Stretch="Fill"/>
+                    <Image Margin="45,245,247,295" Source="/Images/icons8-access-50.png" Stretch="Fill"/>
+                    <Image Margin="45,428,247,112" Source="/Images/icons8-logbook-50.png" Stretch="Fill"/>
+                    <Image Margin="45,334,247,206" Source="/Images/icons8-roles-50.png" Stretch="Fill"/>
+                </Grid>
+            </Border>
+
+        </Grid>
+    </Border>
+
 </Window>

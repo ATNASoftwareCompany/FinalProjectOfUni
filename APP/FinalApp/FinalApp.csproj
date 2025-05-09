@@ -68,8 +68,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Book\AddNewAuthor.xaml.cs">
+      <DependentUpon>AddNewAuthor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Book\AddNewBook.xaml.cs">
       <DependentUpon>AddNewBook.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Book\AddNewGenre.xaml.cs">
+      <DependentUpon>AddNewGenre.xaml</DependentUpon>
     </Compile>
     <Compile Include="Book\AddNewPublisher.xaml.cs">
       <DependentUpon>AddNewPublisher.xaml</DependentUpon>
@@ -90,7 +96,15 @@
     <Compile Include="Register\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
+    <Page Include="Book\AddNewAuthor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Book\AddNewBook.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Book\AddNewGenre.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -177,6 +191,47 @@
     <Resource Include="Images\icons8-error-50.png" />
     <Resource Include="Images\icons8-warning-40.png" />
     <Resource Include="Images\icons8-warning-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-return-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-shutdown-50.png" />
+    <Resource Include="Images\icons8-shutdown-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-users-40.png" />
+    <Resource Include="Images\icons8-users-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-info-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons8-information-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-setting-40.png" />
+    <Resource Include="Images\icons8-setting-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-books-40.png" />
+    <Resource Include="Images\icons8-books-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-dollar-sign-40.png" />
+    <Resource Include="Images\icons8-dollar-sign-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-access-50.png" />
+    <Resource Include="Images\icons8-access-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-logbook-40.png" />
+    <Resource Include="Images\icons8-logbook-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\icons8-roles-40.png" />
+    <Resource Include="Images\icons8-roles-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

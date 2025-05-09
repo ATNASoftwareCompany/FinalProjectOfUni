@@ -35,12 +35,10 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\Enti
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\FinalApp.csproj.AssemblyReference.cache
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\MainWindow.g.cs
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register.g.cs
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\App.g.cs
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\FinalApp_MarkupCompile.cache
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\FinalApp_MarkupCompile.lref
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\MainWindow.baml
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register.baml
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\FinalApp.g.resources
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\FinalApp.Properties.Resources.resources
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\FinalApp.csproj.GenerateResource.cache
@@ -82,12 +80,10 @@ C:\Users\Paridise\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\DataAcc
 C:\Users\Paridise\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\DataAccess.dll.config
 C:\Users\Paridise\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Paridise\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\System.Data.SqlClient.xml
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Autenticate.g.cs
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\AppPresenter.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\AppPresenter.pdb
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\System.Data.SqlClient.xml
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Autenticate.baml
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\BusinessLogic.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\DataAccess.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\bin\Debug\Newtonsoft.Json.dll
@@ -140,3 +136,14 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\MessageBox\MessageBox.g.cs
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register\Autenticate.g.cs
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register\Register.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\AddNewBook.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\AddNewPublisher.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\BookCollection.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\BookManagment.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\MessageBox\MessageBox.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register\Autenticate.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register\Register.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\AddNewAuthor.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\AddNewGenre.g.cs
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\AddNewAuthor.baml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Book\AddNewGenre.baml

@@ -9,10 +9,11 @@
         Title="مدیریت کتاب ها" Height="700" Width="1000" FontFamily="B Zar" Loaded="Window_Loaded">
     <Grid Background="#B3D9FF">
         <!--ایجاد کتاب-->
-        <Border Height="250" Width="600" Margin="390,10,10,424" BorderThickness="1" BorderBrush="Black">
+        <Border Height="240" Width="600" Margin="390,15,10,419" BorderThickness="1" BorderBrush="Black">
             <Grid>
-                <Button x:Name="btnAddNewBook" Content="افزودن کتاب جدید" Height="25" Width="80" VerticalAlignment="Top" Margin="10,10,508,0" Click="btnAddNewBook_Click" />
-                <DataGrid x:Name="BooksDataGrid" Margin="10,40,10,10" ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="مدیریت کتاب ها" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,4,0" Width="51"/>
+                <Button x:Name="btnAddNewBook" Content="افزودن کتاب جدید" Height="25" Width="80" VerticalAlignment="Top" Margin="10,12,508,0" Click="btnAddNewBook_Click" />
+                <DataGrid x:Name="BooksDataGrid" Margin="10,40,10,10" ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" Grid.ColumnSpan="2">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="نام کتاب"/>
                         <DataGridTextColumn Header="تعداد"/>
@@ -33,10 +34,12 @@
         </Border>
 
         <!--مدیریت مجموعه ها-->
-        <Border Height="250" Margin="10,10,628,424" BorderThickness="1" BorderBrush="Black">
-
-
-
+        <Border Margin="10,20,628,424" BorderThickness="1" BorderBrush="Black">
+            <Grid>
+                <TextBlock Text="مدیریت  ها" HorizontalAlignment="Right"  VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,4,0" Width="51"/>
+                
+                
+            </Grid>
         </Border>
 
         <!--ایجاد ژانر-->
@@ -49,7 +52,7 @@
                         <DataGridTextColumn Header="ژانر"/>
                     </DataGrid.Columns>
                 </DataGrid>
-                <Button x:Name="btnAddNewGenre" Content="افزودن ژانر جدید" Height="25" Width="80" VerticalAlignment="Top" Margin="9,9,229,0"   />
+                <Button x:Name="btnAddNewGenre" Content="افزودن ژانر جدید" Height="25" Width="80" VerticalAlignment="Top" Margin="9,9,229,0" Click="btnAddNewGenre_Click"   />
             </Grid>
 
         </Border>
@@ -64,7 +67,7 @@
                         <DataGridTextColumn Header="نام نویسنده"/>
                     </DataGrid.Columns>
                 </DataGrid>
-                <Button x:Name="btnAddNewAuthor" Content="افزودن نویسنده جدید" Height="25" VerticalAlignment="Top" Margin="9,9,216,0"   />
+                <Button x:Name="btnAddNewAuthor" Content="افزودن نویسنده جدید" Height="25" VerticalAlignment="Top" Margin="9,9,216,0" Click="btnAddNewAuthor_Click"   />
             </Grid>
         </Border>
 
@@ -81,5 +84,6 @@
                 <Button x:Name="btnAddNewPublisher" Content="افزودن ناشر جدید" Height="25" VerticalAlignment="Top" Margin="9,9,216,0" Click="btnAddNewPublisher_Click"   />
             </Grid>
         </Border>
+        <Image Margin="10,632,950,10" Source="/Images/icons8-return-48.png" ToolTip="خروج" Stretch="Fill" Height="40" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
     </Grid>
 </Window>

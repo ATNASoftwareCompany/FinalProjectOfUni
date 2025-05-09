@@ -10,7 +10,7 @@ namespace DataModel.ViewModel
     {
         public string BookTitle { get; set; }
         public string Summary { get; set; }
-        public int BookGenre { get; set; } = new BookGenre().Id;
+        public int BookGenre { get; set; } = new BookGenre_VM().Id;
         public int Quantity { get; set; }
         public int Author { get; set; } = new BookAuthor_VM().Id;
         public int Publisher { get; set; } = new BookPublisher_VM().Id;

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\App.xaml
-8-340761310
+10-323480958
 
-14357019658
+16-850223818
 19-729109844
-Book\AddNewBook.xaml;Book\AddNewPublisher.xaml;Book\BookCollection.xaml;Book\BookManagment.xaml;MessageBox\MessageBox.xaml;Register\Autenticate.xaml;MainWindow.xaml;Register\Register.xaml;
+Book\AddNewAuthor.xaml;Book\AddNewBook.xaml;Book\AddNewGenre.xaml;Book\AddNewPublisher.xaml;Book\BookCollection.xaml;Book\BookManagment.xaml;MessageBox\MessageBox.xaml;Register\Autenticate.xaml;MainWindow.xaml;Register\Register.xaml;
 
 True
 

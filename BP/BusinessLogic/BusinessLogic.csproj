@@ -45,10 +45,17 @@
     <Compile Include="Activation\Methods\GenerateActicationCode.cs" />
     <Compile Include="Activation\Methods\GetActivationCode.cs" />
     <Compile Include="Activation\Methods\InsertActivation.cs" />
+    <Compile Include="BookAuthor\BookAuthor_BL.cs" />
+    <Compile Include="BookAuthor\Methods\GetAllBookAuthor.cs" />
+    <Compile Include="BookAuthor\Methods\InsertBookAuthor.cs" />
+    <Compile Include="BookGenre\BookGenre_BL.cs" />
+    <Compile Include="BookGenre\Methods\GetAllBookGenre.cs" />
+    <Compile Include="BookGenre\Methods\InsertBookGenre.cs" />
     <Compile Include="BookPublisher\BookPublisher_BL.cs" />
     <Compile Include="BookPublisher\Methods\GetAllPublishers.cs" />
     <Compile Include="BookPublisher\Methods\InsertBookPublisher.cs" />
     <Compile Include="Book\Book_BL.cs" />
+    <Compile Include="Book\Methods\GetBooksCount.cs" />
     <Compile Include="Book\Methods\InsertBook.cs" />
     <Compile Include="Common\Common_BL.cs" />
     <Compile Include="Common\Methods\Presenter.cs" />
@@ -56,6 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\Methods\DeleteUser.cs" />
     <Compile Include="User\Methods\GetUsers.cs" />
+    <Compile Include="User\Methods\GetUsersCount.cs" />
     <Compile Include="User\Methods\GetUserSingle.cs" />
     <Compile Include="User\Methods\InsertUser.cs" />
     <Compile Include="User\Methods\UpdateUser.cs" />

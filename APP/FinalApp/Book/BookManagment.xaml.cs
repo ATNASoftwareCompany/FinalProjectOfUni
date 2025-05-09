@@ -42,13 +42,38 @@ namespace FinalApp.Book
         {
             AddNewPublisher addNewPublisher = new AddNewPublisher();
             addNewPublisher.ShowDialog();
-            
+
             var result = _presenter.GetAllPublishers(new DataModel.ViewModel.BookPublisher_VM { });
 
             PublishersDataGrid.ItemsSource = null;
             PublishersDataGrid.ItemsSource = result.Result as List<BookPublisher_VM>;
         }
 
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
 
+        private void btnAddNewAuthor_Click(object sender, RoutedEventArgs e)
+        {
+            AddNewAuthor addNewAuthor = new AddNewAuthor();
+            addNewAuthor.ShowDialog();
+
+            var result = _presenter.GetAllBookAuthor(new DataModel.ViewModel.BookAuthor_VM { });
+
+            AuthorsDataGrid.ItemsSource = null;
+            AuthorsDataGrid.ItemsSource = result.Result as List<BookAuthor_VM>;
+        }
+
+        private void btnAddNewGenre_Click(object sender, RoutedEventArgs e)
+        {
+            AddNewGenre addNewGenre = new AddNewGenre();
+            addNewGenre.ShowDialog();
+
+            var result = _presenter.GetAllBookGenre(new BookGenre_VM { });
+
+            GenresDataGrid.ItemsSource = null;
+            GenresDataGrid.ItemsSource = result.Result as List<BookGenre_VM>;
+        }
     }
 }

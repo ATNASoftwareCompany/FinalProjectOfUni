@@ -18,10 +18,11 @@
 
                 </Rectangle>
             </Border>
-            <Image Margin="24,16,1196,644" Source="/Images/icons8-shutdown-50.png" Stretch="Fill"/>
-            <Image Margin="90,16,1132,646" Source="/Images/icons8-users-48.png" Stretch="Fill"/>
-            <Image Margin="150,16,1070,644" Source="/icons8-information-50.png" Stretch="Fill"/>
-            <Image Margin="1192,16,28,644" Source="/Images/icons8-setting-50.png" Stretch="Fill"/>
+            <TextBlock Text="نرم افزار مدیریت فروش کتاب آتنا ، خوش آمدید" FontSize="30" Height="45" Margin="361,14,361,651" TextAlignment="Center"/>
+            <Image x:Name="imgshutdown" Margin="24,16,1196,644" Source="/Images/icons8-shutdown-50.png" ToolTip="خروج" Stretch="Fill"/>
+            <Image x:Name="imgusers" Margin="90,16,1132,646" Source="/Images/icons8-users-48.png" ToolTip="کاربران" Stretch="Fill"/>
+            <Image x:Name="imginformation" Margin="150,16,1070,644" Source="/icons8-information-50.png" ToolTip="اطلاعات" Stretch="Fill" MouseLeftButtonDown="imginformation_MouseLeftButtonDown"/>
+            <Image x:Name="imgsetting" Margin="1192,16,28,644" Source="/Images/icons8-setting-50.png" ToolTip="تنظیمات" Stretch="Fill"/>
 
             <Border BorderBrush="#E9FFDB" BorderThickness="5" CornerRadius="15" Height="300" Width="420" Margin="458,92,392,318">
                 <Grid Background="#E9FFDB"  >

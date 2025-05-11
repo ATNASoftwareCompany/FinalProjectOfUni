@@ -17,17 +17,25 @@
             <Border Height="120" Margin="15,15,15,300" CornerRadius="10" BorderThickness="5" BorderBrush="#44CCFF" >
                 <Grid Margin="0,0,0,0" Background="#44CCFF">
                     <TextBlock Width="300" Text="شرکت آرمان توسعه نرم افزار ایرانیان" FontSize="22" TextAlignment="Left" Margin="175,34,75,33"/>
-                    
-                        
+
+
                     <Image Source="/Images/ArmanToseLogo.jpg" Width="115" Margin="0,0,435,0"  />
-                    
+
 
                 </Grid>
             </Border>
 
             <Border BorderBrush="#F5F5DC" BorderThickness="5" CornerRadius="15" Margin="20,148,20,50">
                 <Grid Background="#F5F5DC">
-                    <TextBlock Height="45" Width="140" Margin="390,10,10,177"/>
+                    <TextBlock TextAlignment="Right" Text="نام شخصیت حقوقی: آرمان توسعه نرم افزار ایرانیان" Height="30" Margin="310,22,10,180"/>
+                    <TextBlock TextAlignment="Right" Text="شناسه ملی شرکت: 14014310063" Height="30" Margin="330,56,10,146"/>
+                    <TextBlock TextAlignment="Right" Text="شماره ثبت: 12403" Height="30" Margin="437,86,10,116"/>
+                    <TextBlock TextAlignment="Right" Text="نوع شخصیت حقوقی: مسئولیت محدود" Height="30" Margin="313,115,7,87"/>
+                    <TextBlock TextAlignment="Right" Text="تاریخ ثبت: 1404/01/09" Height="30" Margin="313,185,7,17"/>
+                    <TextBlock TextAlignment="Right" Text="تلفن تماس: 09380458367" Height="30" Margin="313,150,7,52"/>
+                    <Rectangle Margin="38,20,270,20" StrokeThickness="1" Stroke="Black"/>
+                    <TextBlock  Margin="38,10,270,62" TextAlignment="Center" ><Run/><LineBreak/><Run Text="شرکت آرمان توسعه نرم افزار ایرانیان "/><LineBreak/><Run FlowDirection="RightToLeft" Text="مفتخر است که در زمینه طراحی ، تولید و پشتیبانی"/><LineBreak/><Run FlowDirection="RightToLeft" Text=" محصولات نرم افزاری در پلتفرم های ویندوز ، وب و"/><LineBreak/><Run FlowDirection="RightToLeft" Text=" موبایل در حال خدمت رسانی به هم میهنان خود گام"/><LineBreak/><Run FlowDirection="RightToLeft" Text=" بلندی را به سمت پیشبرد اهداف و فتح افق های"/><LineBreak/><Run FlowDirection="RightToLeft" Text=" روشن این مرز و بوم تلاش روز افزون می نماییم"/><LineBreak/><Run FlowDirection="RightToLeft"/></TextBlock>
+                    <TextBlock  Margin="38,170,386,26" FontSize="10" TextAlignment="Center"><Run Text="مدیرعامل و رئیس هیئت مدیره"/><LineBreak/><Run FlowDirection="RightToLeft" Language="fa-ir" Text="محمد تقی زاده"/></TextBlock>
                 </Grid>
             </Border>
             <Image Margin="10,395,540,5" Source="/Images/icons8-return-48.png" ToolTip="خروج" Stretch="Fill" Height="40" MouseLeftButtonDown="Image_MouseLeftButtonDown" />

@@ -34,12 +34,30 @@ namespace FinalApp
             _msBox = new FinalApp.MessageBox.MessageBox();
             _presenter = new AppPresenter.AppPresenter();
             GetBooksCount();
+            GetUsersCount();
         }
 
         private void txbBooks_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             BookManagment bookManagment = new BookManagment();
             bookManagment.ShowDialog();
+        }
+
+        private void GetUsersCount()
+        {
+            var result = _presenter.GetUsersCount(0);
+            if (result.ErrorCode != 0)
+            {
+                _msBox.Show(new MessageBox_VM
+                {
+                    Title = "صفحه اصلی",
+                    Message = result.Message,
+                    ErrorType = result.ErrorType,
+                    OK = true,
+                });
+                return;
+            }
+            txbUserNO.Text = result.Result.ToString() + " عدد ";
         }
 
         private void GetBooksCount()
@@ -58,6 +76,13 @@ namespace FinalApp
             }
             txbBooksNO.Text = result.Result.ToString() + " عدد ";
         }
+
+        private void imginformation_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Information.Information information = new Information.Information();
+            information.ShowDialog();
+        }
+
 
 
     }

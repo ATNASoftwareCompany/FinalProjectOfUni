@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinalApp.Access"
         mc:Ignorable="d"
-        Title="AccessManagment" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterOwner"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Title="AccessManagment" Height="450" Width="800" FontFamily="B Titr">
+    <Border BorderThickness="5" BorderBrush="#494947" CornerRadius="15">
+        <Grid Background="#494947">
+            <Border BorderThickness="5"  BorderBrush="#44CCFF" CornerRadius="15" Margin="10,10,10,10" >
+                <Grid Background="#44CCFF">
+                    <Border BorderThickness="1" BorderBrush="Black" Margin="10,21,10,10">
+                        <Grid>
+                            <TextBlock Text="مدیریت دسترسی ها" TextAlignment="Right" FontSize="9" Margin="274,-15,2,200"/>
+                            <ListView x:Name="accessListView" Margin="10">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="نام دسترسی" Width="100">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <CheckBox IsChecked="{Binding IsChecked, Mode=TwoWay}"
+                                          Content="{Binding Name}"
+                                          Margin="5,0,0,0"
+                                          Checked="CheckBox_Checked"
+                                          Unchecked="CheckBox_Unchecked"/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="توضیحات" DisplayMemberBinding="{Binding Description}" Width="200"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Border>
+
+        </Grid>
+    </Border>
 </Window>

@@ -24,6 +24,10 @@ namespace FinalApp
     {
         FinalApp.MessageBox.MessageBox _msBox;
         AppPresenter.AppPresenter _presenter;
+
+        public static string Username { get; set; }
+        public static string Password { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -83,7 +87,9 @@ namespace FinalApp
             information.ShowDialog();
         }
 
-
-
+        private void imgshutdown_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

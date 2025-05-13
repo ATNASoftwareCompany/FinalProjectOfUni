@@ -49,10 +49,6 @@
     <Compile Include="SmsPanel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\BP\BusinessLogic\BusinessLogic.csproj">
-      <Project>{f0cf418d-af09-42c1-be59-6e78486514b0}</Project>
-      <Name>BusinessLogic</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Common\DataModel\DataModel.csproj">
       <Project>{8ff845f1-495a-41a3-bd2b-f31dcea9552a}</Project>
       <Name>DataModel</Name>

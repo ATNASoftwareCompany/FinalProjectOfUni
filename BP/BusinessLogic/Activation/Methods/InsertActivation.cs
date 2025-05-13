@@ -37,8 +37,9 @@ namespace BusinessLogic.Activation
                 }
             }
 
+            int Id = dlActivation.InsertActivation(inputModel);
 
-            int Id = 0;// dlActivation.InsertActivation(inputModel);
+
 
             return new BaseResult_VM(Id, 0, "عملیات با موفقیت انجام شد", DataModel.Enum.ErrorType.Sussess);
         }

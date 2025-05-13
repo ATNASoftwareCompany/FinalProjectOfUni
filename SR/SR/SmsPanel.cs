@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using DataModel.SRModel;
 using Newtonsoft.Json;
+using DataModel.ViewModel;
 
 namespace SR
 {
@@ -26,7 +27,7 @@ namespace SR
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task<string> SendSmsAsync(string recipient, string message)
+        public async Task<string> SendSmsAsync(Sms_VM inputModel)
         {
             try
             {
@@ -34,9 +35,9 @@ namespace SR
                 {
                     username = _config.Username,
                     password = _config.Password,
-                    to = recipient,
+                    to = inputModel.PhoneNo,
                     from = _config.SenderNumber,
-                    text = message,
+                    text = inputModel.Message,
                 };
 
                 var json = JsonConvert.SerializeObject(requestData);

@@ -46,3 +46,15 @@ D:\final\Common\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
 D:\final\Common\DataModel\obj\Debug\DataModel.csproj.Up2Date
 D:\final\Common\DataModel\obj\Debug\DataModel.dll
 D:\final\Common\DataModel\obj\Debug\DataModel.pdb
+D:\UniProject\Common\DataModel\bin\Debug\DataModel.dll.config
+D:\UniProject\Common\DataModel\bin\Debug\DataModel.dll
+D:\UniProject\Common\DataModel\bin\Debug\DataModel.pdb
+D:\UniProject\Common\DataModel\bin\Debug\EntityFramework.dll
+D:\UniProject\Common\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\UniProject\Common\DataModel\bin\Debug\EntityFramework.xml
+D:\UniProject\Common\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\UniProject\Common\DataModel\obj\Debug\DataModel.csproj.AssemblyReference.cache
+D:\UniProject\Common\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+D:\UniProject\Common\DataModel\obj\Debug\DataModel.csproj.Up2Date
+D:\UniProject\Common\DataModel\obj\Debug\DataModel.dll
+D:\UniProject\Common\DataModel\obj\Debug\DataModel.pdb

@@ -45,6 +45,7 @@
     <Compile Include="Activation\Methods\GenerateActicationCode.cs" />
     <Compile Include="Activation\Methods\GetActivationCode.cs" />
     <Compile Include="Activation\Methods\InsertActivation.cs" />
+    <Compile Include="Activation\Methods\UserAuthentication.cs" />
     <Compile Include="BookAuthor\BookAuthor_BL.cs" />
     <Compile Include="BookAuthor\Methods\GetAllBookAuthor.cs" />
     <Compile Include="BookAuthor\Methods\InsertBookAuthor.cs" />
@@ -60,7 +61,11 @@
     <Compile Include="Common\Common_BL.cs" />
     <Compile Include="Common\Methods\Presenter.cs" />
     <Compile Include="LoggingHandler.cs" />
+    <Compile Include="Person\Methods\InsertPerson.cs" />
+    <Compile Include="Person\Person_BL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMS\Methods\SendSms.cs" />
+    <Compile Include="SMS\Sms_BL.cs" />
     <Compile Include="User\Methods\DeleteUser.cs" />
     <Compile Include="User\Methods\GetUsers.cs" />
     <Compile Include="User\Methods\GetUsersCount.cs" />
@@ -73,6 +78,10 @@
     <ProjectReference Include="..\..\Common\DataModel\DataModel.csproj">
       <Project>{8ff845f1-495a-41a3-bd2b-f31dcea9552a}</Project>
       <Name>DataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SR\SR\SR.csproj">
+      <Project>{cf045e33-e1d4-43c0-a896-74e1ea74ecf8}</Project>
+      <Name>SR</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{835342bb-b8f8-4da2-8c55-f8cccc9566a3}</Project>

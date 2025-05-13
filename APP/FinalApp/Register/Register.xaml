@@ -14,19 +14,24 @@
                 <Border Background="#86DEB7" BorderBrush="#E292B6" CornerRadius="10" Margin="10,10,10,10">
                     <Grid >
                         <TextBlock Text="ثبت نام" HorizontalAlignment="Center"  FontSize="30"  FontWeight="Bold" VerticalAlignment="Top" Margin="0,5,0,0"/>
-                        <TextBlock Text=":نام" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" RenderTransformOrigin="1.787,-3.939" Margin="301,84,26,441" />
-                        <TextBox x:Name="txtName" Height="30" Width="300" Margin="39,110,26,410"/>
-                        <TextBlock Text=":نام خانوادگی" Height="45" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="232,156,26,349" />
-                        <TextBox x:Name="txtFamily" Height="30" Width="300" Margin="39,184,26,336"/>
-                        <TextBlock Text=":تاریخ تولد" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="257,230,26,295" />
-                        <DatePickerTextBox x:Name="txtBirthDate" Height="30" Width="300" Margin="39,258,26,262"/>
-                        <TextBlock Text=":شماره همراه" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="239,302,26,223" />
-                        <TextBox x:Name="txtMobile" Height="30" Width="300" Margin="39,329,26,191"/>
-                        <TextBlock Text=":ایمیل" Height="25" Width="50" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="289,369,26,156" />
-                        <TextBox x:Name="txtEmail" Height="30" Width="300" Margin="39,396,26,124"/>
+                        <TextBlock Text=":نام" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" RenderTransformOrigin="1.787,-3.939" Margin="301,44,26,481" />
+                        <TextBox x:Name="txtName" Height="30" Width="300" Margin="39,70,26,450"/>
+                        <TextBlock Text=":نام خانوادگی" Height="45" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="232,106,26,399" />
+                        <TextBox x:Name="txtFamily" Height="30" Width="300" Margin="39,134,26,386"/>
+                        <TextBlock Text=":تاریخ تولد" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="257,169,26,356" />
+                        <DatePicker x:Name="txtBirthDate" Height="30" Width="300" Margin="39,197,26,323"/>
+                        <TextBlock Text=":شماره همراه" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="239,233,26,292" />
+                        <TextBox x:Name="txtMobile" Height="30" Width="300" Margin="39,260,26,260"/>
+                        <TextBlock Text=":ایمیل" Height="25" Width="50" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="289,295,26,230" />
+                        <TextBox x:Name="txtEmail" Height="30" Width="300" Margin="39,322,26,198"/>
+                        <TextBlock Text=":کلمه عبور" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="257,358,26,167" />
+                        <TextBox x:Name="txtPassword" Height="30" Width="300" Margin="39,385,26,135"/>
+                        <TextBlock Text=":تکرار کلمه عبور" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="221,417,26,108" />
+                        <TextBox x:Name="txtConfirmPassword" Height="30" Width="300" Margin="39,444,26,76"/>
 
-                        <Button x:Name="btnRegister" Content="ثبت" Foreground="Green" FontSize="25" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Height="40" Margin="201,465,26,45" Click="btnRegister_Click" />
-                        <Button x:Name="btnCancelRegister" Content="انصراف" Foreground="Red" FontSize="25" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Height="40" Margin="39,465,193,45" />
+
+                        <Button x:Name="btnRegister" Content="ثبت" Foreground="Green" FontSize="25" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Height="40" Margin="201,491,26,19" Click="btnRegister_Click" />
+                        <Button x:Name="btnCancelRegister" Content="انصراف" Foreground="Red" FontSize="25" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Height="40" Margin="39,491,193,19" />
                     </Grid>
 
                 </Border>

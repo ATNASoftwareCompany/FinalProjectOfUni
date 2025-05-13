@@ -4,6 +4,7 @@ using BusinessLogic.BookAuthor;
 using BusinessLogic.BookGenre;
 using BusinessLogic.BookPublisher;
 using BusinessLogic.Common.Methods;
+using BusinessLogic.Person;
 using BusinessLogic.SMS;
 using BusinessLogic.User;
 using DataModel;
@@ -44,10 +45,30 @@ namespace AppPresenter
                 PointerId = Convert.ToInt64(inputModel.ActivationCode),
             });
         }
+
+        public BaseResult_VM UserAuthentication(string phoneNo)
+        {
+            return _presenter.HandleResponse(new Activation_BL().UserAuthentication, phoneNo, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(phoneNo),
+                PointerId = Convert.ToInt64(phoneNo),
+            });
+        }
         #endregion
 
         #region Person
-
+        public BaseResult_VM InsertPerson(Person_VM inputModel)
+        {
+            return _presenter.HandleResponse(new Person_BL().InsertPerson, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.PhoneNo),
+            });
+        }
         #endregion
 
         #region User

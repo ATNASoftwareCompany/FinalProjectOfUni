@@ -13,5 +13,6 @@ namespace DataModel
         public string BirthDate { get; set; }
         public string PhoneNo { get; set; }
         public string E_Mail { get; set; }
+        public string Password { get; set; }
     }
 }

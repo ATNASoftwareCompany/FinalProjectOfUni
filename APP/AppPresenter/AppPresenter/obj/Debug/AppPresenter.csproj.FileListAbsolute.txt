@@ -66,3 +66,39 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresent
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\AppPresenter\AppPresenter\bin\Debug\System.ValueTuple.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\AppPresenter.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\AppPresenter.pdb
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Http.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Options.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\Newtonsoft.Json.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Buffers.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Memory.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Numerics.Vectors.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\System.ValueTuple.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\BusinessLogic.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\DataModel.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\DataAccess.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\EntityFramework.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\BusinessLogic.pdb
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\DataModel.pdb
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\DataModel.dll.config
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\DataAccess.pdb
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\DataAccess.dll.config
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\EntityFramework.xml
+D:\UniProject\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.csproj.AssemblyReference.cache
+D:\UniProject\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.csproj.CoreCompileInputs.cache
+D:\UniProject\APP\AppPresenter\AppPresenter\obj\Debug\AppPrese.BAD4D026.Up2Date
+D:\UniProject\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\obj\Debug\AppPresenter.pdb
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\SR.dll
+D:\UniProject\APP\AppPresenter\AppPresenter\bin\Debug\SR.pdb

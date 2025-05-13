@@ -10,7 +10,7 @@ namespace DataModel
     {
         public string Name { get; set; }
         public string Family { get; set; }
-        public DateTime BirthDate { get; set; }
+        public string BirthDate { get; set; }
         public string PhoneNo { get; set; }
         public string E_Mail { get; set; }
     }

@@ -4,6 +4,7 @@ using BusinessLogic.BookAuthor;
 using BusinessLogic.BookGenre;
 using BusinessLogic.BookPublisher;
 using BusinessLogic.Common.Methods;
+using BusinessLogic.SMS;
 using BusinessLogic.User;
 using DataModel;
 using DataModel.ViewModel;
@@ -178,6 +179,19 @@ namespace AppPresenter
                 MethodId = DataModel.Enum.MethodsType.InsertActivation,
                 MethodInput = JsonConvert.SerializeObject(inputModel),
                 PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
+        #endregion
+
+        #region SMS
+        public BaseResult_VM SendSms(Sms_VM inputModel)
+        {
+            return _presenter.HandleResponse(new Sms_BL().SendSms, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.PhoneNo),
             });
         }
         #endregion

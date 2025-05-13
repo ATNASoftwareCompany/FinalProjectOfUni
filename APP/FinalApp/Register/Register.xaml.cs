@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+
 
 namespace FinalApp
 {
@@ -26,7 +28,25 @@ namespace FinalApp
 
         private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
-            //var result = new Activation_BL().InsertActivation(new DataModel.ViewModel.Activation_VM { PhoneNo = txtMobile.Text.Trim() });
+            var result = new AppPresenter.AppPresenter().InsertActivation(new DataModel.ViewModel.Activation_VM { PhoneNo = txtMobile.Text.Trim() });
+        }
+
+        private void RegisterUser()
+        {
+            Person_VM person = new Person_VM
+            {
+                PhoneNo = txtMobile.Text.Trim(),
+                Name = txtName.Text.Trim(),
+                Family = txtFamily.Text.Trim(),
+                BirthDate = txtBirthDate.Text.Trim(),
+                E_Mail = txtEmail.Text.Trim(),
+            };
+
+        }
+
+        private void Authentication()
+        {
+            
         }
     }
 }

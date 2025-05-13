@@ -55,3 +55,15 @@ D:\final\SR\SR\obj\Debug\SR.csproj.CoreCompileInputs.cache
 D:\final\SR\SR\obj\Debug\SR.csproj.Up2Date
 D:\final\SR\SR\obj\Debug\SR.dll
 D:\final\SR\SR\obj\Debug\SR.pdb
+D:\UniProject\SR\SR\bin\Debug\SR.dll
+D:\UniProject\SR\SR\bin\Debug\SR.pdb
+D:\UniProject\SR\SR\bin\Debug\DataModel.dll
+D:\UniProject\SR\SR\bin\Debug\Newtonsoft.Json.dll
+D:\UniProject\SR\SR\bin\Debug\DataModel.pdb
+D:\UniProject\SR\SR\bin\Debug\DataModel.dll.config
+D:\UniProject\SR\SR\bin\Debug\Newtonsoft.Json.xml
+D:\UniProject\SR\SR\obj\Debug\SR.csproj.AssemblyReference.cache
+D:\UniProject\SR\SR\obj\Debug\SR.csproj.CoreCompileInputs.cache
+D:\UniProject\SR\SR\obj\Debug\SR.csproj.Up2Date
+D:\UniProject\SR\SR\obj\Debug\SR.dll
+D:\UniProject\SR\SR\obj\Debug\SR.pdb

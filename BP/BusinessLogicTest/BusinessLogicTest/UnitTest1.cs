@@ -1,4 +1,5 @@
 ﻿using BusinessLogic.Activation;
+using BusinessLogic.SMS;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SR;
 using System;
@@ -29,18 +30,30 @@ namespace BusinessLogicTest
         [TestMethod]
         public void SMSTest()
         {
-            var result = new SmsPanel(new DataModel.SRModel.SmsConfig_VM
+            //var result = new SmsPanel(new DataModel.SRModel.SmsConfig_VM
+            //{
+            //    Username = "09380458367",
+            //    Password = "2809e415-564d-4009-a2ac-6753b234ca5a",
+            //    SenderNumber = "9850002710058367",
+            //}).SendSmsAsync(
+            //   "09386339929",
+            //   "واسه اینکه اطلاعاتی که ازت هک کردم رو وایرال نکنم باید بهم 1 میلیارد بدی همچنین سعی نکن باهام تماس بگیری خودم بهت پیام میدم");
+
+            //result.Wait();
+
+            //Assert.IsTrue(result.IsCompleted);
+        }
+
+        [TestMethod]
+        public void SMS_BLTest()
+        {
+            var result = new Sms_BL().SendSms(new DataModel.ViewModel.Sms_VM
             {
-                Username = "09380458367",
-                Password = "2809e415-564d-4009-a2ac-6753b234ca5a",
-                SenderNumber = "9850002710058367",
-            }).SendSmsAsync(
-               "09386339929",
-               "واسه اینکه اطلاعاتی که ازت هک کردم رو وایرال نکنم باید بهم 1 میلیارد بدی همچنین سعی نکن باهام تماس بگیری خودم بهت پیام میدم");
+                PhoneNo = "09380458367",
+                Message = "test"
+            });
 
-            result.Wait();
-
-            Assert.IsTrue(result.IsCompleted);
+            Assert.IsNotNull(result);
         }
 
         //[TestMethod]

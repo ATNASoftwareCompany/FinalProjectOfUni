@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace FinalApp.Register
+namespace FinalApp
 {
     /// <summary>
     /// Interaction logic for Login.xaml
@@ -22,6 +22,13 @@ namespace FinalApp.Register
         public Login()
         {
             InitializeComponent();
+        }
+
+        private void TextBlock_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+            this.Close();
         }
     }
 }

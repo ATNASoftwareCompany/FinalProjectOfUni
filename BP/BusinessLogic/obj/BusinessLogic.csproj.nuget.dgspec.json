@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UniProject\\BP\\BusinessLogic\\BusinessLogic.csproj": {}
+    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj": {}
   },
   "projects": {
-    "D:\\UniProject\\BP\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UniProject\\BP\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "D:\\UniProject\\BP\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\ARKA\\.nuget\\packages\\",
-        "outputPath": "D:\\UniProject\\BP\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Arman Heart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ARKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arman Heart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,19 +27,20 @@
           "net48"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "D:\\UniProject\\BP\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\UniProject\\BP\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\UniProject\\Common\\DataModel\\DataModel.csproj": {
-                "projectPath": "D:\\UniProject\\Common\\DataModel\\DataModel.csproj"
+              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj"
               },
-              "D:\\UniProject\\SR\\SR\\SR.csproj": {
-                "projectPath": "D:\\UniProject\\SR\\SR\\SR.csproj"
+              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\SR\\SR\\SR.csproj": {
+                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\SR\\SR\\SR.csproj"
               }
             }
           }
@@ -83,17 +84,17 @@
         }
       }
     },
-    "D:\\UniProject\\BP\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\UniProject\\BP\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\UniProject\\BP\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\DataAccess.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "D:\\UniProject\\Common\\DataModel\\DataModel.csproj": {
-                "projectPath": "D:\\UniProject\\Common\\DataModel\\DataModel.csproj"
+              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj"
               }
             }
           }
@@ -103,11 +104,11 @@
         "net48": {}
       }
     },
-    "D:\\UniProject\\Common\\DataModel\\DataModel.csproj": {
+    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\UniProject\\Common\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "D:\\UniProject\\Common\\DataModel\\DataModel.csproj",
+        "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
@@ -119,17 +120,17 @@
         "net48": {}
       }
     },
-    "D:\\UniProject\\SR\\SR\\SR.csproj": {
+    "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\SR\\SR\\SR.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\UniProject\\SR\\SR\\SR.csproj",
+        "projectUniqueName": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\SR\\SR\\SR.csproj",
         "projectName": "SR",
-        "projectPath": "D:\\UniProject\\SR\\SR\\SR.csproj",
+        "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\SR\\SR\\SR.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "D:\\UniProject\\Common\\DataModel\\DataModel.csproj": {
-                "projectPath": "D:\\UniProject\\Common\\DataModel\\DataModel.csproj"
+              "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj": {
+                "projectPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\DataModel.csproj"
               }
             }
           }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\UniProject\APP\FinalApp\obj\Debug\
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\
 FinalApp
 none
 false
 DEBUG;TRACE
-D:\UniProject\APP\FinalApp\App.xaml
-12-1640648746
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\App.xaml
+14549083745
 
-1771313761
-19-1326911923
-Access\AccessManagment.xaml;Book\AddNewAuthor.xaml;Book\AddNewBook.xaml;Book\AddNewGenre.xaml;Book\AddNewPublisher.xaml;Book\BookCollection.xaml;Book\BookManagment.xaml;Information\Information.xaml;MessageBox\MessageBox.xaml;Register\Autenticate.xaml;MainWindow.xaml;Register\Register.xaml;
+191071231638
+19-729109844
+Access\AccessManagment.xaml;Book\AddNewAuthor.xaml;Book\AddNewBook.xaml;Book\AddNewGenre.xaml;Book\AddNewPublisher.xaml;Book\BookCollection.xaml;Book\BookManagment.xaml;Information\Information.xaml;MessageBox\MessageBox.xaml;Register\Autenticate.xaml;MainWindow.xaml;Register\ForgetPassword.xaml;Register\Login.xaml;Register\Register.xaml;
 
 False
 

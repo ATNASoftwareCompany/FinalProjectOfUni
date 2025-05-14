@@ -13,38 +13,6 @@ D:\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreC
 D:\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\Business.CF5D6E35.Up2Date
 D:\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.dll
 D:\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.pdb
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\BusinessLogic.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\BusinessLogic.pdb
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataAccess.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataModel.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\EntityFramework.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataModel.pdb
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataModel.dll.config
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataAccess.pdb
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataAccess.dll.config
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\EntityFramework.xml
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\Business.CF5D6E35.Up2Date
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.pdb
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Http.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Logging.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Options.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Primitives.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Buffers.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Memory.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.ValueTuple.dll
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.dll
@@ -143,3 +111,37 @@ D:\UniProject\BP\BusinessLogic\obj\Debug\BusinessLogic.dll
 D:\UniProject\BP\BusinessLogic\obj\Debug\BusinessLogic.pdb
 D:\UniProject\BP\BusinessLogic\bin\Debug\SR.dll
 D:\UniProject\BP\BusinessLogic\bin\Debug\SR.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Http.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Buffers.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Memory.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\System.ValueTuple.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataAccess.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataModel.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\SR.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataModel.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataModel.dll.config
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\SR.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\DataAccess.dll.config
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\Business.CF5D6E35.Up2Date
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\BusinessLogic\obj\Debug\BusinessLogic.pdb

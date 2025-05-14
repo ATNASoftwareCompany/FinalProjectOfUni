@@ -13,21 +13,6 @@ D:\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataModel.dll.config
 D:\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.xml
 D:\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 D:\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataAccess.dll.config
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataAccess.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataAccess.pdb
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataModel.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataModel.pdb
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataModel.dll.config
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.xml
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.dll
@@ -45,8 +30,6 @@ C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\Entity
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Paridise\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.xml
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.dll
-C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.xml
 D:\final\BP\DataAccess\bin\Debug\DataAccess.dll.config
 D:\final\BP\DataAccess\bin\Debug\DataAccess.dll
 D:\final\BP\DataAccess\bin\Debug\DataAccess.pdb
@@ -81,3 +64,20 @@ D:\UniProject\BP\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
 D:\UniProject\BP\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
 D:\UniProject\BP\DataAccess\obj\Debug\DataAccess.dll
 D:\UniProject\BP\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataModel.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataModel.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\DataModel.dll.config
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.pdb

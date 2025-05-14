@@ -67,6 +67,7 @@
     <Compile Include="Activation\Activation_DL.cs" />
     <Compile Include="Activation\Command\DeleteActivation.cs" />
     <Compile Include="Activation\Command\GetActivation.cs" />
+    <Compile Include="Activation\Command\GetActivationByPhoneNo.cs" />
     <Compile Include="Activation\Command\InsertActivation.cs" />
     <Compile Include="Activation\Command\UpdateActivation.cs" />
     <Compile Include="BookAuthor\BookAuthor_DL.cs" />

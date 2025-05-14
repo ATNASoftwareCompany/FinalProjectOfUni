@@ -1,4 +1,5 @@
 ﻿using AppPresenter;
+using DataModel.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,14 +21,27 @@ namespace FinalApp
     /// </summary>
     public partial class Autenticate : Window
     {
+        AppPresenter.AppPresenter _presenter;
         public Autenticate()
         {
             InitializeComponent();
+            _presenter = new AppPresenter.AppPresenter();
         }
-
+        public AuthenticateType authenticateType;
+        public string PhoneNo = string.Empty;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var res = new AppPresenter.AppPresenter().InsertActivation(new DataModel.ViewModel.Activation_VM { });
+            var res = _presenter.InsertActivation(new DataModel.ViewModel.Activation_VM { });
+        }
+
+        private void PersonRegister()
+        {
+
+        }
+
+        private void RestorePassword()
+        {
+            //var result = _presenter.
         }
     }
 }

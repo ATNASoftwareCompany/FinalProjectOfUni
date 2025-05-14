@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enum\AuthenticateType.cs" />
     <Compile Include="Enum\BStatus.cs" />
     <Compile Include="Enum\ErrorType.cs" />
     <Compile Include="Enum\GenreType.cs" />

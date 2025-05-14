@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\UniProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|d:\\uniproject\\app\\finalapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|D:\\UniProject\\app\\finalapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -117,60 +121,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InsertPerson.cs",
-              "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
-              "ToolTip": "D:\\UniProject\\BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:39:51.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Person_BL.cs",
-              "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Person\\Person_BL.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Person\\Person_BL.cs",
-              "ToolTip": "D:\\UniProject\\BP\\BusinessLogic\\Person\\Person_BL.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Person\\Person_BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:37:22.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InsertPerson.cs",
-              "DocumentMoniker": "D:\\UniProject\\BP\\DataAccess\\Person\\Command\\InsertPerson.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Person\\Command\\InsertPerson.cs",
-              "ToolTip": "D:\\UniProject\\BP\\DataAccess\\Person\\Command\\InsertPerson.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Person\\Command\\InsertPerson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:36:36.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Person_VM.cs",
-              "DocumentMoniker": "D:\\UniProject\\Common\\DataModel\\ViewModel\\Person_VM.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\Person_VM.cs",
-              "ToolTip": "D:\\UniProject\\Common\\DataModel\\ViewModel\\Person_VM.cs*",
-              "RelativeToolTip": "Common\\DataModel\\ViewModel\\Person_VM.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:35:48.928Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -189,7 +141,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\App.xaml",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\App.xaml",
+              "ToolTip": "D:\\UniProject\\APP\\FinalApp\\App.xaml",
+              "RelativeToolTip": "APP\\FinalApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T14:01:44.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InsertPerson.cs",
+              "DocumentMoniker": "D:\\UniProject\\BP\\DataAccess\\Person\\Command\\InsertPerson.cs",
+              "RelativeDocumentMoniker": "BP\\DataAccess\\Person\\Command\\InsertPerson.cs",
+              "ToolTip": "D:\\UniProject\\BP\\DataAccess\\Person\\Command\\InsertPerson.cs",
+              "RelativeToolTip": "BP\\DataAccess\\Person\\Command\\InsertPerson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:36:36.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person_VM.cs",
+              "DocumentMoniker": "D:\\UniProject\\Common\\DataModel\\ViewModel\\Person_VM.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\Person_VM.cs",
+              "ToolTip": "D:\\UniProject\\Common\\DataModel\\ViewModel\\Person_VM.cs",
+              "RelativeToolTip": "Common\\DataModel\\ViewModel\\Person_VM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:35:48.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Activation_BL.cs",
               "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Activation_BL.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\Activation\\Activation_BL.cs",
@@ -202,12 +192,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserAuthentication.cs",
               "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Methods\\UserAuthentication.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\Activation\\Methods\\UserAuthentication.cs",
-              "ToolTip": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Methods\\UserAuthentication.cs*",
-              "RelativeToolTip": "BP\\BusinessLogic\\Activation\\Methods\\UserAuthentication.cs*",
+              "ToolTip": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Methods\\UserAuthentication.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Activation\\Methods\\UserAuthentication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T10:36:18.325Z",
@@ -215,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GenerateActicationCode.cs",
               "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Methods\\GenerateActicationCode.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\Activation\\Methods\\GenerateActicationCode.cs",
@@ -228,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GetActivationCode.cs",
               "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Methods\\GetActivationCode.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\Activation\\Methods\\GetActivationCode.cs",
@@ -241,20 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogicTest\\BusinessLogicTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogicTest\\BusinessLogicTest\\UnitTest1.cs",
-              "ToolTip": "D:\\UniProject\\BP\\BusinessLogicTest\\BusinessLogicTest\\UnitTest1.cs",
-              "RelativeToolTip": "BP\\BusinessLogicTest\\BusinessLogicTest\\UnitTest1.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:13:52.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SendSms.cs",
               "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\SMS\\Methods\\SendSms.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\SMS\\Methods\\SendSms.cs",
@@ -267,12 +244,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "InsertActivation.cs",
               "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Methods\\InsertActivation.cs",
               "RelativeDocumentMoniker": "BP\\BusinessLogic\\Activation\\Methods\\InsertActivation.cs",
-              "ToolTip": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Methods\\InsertActivation.cs*",
-              "RelativeToolTip": "BP\\BusinessLogic\\Activation\\Methods\\InsertActivation.cs*",
+              "ToolTip": "D:\\UniProject\\BP\\BusinessLogic\\Activation\\Methods\\InsertActivation.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Activation\\Methods\\InsertActivation.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T09:13:52.474Z",
@@ -280,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AppPresenter.cs",
               "DocumentMoniker": "D:\\UniProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
               "RelativeDocumentMoniker": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
@@ -293,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\MainWindow.xaml",
@@ -305,7 +282,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 3,
+              "Title": "Person_BL.cs",
+              "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Person\\Person_BL.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Person\\Person_BL.cs",
+              "ToolTip": "D:\\UniProject\\BP\\BusinessLogic\\Person\\Person_BL.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Person\\Person_BL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:37:22.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InsertPerson.cs",
+              "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
+              "ToolTip": "D:\\UniProject\\BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:39:51.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\UniProject\\BP\\BusinessLogicTest\\BusinessLogicTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogicTest\\BusinessLogicTest\\UnitTest1.cs",
+              "ToolTip": "D:\\UniProject\\BP\\BusinessLogicTest\\BusinessLogicTest\\UnitTest1.cs",
+              "RelativeToolTip": "BP\\BusinessLogicTest\\BusinessLogicTest\\UnitTest1.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:13:52.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Information.xaml",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\Information\\Information.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Information\\Information.xaml",
@@ -317,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Register.xaml",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\Register\\Register.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Register.xaml",
@@ -329,12 +345,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Register.xaml.cs",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\Register\\Register.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Register.xaml.cs",
-              "ToolTip": "D:\\UniProject\\APP\\FinalApp\\Register\\Register.xaml.cs*",
-              "RelativeToolTip": "APP\\FinalApp\\Register\\Register.xaml.cs*",
+              "ToolTip": "D:\\UniProject\\APP\\FinalApp\\Register\\Register.xaml.cs",
+              "RelativeToolTip": "APP\\FinalApp\\Register\\Register.xaml.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T09:19:14.655Z",
@@ -342,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "BookManagment.xaml",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\Book\\BookManagment.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\BookManagment.xaml",
@@ -354,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Autenticate.xaml",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\Register\\Autenticate.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml",
@@ -366,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Autenticate.xaml.cs",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\Register\\Autenticate.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml.cs",
@@ -379,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\MainWindow.xaml.cs",
@@ -392,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Access_VM.cs",
               "DocumentMoniker": "D:\\UniProject\\Common\\DataModel\\ViewModel\\Access_VM.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\Access_VM.cs",
@@ -404,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Action_VM.cs",
               "DocumentMoniker": "D:\\UniProject\\Common\\DataModel\\ViewModel\\Action_VM.cs",
               "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\Action_VM.cs",
@@ -416,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SmsPanel.cs",
               "DocumentMoniker": "D:\\UniProject\\SR\\SR\\SmsPanel.cs",
               "RelativeDocumentMoniker": "SR\\SR\\SmsPanel.cs",
@@ -429,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AccessManagment.xaml.cs",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\Access\\AccessManagment.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Access\\AccessManagment.xaml.cs",
@@ -441,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AccessManagment.xaml",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\Access\\AccessManagment.xaml",
               "RelativeDocumentMoniker": "APP\\FinalApp\\Access\\AccessManagment.xaml",
@@ -453,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\UniProject\\APP\\FinalApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\App.xaml.cs",
@@ -466,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\ARKA\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs",
               "ToolTip": "C:\\Users\\ARKA\\AppData\\Local\\Temp\\.vsdbgsrc\\3714f74b82eacc6cf8dcf1e32980b0908d4f8b447d25d4eb08ff1424a7b57c02\\ResourcePart.cs [Read Only]",

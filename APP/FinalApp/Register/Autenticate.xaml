@@ -14,7 +14,7 @@
 
                     <Grid>
                         <TextBlock Text="لطفا کد اعتبار سنجی پیامکی را وارد نمایید" Height="20" Margin="105,10,7,70"/>
-                        <TextBox Height="20" Margin="7,30,7,50"/>
+                        <TextBox x:Name="txtActiveCode" Height="20" Margin="7,30,7,50"/>
                         <Button Height="25" Width="150" Margin="58,65,57,10" Content="اعتبارسنجی" Click="Button_Click"/>
                     </Grid>
                 </Border>

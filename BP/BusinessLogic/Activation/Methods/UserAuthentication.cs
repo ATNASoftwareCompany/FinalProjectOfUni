@@ -31,7 +31,7 @@ namespace BusinessLogic.Activation
                 result = new Sms_BL().SendSms(new Sms_VM
                 {
                     PhoneNo = phoneNo,
-                    Message = "شرکت آرمان توسعه نرم افزار ایرانیان \n کد احراز هویت ثبت نام شما:" + result.Result.ToString()
+                    Message = "شرکت آرمان توسعه نرم افزار ایرانیان \n کد احراز هویت:" + result.Result.ToString()
                 });
 
                 return result;

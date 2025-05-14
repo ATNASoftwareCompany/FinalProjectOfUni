@@ -25,9 +25,9 @@
                         <TextBlock Text=":ایمیل" Height="25" Width="50" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="289,295,26,230" />
                         <TextBox x:Name="txtEmail" Height="30" Width="300" Margin="39,322,26,198"/>
                         <TextBlock Text=":کلمه عبور" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="257,358,26,167" />
-                        <TextBox x:Name="txtPassword" Height="30" Width="300" Margin="39,385,26,135"/>
+                        <PasswordBox x:Name="txtPassword" Height="30" Width="300" Margin="39,385,26,135"/>
                         <TextBlock Text=":تکرار کلمه عبور" Height="25" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="221,417,26,108" />
-                        <TextBox x:Name="txtConfirmPassword" Height="30" Width="300" Margin="39,444,26,76"/>
+                        <PasswordBox x:Name="txtConfirmPassword" Height="30" Width="300" Margin="39,444,26,76"/>
 
 
                         <Button x:Name="btnRegister" Content="ثبت" Foreground="Green" FontSize="25" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Height="40" Margin="201,491,26,19" Click="btnRegister_Click" />

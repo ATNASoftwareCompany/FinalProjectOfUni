@@ -15,5 +15,7 @@ namespace DataModel.Enum
         Active = 1,
         [Description("تحریم شده")]
         Banned = 2,
+        [Description("منتظر فعالسازی")]
+        AciveateWating = 3
     }
 }

@@ -47,6 +47,7 @@
     <Compile Include="Activation\Methods\GetActivationByPhoneNo.cs" />
     <Compile Include="Activation\Methods\GetActivationCode.cs" />
     <Compile Include="Activation\Methods\InsertActivation.cs" />
+    <Compile Include="Activation\Methods\UpdateActivation.cs" />
     <Compile Include="Activation\Methods\UserAuthentication.cs" />
     <Compile Include="BookAuthor\BookAuthor_BL.cs" />
     <Compile Include="BookAuthor\Methods\GetAllBookAuthor.cs" />

@@ -99,6 +99,7 @@
     <Compile Include="Register\Autenticate.xaml.cs">
       <DependentUpon>Autenticate.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Register\DTOs\RegisterDTO.cs" />
     <Compile Include="Register\ForgetPassword.xaml.cs">
       <DependentUpon>ForgetPassword.xaml</DependentUpon>
     </Compile>
@@ -258,7 +259,9 @@
   <ItemGroup>
     <Resource Include="Images\ArmanToseLogo.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\icons8-close-30.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

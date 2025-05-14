@@ -1,4 +1,5 @@
-﻿using DataModel.ViewModel;
+﻿using DataModel.Enum;
+using DataModel.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace DataAccess.Activation
     {
         public Activation_VM GetActivationByPhoneNo(string phoneNo)
         {
-            return AppDb.Activations.Where(x => x.PhoneNo == phoneNo).FirstOrDefault();
+            return AppDb.Activations.Where(x => x.PhoneNo == phoneNo && x.Status == (int)BStatus.Active).FirstOrDefault();
         }
     }
 }

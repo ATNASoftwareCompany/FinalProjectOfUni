@@ -21,7 +21,7 @@ namespace FinalApp.Book
     /// </summary>
     public partial class AddNewGenre : Window
     {
-        FinalApp.MessageBox.MessageBox _msBox;
+        FinalApp.MessageBox _msBox;
         AppPresenter.AppPresenter _presenter;
         public AddNewGenre()
         {
@@ -29,7 +29,7 @@ namespace FinalApp.Book
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            _msBox = new FinalApp.MessageBox.MessageBox();
+            _msBox = new FinalApp.MessageBox();
             _presenter = new AppPresenter.AppPresenter();
         }
 

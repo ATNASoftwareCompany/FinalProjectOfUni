@@ -10,7 +10,8 @@ using BusinessLogic.User;
 using DataModel;
 using DataModel.ViewModel;
 using System;
-using 
+
+using Newtonsoft.Json;
 
 namespace AppPresenter
 {
@@ -50,6 +51,28 @@ namespace AppPresenter
                 MethodId = DataModel.Enum.MethodsType.InsertActivation,
                 MethodInput = JsonConvert.SerializeObject(phoneNo),
                 PointerId = Convert.ToInt64(phoneNo),
+            });
+        }
+
+        public BaseResult_VM GetActivationByPhoneNo(string phoneNo)
+        {
+            return _presenter.HandleResponse(new Activation_BL().GetActivationByPhoneNo, phoneNo, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(phoneNo),
+                PointerId = Convert.ToInt64(phoneNo),
+            });
+        }
+
+        public BaseResult_VM UpdateActivation(Activation_VM inputModel)
+        {
+            return _presenter.HandleResponse(new Activation_BL().UpdateActivation, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.ActivationCode),
             });
         }
         #endregion
@@ -106,6 +129,17 @@ namespace AppPresenter
                 MethodId = DataModel.Enum.MethodsType.InsertActivation,
                 MethodInput = JsonConvert.SerializeObject(book),
                 PointerId = Convert.ToInt64(book),
+            });
+        }
+
+        public BaseResult_VM InsertUser(User_VM inputModel)
+        {
+            return _presenter.HandleResponse(new User_BL().InsertUser, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.Id),
             });
         }
 

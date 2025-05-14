@@ -22,7 +22,7 @@ namespace FinalApp.Book
     public partial class AddNewBook : Window
     {
         #region models
-        FinalApp.MessageBox.MessageBox msBox;
+        FinalApp.MessageBox msBox;
         List<CollectionDTOs> collectionDTOs = new List<CollectionDTOs>();
 
         #endregion
@@ -34,7 +34,7 @@ namespace FinalApp.Book
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            msBox = new FinalApp.MessageBox.MessageBox();
+            msBox = new FinalApp.MessageBox();
         }
 
         private void chbHasDiscount_Checked(object sender, RoutedEventArgs e)

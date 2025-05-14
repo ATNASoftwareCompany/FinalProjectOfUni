@@ -14,7 +14,7 @@ namespace DataModel
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public int Status { get; set; }
-        public bool IsDelete { get; set; }
+        public bool IsDelete { get; set; } = false;
         public DateTime InsertDate { get; set; }
         public DateTime? UpdateDate { get; set; }
     }

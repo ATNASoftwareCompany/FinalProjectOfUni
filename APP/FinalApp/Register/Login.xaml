@@ -9,7 +9,7 @@
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
-        Title="Login" Height="450" Width="300" FontFamily="B Titr" >
+        Title="Login" Height="450" Width="300" FontFamily="B Titr" Loaded="Window_Loaded" >
     <Border BorderThickness="5" BorderBrush="#494947" CornerRadius="15">
         <Grid Background="#494947">
             <Border BorderThickness="5" BorderBrush="#44CCFF" CornerRadius="15" Margin="10,10,10,10">
@@ -18,15 +18,16 @@
                     <TextBlock Text="خوش آمدید" FontSize="12" Margin="92,26,92,351" TextAlignment="Center"/>
                     <Border Margin="10,116,10,136" BorderThickness="1" BorderBrush="Gray"/>
                     <TextBlock Text="نام کاربری" TextAlignment="Right" Margin="166,132,21,253"/>
-                    <TextBox Height="30" Margin="18,157,18,223"/>
+                    <TextBox x:Name="txtUserName" Height="30" Margin="18,157,18,223"/>
                     <TextBlock Text="کلمه عبور" TextAlignment="Right" Margin="166,191,21,194"/>
-                    <TextBox Height="30" Margin="18,216,18,164"/>
+                    <PasswordBox x:Name="txtPassword" Height="30" Margin="18,216,18,164"/>
+                    <Image Margin="241,0,0,391" ToolTip="خروج" Source="/Images/icons8-close-30.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
 
                 </Grid>
 
             </Border>
-            <Button Height="30" Margin="82,302,82,108" Content="ورود"/>
-            <TextBlock TextAlignment="Right" Margin="113,337,113,86" FontSize="9">
+            <Button Height="30" Margin="82,302,82,108" Content="ورود" Click="Button_Click"/>
+            <TextBlock TextAlignment="Right" Margin="113,337,113,86" FontSize="9" >
                 <Hyperlink>
                     فراموشی کلمه عبور
                 </Hyperlink>

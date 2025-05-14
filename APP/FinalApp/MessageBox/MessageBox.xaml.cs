@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace FinalApp.MessageBox
+namespace FinalApp
 {
     /// <summary>
     /// Interaction logic for MessageBox.xaml
@@ -29,6 +29,13 @@ namespace FinalApp.MessageBox
         bool yes = false;
 
         public void Show(MessageBox_VM inputModel)
+        {
+            var msgBox = new MessageBox();
+            msgBox.ShowMessage(inputModel);
+            msgBox.ShowDialog();
+        }
+
+        public void ShowMessage(MessageBox_VM inputModel)
         {
 
             if (inputModel.ErrorType == DataModel.Enum.ErrorType.Warning)
@@ -65,15 +72,19 @@ namespace FinalApp.MessageBox
             {
                 btnCancle.Visibility = Visibility.Visible;
             }
+
+
         }
 
         private void btnOk_Click(object sender, RoutedEventArgs e)
         {
             ok = true;
+            this.Close();
         }
         private void btnYes_Click(object sender, RoutedEventArgs e)
         {
             yes = true;
+            this.Close();
         }
 
         private void btnCancle_Click(object sender, RoutedEventArgs e)

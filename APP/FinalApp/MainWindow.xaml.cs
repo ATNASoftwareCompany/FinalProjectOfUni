@@ -22,7 +22,7 @@ namespace FinalApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        FinalApp.MessageBox.MessageBox _msBox;
+        FinalApp.MessageBox _msBox;
         AppPresenter.AppPresenter _presenter;
 
         public static string Username { get; set; }
@@ -35,7 +35,7 @@ namespace FinalApp
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            _msBox = new FinalApp.MessageBox.MessageBox();
+            _msBox = new FinalApp.MessageBox();
             _presenter = new AppPresenter.AppPresenter();
             GetBooksCount();
             GetUsersCount();
@@ -89,7 +89,10 @@ namespace FinalApp
 
         private void imgshutdown_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            Application.Current.Shutdown();
+            Login login = new Login();
+            login._username = MainWindow.Username;
+            login.Show();
+            this.Close();
         }
     }
 }

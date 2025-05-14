@@ -1,5 +1,6 @@
 ﻿using DataModel;
-using FinalApp.MessageBox;
+using DataModel.Enum;
+using FinalApp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,12 +24,12 @@ namespace FinalApp
     public partial class Register : Window
     {
         AppPresenter.AppPresenter _presenter;
-        MessageBox.MessageBox msgBox;
+        MessageBox msgBox;
         public Register()
         {
             InitializeComponent();
             _presenter = new AppPresenter.AppPresenter();
-            msgBox = new MessageBox.MessageBox();
+            msgBox = new MessageBox();
         }
 
         private void btnRegister_Click(object sender, RoutedEventArgs e)
@@ -36,6 +37,8 @@ namespace FinalApp
             Authentication();
             RegisterPerson();
             Autenticate autenticate = new Autenticate();
+            autenticate.PhoneNo = txtMobile.Text.Trim();
+            autenticate.authenticateType = DataModel.Enum.AuthenticateType.Register;
             autenticate.ShowDialog();
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
@@ -44,7 +47,7 @@ namespace FinalApp
 
         private void RegisterPerson()
         {
-            if (txtConfirmPassword.Text != txtPassword.Text)
+            if (txtConfirmPassword.Password != txtPassword.Password)
             {
                 msgBox.Show(new DataModel.ViewModel.MessageBox_VM
                 {
@@ -56,15 +59,26 @@ namespace FinalApp
                 return;
             }
 
-            Person_VM person = new Person_VM
+            FinalApp.RegisterDTO registerDTO = new FinalApp.RegisterDTO
             {
                 PhoneNo = txtMobile.Text.Trim(),
                 Name = txtName.Text.Trim(),
                 Family = txtFamily.Text.Trim(),
                 BirthDate = txtBirthDate.Text.Trim(),
                 E_Mail = txtEmail.Text.Trim(),
-                Password = txtPassword.Text,
+                Password = txtPassword.Password,
             };
+
+            Person_VM person = new Person_VM
+            {
+                PhoneNo = registerDTO.PhoneNo,
+                Name = registerDTO.Name,
+                Family = registerDTO.Family,
+                BirthDate = registerDTO.BirthDate,
+                E_Mail = registerDTO.E_Mail,
+                Status = (int)PersonStatus.WaitForActive,
+            };
+
             var result = _presenter.InsertPerson(person);
             if (result.ErrorCode != 0)
             {
@@ -78,6 +92,34 @@ namespace FinalApp
                 return;
             }
 
+            User_VM user = new User_VM
+            {
+                IsDelete = false,
+                Status = (int)UserStatus.AciveateWating,
+                UserName = registerDTO.PhoneNo,
+                Password = registerDTO.Password,
+            };
+            
+            result = _presenter.InsertUser(user);
+            if (result.ErrorCode != 0)
+            {
+                msgBox.Show(new DataModel.ViewModel.MessageBox_VM
+                {
+                    ErrorType = DataModel.Enum.ErrorType.Error,
+                    OK = true,
+                    Message = result.Message,
+                    Title = "ثبت نام"
+                });
+                return;
+            }
+
+            msgBox.Show(new DataModel.ViewModel.MessageBox_VM
+            {
+                ErrorType = DataModel.Enum.ErrorType.Sussess,
+                OK = true,
+                Message = "عملیات با موفقیت انجام شد",
+                Title = "ثبت نام"
+            });
         }
 
         private void Authentication()

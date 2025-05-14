@@ -1,0 +1,36 @@
+﻿<Window x:Class="FinalApp.Register.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalApp.Register"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        Title="Login" Height="450" Width="300" FontFamily="B Titr" >
+    <Border BorderThickness="5" BorderBrush="#494947" CornerRadius="15">
+        <Grid Background="#494947">
+            <Border BorderThickness="5" BorderBrush="#44CCFF" CornerRadius="15" Margin="10,10,10,10">
+                <Grid Background="#44CCFF" >
+                    <TextBlock Text="نرم افزار مدیریت کتابخانه" FontSize="16" Margin="52,0,52,377" TextAlignment="Center"/>
+                    <TextBlock Text="خوش آمدید" FontSize="12" Margin="92,26,92,351" TextAlignment="Center"/>
+                    <Border Margin="10,116,10,136" BorderThickness="1" BorderBrush="Gray"/>
+                    <TextBlock Text="نام کاربری" TextAlignment="Right" Margin="166,132,21,253"/>
+                    <TextBox Height="30" Margin="18,157,18,223"/>
+                    <TextBlock Text="کلمه عبور" TextAlignment="Right" Margin="166,191,21,194"/>
+                    <TextBox Height="30" Margin="18,216,18,164"/>
+
+                </Grid>
+                
+            </Border>
+            <Button Height="30" Margin="82,302,82,108" Content="ورود"/>
+            <TextBlock Height="30" TextAlignment="Right" Margin="183,400,20,10" FontSize="">
+                <Hyperlink>
+                    فراموشی کلمه عبور
+                </Hyperlink>
+            </TextBlock>
+        </Grid>
+    </Border>
+</Window>

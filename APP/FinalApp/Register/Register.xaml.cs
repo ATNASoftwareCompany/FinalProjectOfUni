@@ -1,4 +1,5 @@
 ﻿using DataModel;
+using FinalApp.MessageBox;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,18 +22,40 @@ namespace FinalApp
     /// </summary>
     public partial class Register : Window
     {
+        AppPresenter.AppPresenter _presenter;
+        MessageBox.MessageBox msgBox;
         public Register()
         {
             InitializeComponent();
+            _presenter = new AppPresenter.AppPresenter();
+            msgBox = new MessageBox.MessageBox();
         }
 
         private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
-            var result = new AppPresenter.AppPresenter().InsertActivation(new DataModel.ViewModel.Activation_VM { PhoneNo = txtMobile.Text.Trim() });
+            Authentication();
+            RegisterPerson();
+            Autenticate autenticate = new Autenticate();
+            autenticate.ShowDialog();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
         }
 
-        private void RegisterUser()
+        private void RegisterPerson()
         {
+            if (txtConfirmPassword.Text != txtPassword.Text)
+            {
+                msgBox.Show(new DataModel.ViewModel.MessageBox_VM
+                {
+                    ErrorType = DataModel.Enum.ErrorType.Warning,
+                    OK = true,
+                    Message = "لطفا در وارد نمودن کلمه عبور و تکرار آن دقت فرمایید",
+                    Title = "ثبت نام"
+                });
+                return;
+            }
+
             Person_VM person = new Person_VM
             {
                 PhoneNo = txtMobile.Text.Trim(),
@@ -40,13 +63,37 @@ namespace FinalApp
                 Family = txtFamily.Text.Trim(),
                 BirthDate = txtBirthDate.Text.Trim(),
                 E_Mail = txtEmail.Text.Trim(),
+                Password = txtPassword.Text,
             };
+            var result = _presenter.InsertPerson(person);
+            if (result.ErrorCode != 0)
+            {
+                msgBox.Show(new DataModel.ViewModel.MessageBox_VM
+                {
+                    ErrorType = DataModel.Enum.ErrorType.Error,
+                    OK = true,
+                    Message = result.Message,
+                    Title = "ثبت نام"
+                });
+                return;
+            }
 
         }
 
         private void Authentication()
         {
-            
+            var result = _presenter.UserAuthentication(txtMobile.Text.Trim());
+            if (result.ErrorCode != 0)
+            {
+                msgBox.Show(new DataModel.ViewModel.MessageBox_VM
+                {
+                    ErrorType = DataModel.Enum.ErrorType.Error,
+                    OK = true,
+                    Message = result.Message,
+                    Title = "ثبت نام"
+                });
+                return;
+            }
         }
     }
 }

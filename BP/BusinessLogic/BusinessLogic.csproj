@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activation\Activation_BL.cs" />
+    <Compile Include="Activation\Methods\CheckActivationCode.cs" />
     <Compile Include="Activation\Methods\GenerateActicationCode.cs" />
     <Compile Include="Activation\Methods\GetActivationCode.cs" />
     <Compile Include="Activation\Methods\InsertActivation.cs" />

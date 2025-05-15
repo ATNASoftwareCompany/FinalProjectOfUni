@@ -14,6 +14,7 @@ namespace DataAccess.User
             try
             {
                 var result = db.Users.Add(inputModel);
+                SaveChanges();
                 return result.Id;
             }
             catch (Exception ex)

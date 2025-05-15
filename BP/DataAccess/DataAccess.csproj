@@ -92,6 +92,15 @@
     <Compile Include="Logging\Response\Command\GetResponse.cs" />
     <Compile Include="Logging\Response\Command\InsertResponse.cs" />
     <Compile Include="Logging\Response\Response_DL.cs" />
+    <Compile Include="Migrations\202505121952340_InitialCreate.cs" />
+    <Compile Include="Migrations\202505121952340_InitialCreate.Designer.cs">
+      <DependentUpon>202505121952340_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202505152119409_initProject.cs" />
+    <Compile Include="Migrations\202505152119409_initProject.Designer.cs">
+      <DependentUpon>202505152119409_initProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person\Command\DeletePerson.cs" />
     <Compile Include="Person\Command\GetPerson.cs" />
     <Compile Include="Person\Command\InsertPerson.cs" />
@@ -118,6 +127,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202505121952340_InitialCreate.resx">
+      <DependentUpon>202505121952340_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505152119409_initProject.resx">
+      <DependentUpon>202505152119409_initProject.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -28,6 +28,16 @@ namespace BusinessLogic.User
                 return new BaseResult_VM(null, -1, "لطفا کلمه عبور را به درستی تکمیل نمایید.", DataModel.Enum.ErrorType.Error);
             }
 
+            var existUser = _user_DL.GetUser(new User_VM
+            {
+                UserName = inputModel.UserName,
+            });
+
+            if (existUser != null)
+            {
+                return new BaseResult_VM(null, -1, "کاربر گرامی ، یوزر قبلا ثبت نام شده است.", DataModel.Enum.ErrorType.Error);
+            }
+
             User_VM user = new User_VM
             {
                 Password = inputModel.Password,

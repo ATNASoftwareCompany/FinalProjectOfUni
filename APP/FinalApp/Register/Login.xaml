@@ -28,12 +28,12 @@
             </Border>
             <Button Height="30" Margin="82,302,82,108" Content="ورود" Click="Button_Click"/>
             <TextBlock TextAlignment="Right" Margin="113,337,113,86" FontSize="9" >
-                <Hyperlink>
+                <Hyperlink Click="Hyperlink_Click">
                     فراموشی کلمه عبور
                 </Hyperlink>
             </TextBlock>
             <TextBlock TextAlignment="Right" Margin="132,354,132,71" FontSize="9" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown">
-                <Hyperlink>
+                <Hyperlink Click="Hyperlink_Click_1">
                     ثبت نام
                 </Hyperlink>
             </TextBlock>

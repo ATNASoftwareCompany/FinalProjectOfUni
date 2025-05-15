@@ -13,7 +13,20 @@ namespace DataAccess.Person
         {
             try
             {
-                var result = db.Persons.Add(inputModel);
+                Person_VM person = new Person_VM
+                {
+                    BirthDate = inputModel.BirthDate,
+                    E_Mail = inputModel.E_Mail,
+                    Family = inputModel.Family,
+                    InsertDate = DateTime.Now,
+                    IsDelete = false,
+                    Name = inputModel.Name,
+                    PhoneNo = inputModel.PhoneNo,
+                    Status = inputModel.Status,
+                    UpdateDate = DateTime.Now,
+                };
+                var result = db.Persons.Add(person);
+                SaveChanges();
                 return result.Id;
             }
             catch (Exception ex)

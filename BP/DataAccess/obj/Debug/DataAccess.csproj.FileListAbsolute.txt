@@ -81,3 +81,6 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\Dat
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.Migrations.InitialCreate.resources
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.Migrations.initProject.resources

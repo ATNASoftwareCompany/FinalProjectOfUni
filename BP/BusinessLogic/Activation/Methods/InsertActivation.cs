@@ -35,13 +35,15 @@ namespace BusinessLogic.Activation
                     activeCode = GenerateActicationCode();
                     continue;
                 }
+                isUniqueCode = false;
+                inputModel.ActivationCode = Convert.ToInt32(activeCode.Result);
             }
-
+            
             int Id = dlActivation.InsertActivation(inputModel);
 
 
 
-            return new BaseResult_VM(Id, 0, "عملیات با موفقیت انجام شد", DataModel.Enum.ErrorType.Sussess);
+            return new BaseResult_VM(inputModel.ActivationCode, 0, "عملیات با موفقیت انجام شد", DataModel.Enum.ErrorType.Sussess);
         }
     }
 }

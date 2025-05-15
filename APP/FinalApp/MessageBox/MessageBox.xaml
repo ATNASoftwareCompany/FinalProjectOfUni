@@ -13,10 +13,10 @@ Background="Transparent"
     <Grid x:Name="gridbase" Background="DodgerBlue" >
         <Label x:Name="lblTextTitle" Content="تیتر" FontSize="18" HorizontalContentAlignment="Right" VerticalContentAlignment="Top" Margin="113,0,10,0" />
         <Label x:Name="lblTextInfo" Content="متن" FontSize="18" HorizontalContentAlignment="Right" FontFamily="B ZAr" VerticalContentAlignment="Top" Margin="10,46,10,41" />
-        <Button x:Name="btnOk" Content="تایید" Height="25" Width="65" Margin="325,100,10,5"  FontSize="12" Foreground="Green" Visibility="Visible" Click="btnOk_Click" />
-        <Button x:Name="btnCancle" Content="نصراف" Height="25" Width="65" Margin="243,100,92,5" FontSize="12" Foreground="Red" Visibility="Hidden" Click="btnCancle_Click" />
-        <Button x:Name="btnYes" Content="بله" Height="25" Width="65" Margin="325,100,10,5" FontSize="12" Foreground="Green" Visibility="Hidden" Click="btnYes_Click" />
-        <Button x:Name="btnNo" Content="خیر" Height="25" Width="65" Margin="243,100,92,5" FontSize="12" Foreground="Red" Visibility="Hidden" Click="btnNo_Click" />
-        <Image x:Name="imgIcon" Margin="10,10,330,100" Source="/Images/icons8-information-50.png" Stretch="Fill"/>
+        <Button x:Name="btnOk" Content="تایید" Height="25" Width="65" Margin="325,155,10,10"  FontSize="12" Foreground="Green" Visibility="Visible" Click="btnOk_Click" />
+        <Button x:Name="btnCancle" Content="نصراف" Height="25" Width="65" Margin="243,155,92,10" FontSize="12" Foreground="Red" Visibility="Hidden" Click="btnCancle_Click" />
+        <Button x:Name="btnYes" Content="بله" Height="25" Width="65" Margin="325,155,10,10" FontSize="12" Foreground="Green" Visibility="Hidden" Click="btnYes_Click" />
+        <Button x:Name="btnNo" Content="خیر" Height="25" Width="65" Margin="243,155,92,10" FontSize="12" Foreground="Red" Visibility="Hidden" Click="btnNo_Click" />
+        <Image x:Name="imgIcon" Margin="10,10,330,120" Source="/Images/icons8-information-50.png" Stretch="Fill"/>
     </Grid>
 </Window>

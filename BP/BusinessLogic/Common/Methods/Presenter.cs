@@ -27,6 +27,18 @@ namespace BusinessLogic.Common.Methods
 
             try
             {
+                new Request_DL().InserRequest(new RequestBaseLog_VM
+                {
+                    RequestId = requestLog.RequestId,
+                    MethodInput = requestLog.MethodInput,
+                    GenreId = requestLog.GenreId,
+                    CallTime = requestLog.CallTime,
+                    Exception = null,
+                    MethodId = requestLog.MethodId,
+                    MethodOutput = JsonConvert.SerializeObject(result),
+                    PointerId = requestLog.PointerId,
+                });
+
                 result = func.Invoke(methodInput);
                 new Response_DL().InsertResponse(new ResponseBaseLog_VM
                 {

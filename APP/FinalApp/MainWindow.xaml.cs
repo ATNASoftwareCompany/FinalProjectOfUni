@@ -61,7 +61,7 @@ namespace FinalApp
                 });
                 return;
             }
-            txbUserNO.Text = result.Result.ToString() + " عدد ";
+            txbUserNO.Text = result.Result.ToString() + " نفر ";
         }
 
         private void GetBooksCount()

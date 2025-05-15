@@ -116,5 +116,19 @@ namespace FinalApp
         {
             App.Current.Shutdown();
         }
+
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+            ForgetPassword forgetPassword = new ForgetPassword();
+            forgetPassword.Show();
+            this.Close();
+        }
+
+        private void Hyperlink_Click_1(object sender, RoutedEventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+            this.Close();
+        }
     }
 }

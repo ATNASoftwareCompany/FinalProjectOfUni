@@ -16,13 +16,7 @@ namespace BusinessLogic.Common.Methods
     {
         public BaseResult_VM HandleResponse<T>(Func<T, BaseResult_VM> func, T methodInput, RequestBaseLog_VM requestLog)
         {
-
-            requestLog.MethodInput = requestLog.MethodInput == null ? JsonConvert.SerializeObject(methodInput) : null;
-            requestLog = new RequestBaseLog_VM
-            {
-                CallTime = DateTime.Now,
-
-            };
+            requestLog.MethodInput = JsonConvert.SerializeObject(methodInput) ;
             BaseResult_VM result = new BaseResult_VM(null,0,"",DataModel.Enum.ErrorType.Sussess);
 
             try
@@ -30,7 +24,7 @@ namespace BusinessLogic.Common.Methods
                 new Request_DL().InserRequest(new RequestBaseLog_VM
                 {
                     RequestId = requestLog.RequestId,
-                    MethodInput = requestLog.MethodInput,
+                    MethodInput = JsonConvert.SerializeObject(requestLog.MethodInput),
                     GenreId = requestLog.GenreId,
                     CallTime = requestLog.CallTime,
                     Exception = null,

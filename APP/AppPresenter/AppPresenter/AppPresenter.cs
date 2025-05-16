@@ -143,6 +143,17 @@ namespace AppPresenter
             });
         }
 
+        public BaseResult_VM UpdateUser(User_VM inputModel)
+        {
+            return _presenter.HandleResponse(new User_BL().UpdateUser, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
+
         #endregion
 
         #region Book

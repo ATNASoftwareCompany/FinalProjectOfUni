@@ -9,8 +9,8 @@
         WindowStartupLocation="CenterOwner"
         Title="افزودن ژانر" Height="160" Width="300" FontFamily="B Zar" FontSize="20" Loaded="Window_Loaded">
     <Grid Background="#B3D9FF">
-        <TextBlock Height="30" Margin="15,27,15,87" Text=" ژانر:" FlowDirection="RightToLeft"  />
-        <TextBox x:Name="txtNewGenre" Height="30" Margin="15,0,15,0" />
-        <Button x:Name="btnAddNewGenre" Content="افزودن" Width="100" Height="33" Margin="100,101,100,10" Click="btnAddNewGenre_Click"   />
+        <TextBlock Height="30" Margin="15,0,15,87" Text=" ژانر:" FlowDirection="RightToLeft"  />
+        <TextBox x:Name="txtNewGenre" Height="30" Margin="15,-15,15,0" />
+        <Button x:Name="btnAddNewGenre" Content="افزودن" Width="100" Height="33" Margin="0,75,0,0" Click="btnAddNewGenre_Click"   />
     </Grid>
 </Window>

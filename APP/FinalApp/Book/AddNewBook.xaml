@@ -6,32 +6,38 @@
         xmlns:local="clr-namespace:FinalApp.Book"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="افزودن کتاب جدید" Height="450" Width="250" FontFamily="B Zar" Loaded="Window_Loaded">
+        Title="افزودن کتاب جدید" Height="550" Width="600" FontSize="20" FontFamily="B Zar" Loaded="Window_Loaded">
     <Grid Background="#B3D9FF">
         <Border BorderBrush="Black" BorderThickness="1" Margin="5,5,5,5">
             <Grid>
-                <TextBlock x:Name="lbl1" Margin="132,3,7,401" Text="نام کتاب" TextAlignment="Right"/>
-                <TextBox x:Name="txtTitle" Height="23" Margin="7,21,7,378"/>
-                <TextBlock x:Name="lbl2" Margin="132,44,7,360" Text="خلاصه" TextAlignment="Right"/>
-                <TextBox x:Name="txtSummary" Height="23" Margin="7,62,7,337"/>
-                <TextBlock x:Name="lbl2_Copy" Margin="132,85,7,319" Text="ژانر" TextAlignment="Right"/>
-                <ComboBox x:Name="txtGenre" Height="23" Margin="7,103,7,296"/>
-                <TextBlock x:Name="lbl2_Copy1" Margin="175,252,7,152" Text="قیمت" TextAlignment="Right"/>
-                <TextBox x:Name="txtPrice" Height="23" Margin="130,270,7,129"/>
-                <TextBlock x:Name="lbl2_Copy2" Margin="132,126,7,278" Text="ناشر" TextAlignment="Right"/>
-                <ComboBox x:Name="txtPublisher" Height="23" Margin="7,144,7,255"/>
-                <TextBlock x:Name="lbl2_Copy3" Margin="132,167,7,237" Text="نویسنده" TextAlignment="Right"/>
-                <ComboBox x:Name="txtAuthor" Height="23" Margin="7,185,7,214"/>
-                <TextBlock x:Name="lbl2_Copy4" Margin="68,252,114,152" Text="تعداد" TextAlignment="Right"/>
-                <TextBox x:Name="txtQuantity" Height="23" Margin="7,270,114,129"/>
-                <CheckBox x:Name="chbHasDiscount" IsChecked="False" Content="آیا این محصول شامل تخفیف می باشد؟" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FlowDirection="RightToLeft" FontSize="9" Margin="7,298,7,109" Checked="chbHasDiscount_Checked" Unchecked="chbHasDiscount_Unchecked"/>
-                <TextBlock x:Name="lbl2_Copy5" Margin="175,312,7,92" Text="نوع تخفیف" TextAlignment="Right"/>
-                <ComboBox x:Name="txtDiscountType" IsEnabled="False" Height="23" Margin="130,330,7,69"/>
-                <TextBlock x:Name="lbl2_Copy6" Margin="68,312,114,92" Text="مقدار" TextAlignment="Right"/>
-                <TextBox x:Name="txtDiscountAmount" IsEnabled="False" Height="23" Margin="7,330,114,69"/>
-                <CheckBox x:Name="chbHasCollection" IsChecked="False" Content="آیا این محصول دارای مجموعه می باشد؟" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FlowDirection="RightToLeft" FontSize="9" Margin="7,361,7,46"/>
-                <TextBlock x:Name="lbl2_Copy7" Margin="132,208,7,196" Text="تاریخ تالیف" TextAlignment="Right"/>
-                <DatePicker x:Name="dtpWriteDate" Height="23" Margin="7,226,7,173"/>
+                <TextBlock x:Name="lbl1" Margin="471,3,12,483" Text="نام کتاب" TextAlignment="Right"/>
+                <TextBox x:Name="txtTitle" Margin="308,37,10,452"/>
+                <TextBlock x:Name="lbl2" Margin="225,6,297,484" Text="خلاصه" TextAlignment="Right"/>
+                <TextBox x:Name="txtSummary" Margin="10,36,294,452"/>
+                <TextBlock x:Name="lbl2_Copy" Margin="541,73,10,415" Text="ژانر" TextAlignment="Right"/>
+                <ComboBox x:Name="txtGenre" Margin="308,107,7,383"/>
+                <TextBlock x:Name="lbl2_Copy2" Margin="239,73,295,418" Text="ناشر" TextAlignment="Right"/>
+                <ComboBox x:Name="txtPublisher" Margin="7,107,294,383"/>
+                <TextBlock x:Name="lbl2_Copy3" Margin="514,147,10,346" Text="نویسنده" TextAlignment="Right"/>
+                <ComboBox x:Name="txtAuthor" Margin="308,181,7,310">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding GenreName}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <TextBlock x:Name="lbl2_Copy7" Margin="182,147,294,344" Text="تاریخ تالیف" TextAlignment="Right"/>
+                <DatePicker x:Name="dtpWriteDate" Margin="7,180,294,308"/>
+                <TextBlock x:Name="lbl2_Copy4" Margin="232,219,294,273" Text="تعداد" TextAlignment="Right"/>
+                <TextBox x:Name="txtQuantity" Margin="7,252,294,240"/>
+                <TextBlock x:Name="lbl2_Copy1" Margin="519,217,10,275" Text="قیمت" TextAlignment="Right"/>
+                <TextBox x:Name="txtPrice" Margin="308,252,7,240"/>
+                <TextBlock x:Name="lbl2_Copy5" Margin="490,287,10,204" Text="نوع تخفیف" TextAlignment="Right"/>
+                <ComboBox x:Name="txtDiscountType" IsEnabled="False" Margin="308,323,7,171"/>
+                <TextBlock x:Name="lbl2_Copy6" Margin="232,290,294,204" Text="مقدار" TextAlignment="Right"/>
+                <TextBox x:Name="txtDiscountAmount" IsEnabled="False" Margin="7,323,294,171"/>
+                <CheckBox x:Name="chbHasDiscount" IsChecked="False" Content="آیا این محصول شامل تخفیف می باشد؟" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FlowDirection="RightToLeft" FontSize="16" Margin="67,361,294,124" Checked="chbHasDiscount_Checked" Unchecked="chbHasDiscount_Unchecked"/>
+                <CheckBox x:Name="chbHasCollection" IsChecked="False" Content="آیا این محصول دارای مجموعه می باشد؟" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FlowDirection="RightToLeft" FontSize="16" Margin="313,356,12,124"/>
 
 
                 <Button x:Name="btnAddNewBook" Content="افزودن" Height="30" Width="160" Margin="39,382,39,10" Click="btnAddNewBook_Click"/>

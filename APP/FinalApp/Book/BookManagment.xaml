@@ -6,14 +6,14 @@
         xmlns:local="clr-namespace:FinalApp.Book"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="مدیریت کتاب ها" Height="700" Width="1000" FontFamily="B Zar" Loaded="Window_Loaded">
+        Title="مدیریت کتاب ها" Height="700" Width="1000" FontFamily="B Zar" FontSize="16" Loaded="Window_Loaded">
     <Grid Background="#B3D9FF">
         <!--ایجاد کتاب-->
-        <Border Height="240" Width="600" Margin="390,15,10,419" BorderThickness="1" BorderBrush="Black">
+        <Border Height="215" Width="600" Margin="370,-5,10,400" BorderThickness="1" BorderBrush="Black">
             <Grid>
                 <TextBlock Text="مدیریت کتاب ها" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,4,0" Width="51"/>
-                <Button x:Name="btnAddNewBook" Content="افزودن کتاب جدید" Height="25" Width="80" VerticalAlignment="Top" Margin="10,12,508,0" Click="btnAddNewBook_Click" />
-                <DataGrid x:Name="BooksDataGrid" Margin="10,40,10,10" ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" Grid.ColumnSpan="2">
+                <Button x:Name="btnAddNewBook" Content="افزودن کتاب جدید" Height="25" VerticalAlignment="Top" Margin="10,12,480,0" Click="btnAddNewBook_Click" />
+                <DataGrid x:Name="BooksDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="10,40,10,10" ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" Grid.ColumnSpan="2">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="نام کتاب"/>
                         <DataGridTextColumn Header="تعداد"/>
@@ -46,13 +46,13 @@
         <Border Margin="10,279,670,57" BorderThickness="1" BorderBrush="Black">
             <Grid>
                 <TextBlock Text="مدیریت ژانر ها" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,-1,0" Width="51"/>
-                <DataGrid x:Name="GenresDataGrid" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
+                <DataGrid x:Name="GenresDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9" ItemsSource="{Binding}"  VerticalContentAlignment="Center" FlowDirection="RightToLeft" IsReadOnly="True" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="ردیف"/>
-                        <DataGridTextColumn Header="ژانر"/>
+                        <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
+                        <DataGridTextColumn Binding="{Binding Genre}" Header="ژانر" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
-                <Button x:Name="btnAddNewGenre" Content="افزودن ژانر جدید" Height="25" Width="80" VerticalAlignment="Top" Margin="9,9,229,0" Click="btnAddNewGenre_Click"   />
+                <Button x:Name="btnAddNewGenre" Content="افزودن ژانر جدید" Height="25" VerticalAlignment="Top" Margin="9,9,200,0" Click="btnAddNewGenre_Click"   />
             </Grid>
 
         </Border>
@@ -61,29 +61,29 @@
         <Border Margin="344,279,344,57" BorderThickness="1" BorderBrush="Black">
             <Grid>
                 <TextBlock Text="مدیریت نویسندگان" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,-1,0" Width="60"/>
-                <DataGrid x:Name="AuthorsDataGrid" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
+                <DataGrid x:Name="AuthorsDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ردیف"/>
                         <DataGridTextColumn Header="نام نویسنده"/>
                     </DataGrid.Columns>
                 </DataGrid>
-                <Button x:Name="btnAddNewAuthor" Content="افزودن نویسنده جدید" Height="25" VerticalAlignment="Top" Margin="9,9,216,0" Click="btnAddNewAuthor_Click"   />
+                <Button x:Name="btnAddNewAuthor" Content="افزودن نویسنده جدید" Height="25" VerticalAlignment="Top" Margin="9,9,170,0" Click="btnAddNewAuthor_Click"   />
             </Grid>
         </Border>
 
         <!--افزودن ناشر-->
         <Border Margin="678,279,10,57" BorderThickness="1" BorderBrush="Black">
             <Grid>
-                <TextBlock Text="مدیریت ناشران" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,-1,0" Width="51"/>
-                <DataGrid x:Name="PublishersDataGrid" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
+                <TextBlock Text="مدیریت ناشران" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,0,0" Width="51"/>
+                <DataGrid x:Name="PublishersDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ردیف"/>
                         <DataGridTextColumn Header="نام ناشر"/>
                     </DataGrid.Columns>
                 </DataGrid>
-                <Button x:Name="btnAddNewPublisher" Content="افزودن ناشر جدید" Height="25" VerticalAlignment="Top" Margin="9,9,216,0" Click="btnAddNewPublisher_Click"   />
+                <Button x:Name="btnAddNewPublisher" Content="افزودن ناشر جدید" Height="25" VerticalAlignment="Top" Margin="9,9,180,0" Click="btnAddNewPublisher_Click"   />
             </Grid>
         </Border>
-        <Image Margin="10,632,950,10" Source="/Images/icons8-return-48.png" ToolTip="خروج" Stretch="Fill" Height="40" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image Margin="10,610,935,10" Source="/Images/icons8-return-48.png" ToolTip="خروج" Stretch="Fill" Height="40" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
     </Grid>
 </Window>

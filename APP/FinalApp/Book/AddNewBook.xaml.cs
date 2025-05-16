@@ -1,4 +1,5 @@
-﻿using DataModel.ViewModel;
+﻿using AppPresenter;
+using DataModel.ViewModel;
 using FinalApp.Book.DTOs;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,7 @@ namespace FinalApp.Book
     public partial class AddNewBook : Window
     {
         #region models
+        AppPresenter.AppPresenter _presenter;
         FinalApp.MessageBox msBox;
         List<CollectionDTOs> collectionDTOs = new List<CollectionDTOs>();
 
@@ -29,12 +31,42 @@ namespace FinalApp.Book
         public AddNewBook()
         {
             InitializeComponent();
-            
+            msBox = new FinalApp.MessageBox();
+            _presenter = new AppPresenter.AppPresenter();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            msBox = new FinalApp.MessageBox();
+            GetAllNeccesseryThingsForRegisterNewBook();
+        }
+
+        public void GetAllNeccesseryThingsForRegisterNewBook()
+        {
+            GetAuthorList();
+            GetPublisherList();
+            GetGenreList();
+        }
+
+        public void GetAuthorList()
+        {
+            var result = _presenter.GetAllBookAuthor(new BookAuthor_VM { });
+            List<BookAuthor_VM> bookAuthors = result.Result as List<BookAuthor_VM>;
+            txtAuthor.ItemsSource = bookAuthors;
+        }
+
+        public void GetPublisherList()
+        {
+            var result = _presenter.GetAllPublishers(new BookPublisher_VM { });
+            List<BookPublisher_VM> bookPublishers = result.Result as List<BookPublisher_VM>;
+            txtAuthor.ItemsSource = bookPublishers;
+        }
+
+        public void GetGenreList()
+        {
+            var result = _presenter.GetAllBookGenre(new BookGenre_VM { });
+            List<CollectionDTOs> bookGenress = new List<CollectionDTOs>(); ;
+
+            txtGenre.ItemsSource = (result.Result as List<BookGenre_VM>).Select(x => x.GenreName).ToList();
         }
 
         private void chbHasDiscount_Checked(object sender, RoutedEventArgs e)
@@ -206,6 +238,9 @@ namespace FinalApp.Book
             };
         }
 
-        
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

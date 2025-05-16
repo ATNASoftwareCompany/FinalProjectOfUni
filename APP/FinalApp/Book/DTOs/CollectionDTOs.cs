@@ -8,7 +8,7 @@ namespace FinalApp.Book.DTOs
 {
     public class CollectionDTOs
     {
-        public int RowNumber { get; set; }
+        public int RowNumber { get; set; } = 0;
         public int BookID { get; set; }
         public string BookTitle { get; set; }
         public int GenreID { get; set; }

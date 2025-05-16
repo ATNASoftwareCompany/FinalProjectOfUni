@@ -16,6 +16,7 @@ namespace DataAccess.Logging.Request
                 Exception = inputModel.Exception,
                 CallTime = inputModel.CallTime,
                 MethodId = inputModel.MethodId,
+                GenreId = inputModel.GenreId,
                 MethodInput = inputModel.MethodInput,
                 PointerId = inputModel.PointerId,
             };

@@ -89,7 +89,7 @@ namespace FinalApp
                 Autenticate autenticate = new Autenticate();
                 autenticate.authenticateType = DataModel.Enum.AuthenticateType.RestorePassword;
                 autenticate.PhoneNo = _username.Trim();
-                autenticate.Show();
+                autenticate.ShowDialog();
                 return;
             }
 

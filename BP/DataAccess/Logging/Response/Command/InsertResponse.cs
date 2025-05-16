@@ -17,6 +17,8 @@ namespace DataAccess.Logging.Response
                 RequestId = inputModel.RequestId,
                 MethodId = inputModel.MethodId,
                 MethodInput = inputModel.MethodInput,
+                GenreId = inputModel.GenreId,
+                CallTime = inputModel.CallTime,
                 MethodOutput = inputModel.MethodOutput,
                 PointerId = inputModel.PointerId,
                 ResponseTime = inputModel.ResponseTime,

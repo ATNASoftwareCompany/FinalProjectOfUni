@@ -42,6 +42,8 @@ namespace FinalApp
             if (authenticateType == AuthenticateType.RestorePassword)
             {
                 RestorePassword();
+                this.Close();
+                return;
             }
 
             Login login = new Login();
@@ -99,6 +101,7 @@ namespace FinalApp
             });
             activation.Status = (int)BStatus.DeActiva;
             activation.IsDelete = false;
+            activation.RemainingTime = DateTime.Now;
             _presenter.UpdateActivation(activation);
             return;
         }

@@ -9,8 +9,8 @@
         WindowStartupLocation="CenterOwner"
         Title="افزودن نویسنده" Height="160" Width="300" FontFamily="B Zar" FontSize="20" Loaded="Window_Loaded">
     <Grid Background="#B3D9FF">
-        <TextBlock Height="30" Margin="15,27,15,87" Text=" نویسنده:" FlowDirection="RightToLeft"  />
-        <TextBox x:Name="txtNewAuthor" Height="30" Margin="15,0,15,0" />
-        <Button x:Name="btnAddNewAuthor" Content="افزودن" Width="100" Height="33" Margin="100,101,100,10" Click="btnAddNewAuthor_Click" />
+        <TextBlock Height="30" Margin="0,-75,15,0" Text=" نویسنده:" FlowDirection="RightToLeft"  />
+        <TextBox x:Name="txtNewAuthor" Height="30" Margin="15,-10,15,0" />
+        <Button x:Name="btnAddNewAuthor" Content="افزودن" Width="100" Height="33" Margin="0,75,0,10" Click="btnAddNewAuthor_Click" />
     </Grid>
 </Window>

@@ -18,12 +18,18 @@ namespace DataAccess.User
                     Id = inputModel.Id,
                     IsDelete = inputModel.IsDelete,
                     Password = inputModel.Password,
+                    InsertDate = inputModel.InsertDate,
                     Status = inputModel.Status,
                     UpdateDate = DateTime.Now,
                     UserName = inputModel.UserName,
                 };
 
-                var result = db.Users.Where(x => x.Id == user.Id).FirstOrDefault();
+                var result = db.Users.FirstOrDefault(x => x.Id == inputModel.Id);
+                result.Status = user.Status;
+                result.UpdateDate = DateTime.Now;
+                result.IsDelete = user.IsDelete;
+                result.Password = user.Password;
+                result.UserName = user.UserName;
                 SaveChanges();
                 return true;
             }

@@ -12,7 +12,7 @@ namespace DataAccess.Activation
     {
         public Activation_VM GetActivationByPhoneNo(string phoneNo)
         {
-            return AppDb.Activations.Where(x => x.PhoneNo == phoneNo && x.Status == (int)BStatus.Active).FirstOrDefault();
+            return AppDb.Activations.OrderByDescending(x => x.Id).FirstOrDefault(x => x.PhoneNo == phoneNo);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using DataModel.ViewModel;
+using FinalApp.Book.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,11 +32,13 @@ namespace FinalApp.Book
         {
             _msBox = new FinalApp.MessageBox();
             _presenter = new AppPresenter.AppPresenter();
+            GenerateDataInFormLoad();
         }
 
         private void btnAddNewBook_Click(object sender, RoutedEventArgs e)
         {
-
+            AddNewBook addNewBook = new AddNewBook();
+            addNewBook.ShowDialog();
         }
 
         private void btnAddNewPublisher_Click(object sender, RoutedEventArgs e)
@@ -71,9 +74,44 @@ namespace FinalApp.Book
             addNewGenre.ShowDialog();
 
             var result = _presenter.GetAllBookGenre(new BookGenre_VM { });
+            List<CollectionDTOs> GenreList = new List<CollectionDTOs>();
+            int rowNumber = 0;
+            foreach (var item in result.Result as List<BookGenre_VM>)
+            {
+                rowNumber++;
+                CollectionDTOs collection = new CollectionDTOs
+                {
+                    Genre = item.GenreName,
+                    RowNumber = rowNumber
+                };
+                GenreList.Add(collection);
+            }
+
+
+            GenresDataGrid.DataContext = null;
+            GenresDataGrid.DataContext = GenreList;
+
+        }
+
+        private void GenerateDataInFormLoad()
+        {
+            var result = _presenter.GetAllBookGenre(new BookGenre_VM { });
+            List<CollectionDTOs> GenreList = new List<CollectionDTOs>();
+            int rowNumber = 0;
+            foreach (var item in result.Result as List<BookGenre_VM>)
+            {
+                rowNumber++;
+                CollectionDTOs collection = new CollectionDTOs
+                {
+                    Genre = item.GenreName,
+                    RowNumber = rowNumber
+                };
+                GenreList.Add(collection);
+            }
+
 
             GenresDataGrid.ItemsSource = null;
-            GenresDataGrid.ItemsSource = result.Result as List<BookGenre_VM>;
+            GenresDataGrid.ItemsSource = GenreList;
         }
     }
 }

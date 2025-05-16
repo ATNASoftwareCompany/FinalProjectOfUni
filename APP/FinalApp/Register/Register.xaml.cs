@@ -40,8 +40,8 @@ namespace FinalApp
             autenticate.PhoneNo = txtMobile.Text.Trim();
             autenticate.authenticateType = DataModel.Enum.AuthenticateType.Register;
             autenticate.ShowDialog();
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
+            //MainWindow mainWindow = new MainWindow();
+            //mainWindow.Show();
             this.Close();
         }
 

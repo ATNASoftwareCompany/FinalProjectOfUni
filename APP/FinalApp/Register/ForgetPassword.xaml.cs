@@ -40,7 +40,13 @@ namespace FinalApp
             Autenticate autenticate = new Autenticate();
             autenticate.authenticateType = DataModel.Enum.AuthenticateType.RestorePassword;
             autenticate.PhoneNo = txtPhoneNo.Text.Trim();
-            autenticate.Show();
+            autenticate.ShowDialog();
+
+            ChangePassword changePassword = new ChangePassword();
+            changePassword._userName = txtPhoneNo.Text;
+            changePassword.ShowDialog();
+            Login login = new Login();
+            login.Show();
             this.Close();
         }
     }

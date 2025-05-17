@@ -63,8 +63,8 @@
                 <TextBlock Text="مدیریت نویسندگان" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,-1,0" Width="60"/>
                 <DataGrid x:Name="AuthorsDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="ردیف"/>
-                        <DataGridTextColumn Header="نام نویسنده"/>
+                        <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
+                        <DataGridTextColumn Binding="{Binding Author}" Header="نام نویسنده" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
                 <Button x:Name="btnAddNewAuthor" Content="افزودن نویسنده جدید" Height="25" VerticalAlignment="Top" Margin="9,9,170,0" Click="btnAddNewAuthor_Click"   />
@@ -77,8 +77,8 @@
                 <TextBlock Text="مدیریت ناشران" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,0,0" Width="51"/>
                 <DataGrid x:Name="PublishersDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="ردیف"/>
-                        <DataGridTextColumn Header="نام ناشر"/>
+                        <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
+                        <DataGridTextColumn Binding="{Binding Publisher}" Header="نام ناشر" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
                 <Button x:Name="btnAddNewPublisher" Content="افزودن ناشر جدید" Height="25" VerticalAlignment="Top" Margin="9,9,180,0" Click="btnAddNewPublisher_Click"   />

@@ -216,3 +216,9 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Fina
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\FinalApp.pdb
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register\ChangePassword.g.cs
 C:\Users\Arman Heart\Desktop\EngineeringFanalProject\APP\FinalApp\obj\Debug\Register\ChangePassword.baml
+D:\UniProject\APP\FinalApp\obj\Debug\Register\ChangePassword.g.cs
+D:\UniProject\APP\FinalApp\obj\Debug\Register\ForgetPassword.g.cs
+D:\UniProject\APP\FinalApp\obj\Debug\Register\Login.g.cs
+D:\UniProject\APP\FinalApp\obj\Debug\Register\ChangePassword.baml
+D:\UniProject\APP\FinalApp\obj\Debug\Register\ForgetPassword.baml
+D:\UniProject\APP\FinalApp\obj\Debug\Register\Login.baml

@@ -50,23 +50,19 @@ namespace FinalApp.Book
         public void GetAuthorList()
         {
             var result = _presenter.GetAllBookAuthor(new BookAuthor_VM { });
-            List<BookAuthor_VM> bookAuthors = result.Result as List<BookAuthor_VM>;
-            txtAuthor.ItemsSource = bookAuthors;
+            txtAuthor.ItemsSource = (result.Result as List<BookAuthor_VM>).ToList();
         }
 
         public void GetPublisherList()
         {
             var result = _presenter.GetAllPublishers(new BookPublisher_VM { });
-            List<BookPublisher_VM> bookPublishers = result.Result as List<BookPublisher_VM>;
-            txtAuthor.ItemsSource = bookPublishers;
+            txtPublisher.ItemsSource = (result.Result as List<BookPublisher_VM>).ToList();
         }
 
         public void GetGenreList()
         {
             var result = _presenter.GetAllBookGenre(new BookGenre_VM { });
-            List<CollectionDTOs> bookGenress = new List<CollectionDTOs>(); ;
-
-            txtGenre.ItemsSource = (result.Result as List<BookGenre_VM>).Select(x => x.GenreName).ToList();
+            txtGenre.ItemsSource = (result.Result as List<BookGenre_VM>).ToList();
         }
 
         private void chbHasDiscount_Checked(object sender, RoutedEventArgs e)
@@ -226,15 +222,15 @@ namespace FinalApp.Book
 
         private void btnAddNewBook_Click(object sender, RoutedEventArgs e)
         {
-            ValidationForm();
-            if(ValidationForm())
+            bool isValidate = ValidationForm();
+            if (isValidate)
             {
                 return;
             }
             Book_VM newBook = new Book_VM
             {
-                //Author = txtAuthor.Text,
-                //BookGenre = txtGenre.Text,
+                Author = ((txtAuthor.SelectedItem) as BookAuthor_VM).Id,
+                BookGenre = (txtGenre.SelectedItem as BookGenre_VM).Id,
             };
         }
 

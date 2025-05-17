@@ -100,6 +100,10 @@
     <Compile Include="Migrations\202505152119409_initProject.Designer.cs">
       <DependentUpon>202505152119409_initProject.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202505172040328_UpdateBook.cs" />
+    <Compile Include="Migrations\202505172040328_UpdateBook.Designer.cs">
+      <DependentUpon>202505172040328_UpdateBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person\Command\DeletePerson.cs" />
     <Compile Include="Person\Command\GetPerson.cs" />
@@ -134,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202505152119409_initProject.resx">
       <DependentUpon>202505152119409_initProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505172040328_UpdateBook.resx">
+      <DependentUpon>202505172040328_UpdateBook.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

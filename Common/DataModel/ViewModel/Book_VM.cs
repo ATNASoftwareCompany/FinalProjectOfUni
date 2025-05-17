@@ -18,8 +18,6 @@ namespace DataModel.ViewModel
         public bool HasDiscount { get; set; }
         public int DiscountType { get; set; }
         public int DiscountAmount { get; set; }
-        public bool HasCollection { get; set; }
         public DateTime WriteDate { get; set; }
-        public List<Book_VM> Collection { get; set; } = new List<Book_VM>();
     }
 }

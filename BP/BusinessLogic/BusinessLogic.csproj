@@ -62,6 +62,7 @@
     <Compile Include="Book\Methods\GetBooksCount.cs" />
     <Compile Include="Book\Methods\InsertBook.cs" />
     <Compile Include="Common\Common_BL.cs" />
+    <Compile Include="Common\Methods\GenerateEnumToObject.cs" />
     <Compile Include="Common\Methods\Presenter.cs" />
     <Compile Include="LoggingHandler.cs" />
     <Compile Include="Person\Methods\InsertPerson.cs" />

@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Enum\AuthenticateType.cs" />
     <Compile Include="Enum\BStatus.cs" />
+    <Compile Include="Enum\DiscountType.cs" />
     <Compile Include="Enum\ErrorType.cs" />
     <Compile Include="Enum\GenreType.cs" />
     <Compile Include="Enum\MethodsType.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="ViewModel\Base_VM.cs" />
     <Compile Include="ViewModel\BookGenre_VM.cs" />
     <Compile Include="ViewModel\Book_VM.cs" />
+    <Compile Include="ViewModel\EnumInfo_VM.cs" />
     <Compile Include="ViewModel\MessageBox_VM.cs" />
     <Compile Include="ViewModel\Person_VM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

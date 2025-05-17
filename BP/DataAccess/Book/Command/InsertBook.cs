@@ -20,7 +20,7 @@ namespace DataAccess.Book
                     BookTitle = inputModel.BookTitle,
                     DiscountAmount = inputModel.DiscountAmount,
                     DiscountType = inputModel.DiscountType,
-                    HasCollection = inputModel.HasCollection,
+                    //HasCollection = inputModel.HasCollection,
                     HasDiscount = inputModel.HasDiscount,
                     IsDelete = false,
                     Price = inputModel.Price,
@@ -33,10 +33,10 @@ namespace DataAccess.Book
                     UpdateDate = null,
                 };
 
-                if (inputModel.Collection.Count > 0)
-                {
-                    book.Collection = inputModel.Collection;
-                }
+                //if (inputModel.Collection.Count > 0)
+                //{
+                //    book.Collection = inputModel.Collection;
+                //}
 
                 var result = appDb.Books.Add(book);
                 SaveChanges();

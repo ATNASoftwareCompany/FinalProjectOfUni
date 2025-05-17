@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
-    public class Common_BL
+    public partial class Common_BL
     {
 
     }

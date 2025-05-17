@@ -12,6 +12,8 @@ using DataModel.ViewModel;
 using System;
 
 using Newtonsoft.Json;
+using BusinessLogic;
+using System.Collections.Generic;
 
 namespace AppPresenter
 {
@@ -256,6 +258,19 @@ namespace AppPresenter
                 PointerId = Convert.ToInt64(inputModel.PhoneNo),
             });
         }
+        #endregion
+
+        #region Common
+        //public BaseResult_VM GenerateEnumToObject<T>(string nothing)
+        //{
+        //    return _presenter.HandleResponse(new Common_BL().GenerateEnumToObject<T>, nothing, new DataModel.Logging.RequestBaseLog_VM
+        //    {
+        //        CallTime = DateTime.Now,
+        //        MethodId = DataModel.Enum.MethodsType.InsertActivation,
+        //        MethodInput = JsonConvert.SerializeObject(""),
+        //        PointerId = Convert.ToInt64(0),
+        //    });
+        //}
         #endregion
 
     }

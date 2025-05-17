@@ -87,3 +87,4 @@ C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\Dat
 D:\UniProject\BP\DataAccess\obj\Debug\DataAccess.Migrations.InitialCreate.resources
 D:\UniProject\BP\DataAccess\obj\Debug\DataAccess.Migrations.initProject.resources
 D:\UniProject\BP\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\BP\DataAccess\obj\Debug\DataAccess.Migrations.UpdateBook.resources

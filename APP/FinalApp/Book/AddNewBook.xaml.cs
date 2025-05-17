@@ -1,9 +1,12 @@
 ﻿using AppPresenter;
+using DataModel.Enum;
 using DataModel.ViewModel;
 using FinalApp.Book.DTOs;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -231,12 +234,49 @@ namespace FinalApp.Book
             {
                 Author = ((txtAuthor.SelectedItem) as BookAuthor_VM).Id,
                 BookGenre = (txtGenre.SelectedItem as BookGenre_VM).Id,
+                Publisher  =(txtPublisher.SelectedItem as BookPublisher_VM).Id,
+                BookTitle = txtTitle.Text,
+                Price = Convert.ToDouble(txtPrice.Text),
+                Quantity = Convert.ToInt32(txtQuantity.Text),
+                IsDelete = false,
+                InsertDate = DateTime.Now,
+                DiscountAmount = Convert.ToInt32(txtDiscountAmount.Text),
+                //HasCollection = chbHasCollection
+                HasDiscount = chbHasDiscount.IsChecked == null ? false : true,
+                Summary = txtSummary.Text,
+                Status = (int)BStatus.Active,
+                WriteDate = Convert.ToDateTime(dtpWriteDate.Text),
             };
+
+
+
+        }
+
+        public void GetDiscountTypeList()
+        {
+            var result = generateEnum<DiscountType>();
+            txtDiscountType.ItemsSource = result;
         }
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.Close();
+        }
+
+        public List<EnumInfo> generateEnum<T>()
+        {
+            var type = typeof(T);
+            return Enum.GetValues(type)
+                       .Cast<T>()
+                       .Select(e => new EnumInfo
+                       {
+                           Name = e.ToString(),
+                           Value = Convert.ToInt32(e),
+                           Description = type
+                               .GetMember(e.ToString())[0]
+                               .GetCustomAttribute<DescriptionAttribute>()?.Description ?? e.ToString()
+                       })
+                       .ToList();
         }
     }
 }

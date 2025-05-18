@@ -170,7 +170,28 @@ namespace AppPresenter
             });
         }
 
-        
+        public BaseResult_VM InsertBook(Book_VM inputModel)
+        {
+            return _presenter.HandleResponse(new Book_BL().InsertBook, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
+
+        public BaseResult_VM GetBooksListForShow(Book_VM inputModel)
+        {
+            return _presenter.HandleResponse(new Book_BL().GetBooksListForShow, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
+
         #endregion
 
         #region bookPublisher
@@ -182,6 +203,17 @@ namespace AppPresenter
                 MethodId = DataModel.Enum.MethodsType.InsertActivation,
                 MethodInput = JsonConvert.SerializeObject(inputModel),
                 PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
+
+        public BaseResult_VM GetPublisherName(int id)
+        {
+            return _presenter.HandleResponse(new BookPublisher_BL().GetPublisherName, id, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(id),
+                PointerId = Convert.ToInt64(id),
             });
         }
 
@@ -211,6 +243,17 @@ namespace AppPresenter
             });
         }
 
+        public BaseResult_VM GetAuthorName(int id)
+        {
+            return _presenter.HandleResponse(new BookAuthor_BL().GetAuthorName, id, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(id),
+                PointerId = Convert.ToInt64(id),
+            });
+        }
+
         public BaseResult_VM GetAllBookAuthor(BookAuthor_VM inputModel)
         {
             return _presenter.HandleResponse(new BookAuthor_BL().GetAllBookAuthor, inputModel, new DataModel.Logging.RequestBaseLog_VM
@@ -227,6 +270,28 @@ namespace AppPresenter
         public BaseResult_VM InsertBookGenre(BookGenre_VM inputModel)
         {
             return _presenter.HandleResponse(new BookGenre_BL().InsertBookGenre, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
+
+        public BaseResult_VM GetGenreName(int id)
+        {
+            return _presenter.HandleResponse(new BookGenre_BL().GetGenreName, id, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActivation,
+                MethodInput = JsonConvert.SerializeObject(id),
+                PointerId = Convert.ToInt64(id),
+            });
+        }
+
+        public BaseResult_VM UpdateBookGenre(BookGenre_VM inputModel)
+        {
+            return _presenter.HandleResponse(new BookGenre_BL().UpdateBookGenre, inputModel, new DataModel.Logging.RequestBaseLog_VM
             {
                 CallTime = DateTime.Now,
                 MethodId = DataModel.Enum.MethodsType.InsertActivation,
@@ -261,16 +326,7 @@ namespace AppPresenter
         #endregion
 
         #region Common
-        //public BaseResult_VM GenerateEnumToObject<T>(string nothing)
-        //{
-        //    return _presenter.HandleResponse(new Common_BL().GenerateEnumToObject<T>, nothing, new DataModel.Logging.RequestBaseLog_VM
-        //    {
-        //        CallTime = DateTime.Now,
-        //        MethodId = DataModel.Enum.MethodsType.InsertActivation,
-        //        MethodInput = JsonConvert.SerializeObject(""),
-        //        PointerId = Convert.ToInt64(0),
-        //    });
-        //}
+        
         #endregion
 
     }

@@ -78,7 +78,7 @@ namespace FinalApp
                 });
                 return;
             }
-            txbBooksNO.Text = result.Result.ToString() + " عدد ";
+            txbBooksNO.Text = result.Result.ToString() + " جلد ";
         }
 
         private void imginformation_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

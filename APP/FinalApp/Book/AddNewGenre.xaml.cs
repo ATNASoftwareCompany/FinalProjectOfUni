@@ -23,6 +23,8 @@ namespace FinalApp.Book
     {
         FinalApp.MessageBox _msBox;
         AppPresenter.AppPresenter _presenter;
+        public bool isEdited = false;
+        public BookGenre_VM genre;
         public AddNewGenre()
         {
             InitializeComponent();
@@ -31,6 +33,11 @@ namespace FinalApp.Book
         {
             _msBox = new FinalApp.MessageBox();
             _presenter = new AppPresenter.AppPresenter();
+            if (isEdited)
+            {
+                btnAddNewGenre.Content = "ویرایش";
+                txtNewGenre.Text = genre.GenreName;
+            }
         }
 
         private void btnAddNewGenre_Click(object sender, RoutedEventArgs e)
@@ -47,15 +54,52 @@ namespace FinalApp.Book
                 return;
             }
 
-            BookGenre_VM bookGenre = new BookGenre_VM
+            
+            if (isEdited)
             {
-                GenreName = txtNewGenre.Text,
-                IsDelete = false,
-                Status = (int)BStatus.Active,
-            };
-            var result = _presenter.InsertBookGenre(bookGenre);
-            if (result.ErrorCode != 0)
+                genre.UpdateDate = DateTime.Now;
+                genre.GenreName = txtNewGenre.Text;
+                var result = _presenter.UpdateBookGenre(genre);
+                if (!(bool)result.Result)
+                {
+                    _msBox.Show(new MessageBox_VM
+                    {
+                        OK = true,
+                        ErrorType = DataModel.Enum.ErrorType.Error,
+                        Message = "خطا در فرایند بروزرسانی اطلاعات ژانر",
+                        Title = "ویرایش ژانر ها"
+                    });
+                    return;
+                }
+                _msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = DataModel.Enum.ErrorType.Sussess,
+                    Message = result.Message,
+                    Title = "ویرایش ژانر ها"
+                });
+            }
+            else
             {
+                BookGenre_VM bookGenre = new BookGenre_VM
+                {
+                    GenreName = txtNewGenre.Text,
+                    IsDelete = false,
+                    Status = (int)BStatus.Active,
+                };
+                var result = _presenter.InsertBookGenre(bookGenre);
+                if (result.ErrorCode != 0)
+                {
+                    _msBox.Show(new MessageBox_VM
+                    {
+                        Title = "افزودن ناشر جدید",
+                        Message = result.Message,
+                        ErrorType = result.ErrorType,
+                        OK = true,
+                    });
+                    return;
+                }
+
                 _msBox.Show(new MessageBox_VM
                 {
                     Title = "افزودن ناشر جدید",
@@ -63,20 +107,12 @@ namespace FinalApp.Book
                     ErrorType = result.ErrorType,
                     OK = true,
                 });
-                return;
             }
 
-            _msBox.Show(new MessageBox_VM
-            {
-                Title = "افزودن ناشر جدید",
-                Message = result.Message,
-                ErrorType = result.ErrorType,
-                OK = true,
-            });
 
             this.Close();
         }
 
-        
+
     }
 }

@@ -23,6 +23,8 @@ namespace FinalApp.Book
     {
         FinalApp.MessageBox _msBox;
         AppPresenter.AppPresenter _presenter;
+        public bool isEdited = false;
+        public BookAuthor_VM author;
 
         public AddNewAuthor()
         {
@@ -33,6 +35,12 @@ namespace FinalApp.Book
         {
             _msBox = new FinalApp.MessageBox();
             _presenter = new AppPresenter.AppPresenter();
+
+            if (isEdited)
+            {
+                btnAddNewAuthor.Content = "ویرایش";
+                txtNewAuthor.Text = author.Name;
+            }
         }
 
         private void btnAddNewAuthor_Click(object sender, RoutedEventArgs e)
@@ -49,15 +57,31 @@ namespace FinalApp.Book
                 return;
             }
 
-            BookAuthor_VM bookPublisher = new BookAuthor_VM
+            if (isEdited)
             {
-                Name = txtNewAuthor.Text,
-                IsDelete = false,
-                Status = (int)BStatus.Active,
-            };
-            var result = _presenter.InsertBookAuthor(bookPublisher);
-            if (result.ErrorCode != 0)
+
+            }
+            else
             {
+                BookAuthor_VM bookPublisher = new BookAuthor_VM
+                {
+                    Name = txtNewAuthor.Text,
+                    IsDelete = false,
+                    Status = (int)BStatus.Active,
+                };
+                var result = _presenter.InsertBookAuthor(bookPublisher);
+                if (result.ErrorCode != 0)
+                {
+                    _msBox.Show(new MessageBox_VM
+                    {
+                        Title = "افزودن ناشر جدید",
+                        Message = result.Message,
+                        ErrorType = result.ErrorType,
+                        OK = true,
+                    });
+                    return;
+                }
+
                 _msBox.Show(new MessageBox_VM
                 {
                     Title = "افزودن ناشر جدید",
@@ -65,16 +89,8 @@ namespace FinalApp.Book
                     ErrorType = result.ErrorType,
                     OK = true,
                 });
-                return;
             }
-
-            _msBox.Show(new MessageBox_VM
-            {
-                Title = "افزودن ناشر جدید",
-                Message = result.Message,
-                ErrorType = result.ErrorType,
-                OK = true,
-            });
+            
 
             this.Close();
         }

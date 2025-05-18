@@ -89,6 +89,7 @@
     <Compile Include="Book\BookManagment.xaml.cs">
       <DependentUpon>BookManagment.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Book\DTOs\BookDTO.cs" />
     <Compile Include="Book\DTOs\CollectionDTOs.cs" />
     <Compile Include="Information\Information.xaml.cs">
       <DependentUpon>Information.xaml</DependentUpon>

@@ -223,33 +223,81 @@ namespace FinalApp.Book
             return true;
         }
 
+        public void CleanForm()
+        {
+            txtAuthor.SelectedItem = null;
+            txtGenre.SelectedItem = null;
+            txtPublisher.SelectedItem = null;
+            txtTitle.Text = "";
+            txtPrice.Text = "";
+            txtQuantity.Text = "";
+            txtDiscountAmount.Text = "";
+            chbHasDiscount.IsChecked = false;
+            txtSummary.Text = "";
+            dtpWriteDate.Text = "";
+        }
+
         private void btnAddNewBook_Click(object sender, RoutedEventArgs e)
         {
-            bool isValidate = ValidationForm();
-            if (isValidate)
+            try
             {
+                bool isValidate = ValidationForm();
+                if (!isValidate)
+                {
+                    return;
+                }
+                Book_VM newBook = new Book_VM
+                {
+                    Author = ((txtAuthor.SelectedItem) as BookAuthor_VM).Id,
+                    BookGenre = (txtGenre.SelectedItem as BookGenre_VM).Id,
+                    Publisher = (txtPublisher.SelectedItem as BookPublisher_VM).Id,
+                    BookTitle = txtTitle.Text,
+                    Price = Convert.ToDouble(txtPrice.Text),
+                    Quantity = Convert.ToInt32(txtQuantity.Text),
+                    IsDelete = false,
+                    InsertDate = DateTime.Now,
+                    DiscountAmount = txtDiscountAmount.Text == "" ? 0 : Convert.ToInt32(txtDiscountAmount.Text),
+                    //HasCollection = chbHasCollection
+                    HasDiscount = chbHasDiscount.IsChecked == false ? false : true,
+                    Summary = txtSummary.Text,
+                    Status = (int)BStatus.Active,
+                    WriteDate = Convert.ToDateTime(dtpWriteDate.Text),
+                };
+
+                var result = _presenter.InsertBook(newBook);
+                if (result.ErrorCode != 0)
+                {
+                    msBox.Show(new MessageBox_VM
+                    {
+                        OK = true,
+                        ErrorType = result.ErrorType,
+                        Message = result.Message,
+                        Title = "افزودن کتاب جدید"
+                    });
+                    return;
+                }
+                msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = result.ErrorType,
+                    Message = result.Message,
+                    Title = "افزودن کتاب جدید"
+                });
+                CleanForm();
                 return;
             }
-            Book_VM newBook = new Book_VM
+            catch (Exception)
             {
-                Author = ((txtAuthor.SelectedItem) as BookAuthor_VM).Id,
-                BookGenre = (txtGenre.SelectedItem as BookGenre_VM).Id,
-                Publisher  =(txtPublisher.SelectedItem as BookPublisher_VM).Id,
-                BookTitle = txtTitle.Text,
-                Price = Convert.ToDouble(txtPrice.Text),
-                Quantity = Convert.ToInt32(txtQuantity.Text),
-                IsDelete = false,
-                InsertDate = DateTime.Now,
-                DiscountAmount = Convert.ToInt32(txtDiscountAmount.Text),
-                //HasCollection = chbHasCollection
-                HasDiscount = chbHasDiscount.IsChecked == null ? false : true,
-                Summary = txtSummary.Text,
-                Status = (int)BStatus.Active,
-                WriteDate = Convert.ToDateTime(dtpWriteDate.Text),
-            };
-
-
-
+                msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = ErrorType.Error,
+                    Message = "لطفا داده های ورودی را به درستی وارد نمایید",
+                    Title = "افزودن کتاب جدید"
+                });
+                return;
+            }
+            
         }
 
         public void GetDiscountTypeList()
@@ -257,6 +305,8 @@ namespace FinalApp.Book
             var result = generateEnum<DiscountType>();
             txtDiscountType.ItemsSource = result;
         }
+
+
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {

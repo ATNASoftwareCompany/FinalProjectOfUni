@@ -31,7 +31,7 @@
                     </ComboBox.ItemTemplate>
                 </ComboBox>
                 <TextBlock x:Name="lbl2_Copy3" Margin="514,147,10,346" Text="نویسنده" TextAlignment="Right"/>
-                <ComboBox x:Name="txtAuthor" Margin="308,181,7,310">
+                <ComboBox x:Name="txtAuthor" Margin="308,181,7,310" >
                     <ComboBox.ItemTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Name}"/>
@@ -44,21 +44,13 @@
                 <TextBox x:Name="txtQuantity" Margin="7,252,294,240"/>
                 <TextBlock x:Name="lbl2_Copy1" Margin="519,217,10,275" Text="قیمت" TextAlignment="Right"/>
                 <TextBox x:Name="txtPrice" Margin="308,252,7,240"/>
-                <TextBlock x:Name="lbl2_Copy5" Margin="490,287,10,204" Text="نوع تخفیف" TextAlignment="Right"/>
-                <ComboBox x:Name="txtDiscountType" IsEnabled="False" Margin="308,323,7,171">
-                    <ComboBox.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding Description}"/>
-                        </DataTemplate>
-                    </ComboBox.ItemTemplate>
-                </ComboBox>
-                <TextBlock x:Name="lbl2_Copy6" Margin="232,290,294,204" Text="مقدار" TextAlignment="Right"/>
+                <TextBlock x:Name="lbl2_Copy6" Margin="182,290,294,204" Text="مبلغ تخفیف" TextAlignment="Right"/>
                 <TextBox x:Name="txtDiscountAmount" IsEnabled="False" Margin="7,323,294,171"/>
-                <CheckBox x:Name="chbHasDiscount" IsChecked="False" Content="آیا این محصول شامل تخفیف می باشد؟" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FlowDirection="RightToLeft" FontSize="16" Margin="67,361,294,124" Checked="chbHasDiscount_Checked" Unchecked="chbHasDiscount_Unchecked"/>
-                <CheckBox x:Name="chbHasCollection" IsChecked="False" Content="آیا این محصول دارای مجموعه می باشد؟" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FlowDirection="RightToLeft" FontSize="16" Margin="313,356,12,124"/>
+                <CheckBox x:Name="chbHasDiscount" IsChecked="False" Content="آیا این محصول شامل تخفیف می باشد؟" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" FlowDirection="RightToLeft" FontSize="16" Margin="353,316,8,169" Checked="chbHasDiscount_Checked" Unchecked="chbHasDiscount_Unchecked"/>
 
 
                 <Button x:Name="btnAddNewBook" Content="افزودن" Height="30" Width="160" Margin="39,382,39,10" Click="btnAddNewBook_Click"/>
+                <Image Margin="10,494,534,10" Source="/Images/icons8-return-48.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_1"/>
             </Grid>
         </Border>
     </Grid>

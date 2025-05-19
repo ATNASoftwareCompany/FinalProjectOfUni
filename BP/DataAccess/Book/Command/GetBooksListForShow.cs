@@ -11,7 +11,7 @@ namespace DataAccess.Book
     {
         public List<Book_VM> GetBooksListForShow()
         {
-            return appDb.Books.ToList();
+            return appDb.Books.Where(x => x.IsDelete == false).ToList();
         }
     }
 }

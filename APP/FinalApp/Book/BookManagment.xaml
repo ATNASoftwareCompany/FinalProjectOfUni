@@ -11,9 +11,15 @@
         <!--ایجاد کتاب-->
         <Border Height="215" Width="600" Margin="370,-5,10,400" BorderThickness="1" BorderBrush="Black">
             <Grid>
-                <TextBlock Text="مدیریت کتاب ها" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,4,0" Width="51"/>
+                <TextBlock Text="مدیریت کتاب ها" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="15"  Margin="0,-20,0,0" Width="100"/>
                 <Button x:Name="btnAddNewBook" Content="افزودن کتاب جدید" Height="25" VerticalAlignment="Top" Margin="10,12,480,0" Click="btnAddNewBook_Click" />
-                <DataGrid x:Name="BooksDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="10,40,10,10" ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" Grid.ColumnSpan="2" SelectionChanged="BooksDataGrid_SelectionChanged">
+                <DataGrid x:Name="BooksDataGrid" IsReadOnly="True" Background="#F5F5DC" AutoGenerateColumns="False" Margin="10,40,10,10" ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" Grid.ColumnSpan="2" MouseDoubleClick="BooksDataGrid_MouseDoubleClick">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem x:Name="BookData" Header="حذف" Command="{Binding DeleteCommand}" Click="MenuItem_Click" />
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+
                     <DataGrid.Columns>
                         <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
                         <DataGridTextColumn Binding="{Binding BookTitle}" Header="نام کتاب" Width="*"/>
@@ -31,17 +37,60 @@
         <!--مدیریت مجموعه ها-->
         <Border Margin="10,20,628,424" BorderThickness="1" BorderBrush="Black">
             <Grid>
-                <TextBlock Text="مدیریت  ها" HorizontalAlignment="Right"  VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,4,0" Width="51"/>
-                
-                
+                <TextBlock Text="جستجو" HorizontalAlignment="Right"  VerticalAlignment="Top" Height="22" FontSize="15"  Margin="0,-20,4,0" Width="51"/>
+                <TextBlock Text="جستجو" Margin="130,5,0,0"/>
+                <TextBox x:Name="txtSearch" FlowDirection="RightToLeft" Margin="10,30,170,155" TextChanged="txtSearch_TextChanged" />
+                <TextBlock Text="نوع جستجو" Margin="275,5,0,0"/>
+                <ComboBox x:Name="cobSearchType" Margin="180,30,10,155" SelectionChanged="cobSearchType_SelectionChanged" >
+                    <ComboBoxItem Content="کتاب" />
+                    <ComboBoxItem Content="ژانر" />
+                    <ComboBoxItem Content="نویسنده" />
+                    <ComboBoxItem Content="ناشر" />
+                </ComboBox>
+                <DataGrid x:Name="grdBookNameSearch" CanUserAddRows="False" Background="#F5F5DC" IsReadOnly="True" AutoGenerateColumns="False" FlowDirection="RightToLeft" Margin="10,70,10,10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
+                        <DataGridTextColumn Binding="{Binding BookTitle}" Header="نام کتاب" Width="Auto"/>
+                        <DataGridTextColumn Width="Auto" Binding="{Binding Quantity}" Header="تعداد(جلد)"/>
+                        <DataGridTextColumn Width="Auto" Binding="{Binding BookGenre}" Header="ژانر"/>
+                        <DataGridTextColumn Width="Auto" Binding="{Binding Author}" Header="نویسنده"/>
+                        <DataGridTextColumn Width="Auto" Binding="{Binding Publisher}" Header="ناشر"/>
+                        <DataGridTextColumn Width="Auto" Binding="{Binding Price}" Header="قیمت(تومان)"/>
+                        <DataGridTextColumn Width="Auto" Binding="{Binding WriteDate}" Header="تاریخ تالیف"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <DataGrid x:Name="grdPublisherNameSearch" CanUserAddRows="False" Background="#F5F5DC" IsReadOnly="True" AutoGenerateColumns="False" FlowDirection="RightToLeft" Visibility="Hidden" Margin="10,70,10,10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
+                        <DataGridTextColumn Binding="{Binding Publisher}" Header="نام ناشر" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <DataGrid x:Name="grdAuthorNameSearch" CanUserAddRows="False" Background="#F5F5DC" IsReadOnly="True" AutoGenerateColumns="False" FlowDirection="RightToLeft" Margin="10,70,10,10" Visibility="Hidden">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
+                        <DataGridTextColumn Binding="{Binding Author}" Header="نام نویسنده" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <DataGrid x:Name="grdGenreNameSearch" CanUserAddRows="False" Background="#F5F5DC" IsReadOnly="True" AutoGenerateColumns="False" FlowDirection="RightToLeft" Margin="10,70,10,10" Visibility="Hidden">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
+                        <DataGridTextColumn Binding="{Binding Genre}" Header="ژانر" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
             </Grid>
         </Border>
 
         <!--ایجاد ژانر-->
         <Border Margin="10,279,670,57" BorderThickness="1" BorderBrush="Black">
             <Grid>
-                <TextBlock Text="مدیریت ژانر ها" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,-1,0" Width="51"/>
-                <DataGrid x:Name="GenresDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9" ItemsSource="{Binding}"  VerticalContentAlignment="Center" FlowDirection="RightToLeft" IsReadOnly="True" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" SelectionChanged="GenresDataGrid_SelectionChanged">
+                <TextBlock Text="مدیریت ژانر ها" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="15"  Margin="0,-20,-20,0" Width="100"/>
+                <DataGrid x:Name="GenresDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9" ItemsSource="{Binding}"  VerticalContentAlignment="Center" FlowDirection="RightToLeft" IsReadOnly="True" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" MouseDoubleClick="GenresDataGrid_MouseDoubleClick">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem x:Name="GenreData" Header="حذف" Command="{Binding DeleteCommand}" Click="GenreData_Click" />
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+
                     <DataGrid.Columns>
                         <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
                         <DataGridTextColumn Binding="{Binding Genre}" Header="ژانر" Width="*"/>
@@ -55,8 +104,14 @@
         <!--ایجاد نویسنده-->
         <Border Margin="344,279,344,57" BorderThickness="1" BorderBrush="Black">
             <Grid>
-                <TextBlock Text="مدیریت نویسندگان" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,-1,0" Width="60"/>
-                <DataGrid x:Name="AuthorsDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" SelectionChanged="AuthorsDataGrid_SelectionChanged">
+                <TextBlock Text="مدیریت نویسندگان" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="15"  Margin="0,-20,-1,0" Width="100"/>
+                <DataGrid x:Name="AuthorsDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" MouseDoubleClick="AuthorsDataGrid_MouseDoubleClick">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem x:Name="AuthorData" Header="حذف" Command="{Binding DeleteCommand}" Click="AuthorData_Click" />
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+
                     <DataGrid.Columns>
                         <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
                         <DataGridTextColumn Binding="{Binding Author}" Header="نام نویسنده" Width="*"/>
@@ -69,8 +124,14 @@
         <!--افزودن ناشر-->
         <Border Margin="678,279,10,57" BorderThickness="1" BorderBrush="Black">
             <Grid>
-                <TextBlock Text="مدیریت ناشران" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="10"  Margin="0,-15,0,0" Width="51"/>
-                <DataGrid x:Name="PublishersDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" SelectionChanged="PublishersDataGrid_SelectionChanged">
+                <TextBlock Text="مدیریت ناشران" HorizontalAlignment="Right" VerticalAlignment="Top" Height="22" FontSize="15"  Margin="0,-20,-20,0" Width="100"/>
+                <DataGrid x:Name="PublishersDataGrid" Background="#F5F5DC" AutoGenerateColumns="False" Margin="9,35,9,9"  ItemsSource="{Binding}" VerticalContentAlignment="Center" FlowDirection="RightToLeft" HorizontalContentAlignment="Center" CanUserAddRows="False" BorderThickness="1" BorderBrush="Black" MouseDoubleClick="PublishersDataGrid_MouseDoubleClick">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem x:Name="PublisherData" Header="حذف" Command="{Binding DeleteCommand}" Click="PublisherData_Click" />
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+
                     <DataGrid.Columns>
                         <DataGridTextColumn Binding="{Binding RowNumber}" Header="ردیف" Width="Auto"/>
                         <DataGridTextColumn Binding="{Binding Publisher}" Header="نام ناشر" Width="*"/>

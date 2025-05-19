@@ -11,7 +11,7 @@ namespace DataAccess.BookGenre
     {
         public List<BookGenre_VM> GetAllBookGenre()
         {
-            return appDb.BookGenres.ToList();
+            return appDb.BookGenres.Where(x => x.IsDelete == false).ToList();
         }
     }
 }

@@ -59,7 +59,27 @@ namespace FinalApp.Book
 
             if (isEdited)
             {
-
+                author.UpdateDate = DateTime.Now;
+                author.Name = txtNewAuthor.Text;
+                var result = _presenter.UpdateBookAuthor(author);
+                if (!(bool)result.Result)
+                {
+                    _msBox.Show(new MessageBox_VM
+                    {
+                        OK = true,
+                        ErrorType = DataModel.Enum.ErrorType.Error,
+                        Message = "خطا در فرایند بروزرسانی اطلاعات نویسنده",
+                        Title = "ویرایش نویسنده"
+                    });
+                    return;
+                }
+                _msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = DataModel.Enum.ErrorType.Sussess,
+                    Message = result.Message,
+                    Title = "ویرایش نویسنده ها"
+                });
             }
             else
             {

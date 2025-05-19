@@ -11,7 +11,7 @@ namespace DataAccess.BookPublisher
     {
         public List<BookPublisher_VM> GetAllPublishers()
         {
-            return appDb.BookPublishers.ToList();
+            return appDb.BookPublishers.Where(x => x.IsDelete == false).ToList();
         }
     }
 }

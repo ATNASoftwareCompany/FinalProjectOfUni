@@ -23,6 +23,9 @@ namespace FinalApp.Book
     {
         FinalApp.MessageBox _msBox;
         AppPresenter.AppPresenter _presenter;
+        public bool isEdited = false;
+        public BookPublisher_VM publisher;
+
         public AddNewPublisher()
         {
             InitializeComponent();
@@ -31,8 +34,14 @@ namespace FinalApp.Book
         {
             _msBox = new FinalApp.MessageBox();
             _presenter = new AppPresenter.AppPresenter();
+
+            if (isEdited)
+            {
+                btnAddNewPublisher.Content = "ویرایش";
+                txtNewPublisher.Text = publisher.PublisherName;
+            }
         }
-        
+
         private void btnAddNewPublisher_Click(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrEmpty(txtNewPublisher.Text))
@@ -47,15 +56,51 @@ namespace FinalApp.Book
                 return;
             }
 
-            BookPublisher_VM bookPublisher = new BookPublisher_VM
+            if (isEdited)
             {
-                PublisherName = txtNewPublisher.Text,
-                IsDelete = false,
-                Status = (int)BStatus.Active,
-            };
-            var result = _presenter.InsertBookPublisher(bookPublisher);
-            if (result.ErrorCode != 0)
+                publisher.UpdateDate = DateTime.Now;
+                publisher.PublisherName = txtNewPublisher.Text;
+                var result = _presenter.UpdateBookPublisher(publisher);
+                if (!(bool)result.Result)
+                {
+                    _msBox.Show(new MessageBox_VM
+                    {
+                        OK = true,
+                        ErrorType = DataModel.Enum.ErrorType.Error,
+                        Message = "خطا در فرایند بروزرسانی اطلاعات ناشر",
+                        Title = "ویرایش ناشر ها"
+                    });
+                    return;
+                }
+                _msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = DataModel.Enum.ErrorType.Sussess,
+                    Message = result.Message,
+                    Title = "ویرایش ناشر ها"
+                });
+            }
+            else
             {
+                BookPublisher_VM bookPublisher = new BookPublisher_VM
+                {
+                    PublisherName = txtNewPublisher.Text,
+                    IsDelete = false,
+                    Status = (int)BStatus.Active,
+                };
+                var result = _presenter.InsertBookPublisher(bookPublisher);
+                if (result.ErrorCode != 0)
+                {
+                    _msBox.Show(new MessageBox_VM
+                    {
+                        Title = "افزودن ناشر جدید",
+                        Message = result.Message,
+                        ErrorType = result.ErrorType,
+                        OK = true,
+                    });
+                    return;
+                }
+
                 _msBox.Show(new MessageBox_VM
                 {
                     Title = "افزودن ناشر جدید",
@@ -63,16 +108,8 @@ namespace FinalApp.Book
                     ErrorType = result.ErrorType,
                     OK = true,
                 });
-                return;
             }
 
-            _msBox.Show(new MessageBox_VM
-            {
-                Title = "افزودن ناشر جدید",
-                Message = result.Message,
-                ErrorType = result.ErrorType,
-                OK = true,
-            });
 
             this.Close();
         }

@@ -13,5 +13,7 @@ namespace DataModel.Enum
         Activation = 3,
         Action = 4,
         Access = 5,
+        Book = 6,
+        SMS = 7,
     }
 }

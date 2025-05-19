@@ -11,7 +11,7 @@ namespace DataAccess.BookAuthor
     {
         public List<BookAuthor_VM> GetAllBookAuthor()
         {
-            return appDb.BookAuthors.ToList();
+            return appDb.BookAuthors.Where(x => x.IsDelete == false).ToList();
         }
     }
 }

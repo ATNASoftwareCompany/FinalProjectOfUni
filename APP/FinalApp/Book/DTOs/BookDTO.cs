@@ -10,6 +10,7 @@ namespace FinalApp.Book.DTOs
     public class BookDTO
     {
         public int RowNumber { get; set; }
+        public int BookId { get; set; }
         public string BookTitle { get; set; }
         public string BookGenre { get; set; }
         public int Quantity { get; set; }

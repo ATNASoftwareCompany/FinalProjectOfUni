@@ -10,9 +10,5 @@ namespace DataModel.ViewModel
     {
         public int ActionCode { get; set; }
         public string ActionName { get; set; }
-        public bool IsMenu { get; set; }
-        public bool IsShow { get; set; }
-        public int Priority { get; set; }
-
     }
 }

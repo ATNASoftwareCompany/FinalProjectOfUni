@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Access\Access_DL.cs" />
+    <Compile Include="Access\Command\CheckAccess.cs" />
     <Compile Include="Access\Command\DeleteAccess.cs" />
     <Compile Include="Access\Command\GetAccess.cs" />
     <Compile Include="Access\Command\InsertAccess.cs" />
@@ -71,11 +72,14 @@
     <Compile Include="Activation\Command\InsertActivation.cs" />
     <Compile Include="Activation\Command\UpdateActivation.cs" />
     <Compile Include="BookAuthor\BookAuthor_DL.cs" />
+    <Compile Include="BookAuthor\Command\AuthorNameSearch.cs" />
     <Compile Include="BookAuthor\Command\GetAllBookAuthor.cs" />
     <Compile Include="BookAuthor\Command\GetAuthorName.cs" />
     <Compile Include="BookAuthor\Command\GetBookAuthor.cs" />
     <Compile Include="BookAuthor\Command\InsertBookAuthor.cs" />
+    <Compile Include="BookAuthor\Command\UpdateBookAuthor.cs" />
     <Compile Include="BookGenre\BookGenre_DL.cs" />
+    <Compile Include="BookGenre\Command\GenreNameSearch.cs" />
     <Compile Include="BookGenre\Command\GetAllBookGenre.cs" />
     <Compile Include="BookGenre\Command\GetBookGenre.cs" />
     <Compile Include="BookGenre\Command\GetGenreName.cs" />
@@ -83,9 +87,13 @@
     <Compile Include="BookGenre\Command\UpdateBookGenre.cs" />
     <Compile Include="BookPublisher\BookPublisher_DL.cs" />
     <Compile Include="BookPublisher\Command\GetAllPublishers.cs" />
+    <Compile Include="BookPublisher\Command\GetBookPublisher.cs" />
     <Compile Include="BookPublisher\Command\GetPublisherName.cs" />
     <Compile Include="BookPublisher\Command\InsertBookPublisher.cs" />
+    <Compile Include="BookPublisher\Command\PublisherNameSearch.cs" />
+    <Compile Include="BookPublisher\Command\UpdateBookPublisher.cs" />
     <Compile Include="Book\Book_DL.cs" />
+    <Compile Include="Book\Command\BookNameSearch.cs" />
     <Compile Include="Book\Command\DeleteBook.cs" />
     <Compile Include="Book\Command\GetBook.cs" />
     <Compile Include="Book\Command\GetBooksCount.cs" />
@@ -110,6 +118,14 @@
     <Compile Include="Migrations\202505172040328_UpdateBook.cs" />
     <Compile Include="Migrations\202505172040328_UpdateBook.Designer.cs">
       <DependentUpon>202505172040328_UpdateBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202505192252257_useraccess.cs" />
+    <Compile Include="Migrations\202505192252257_useraccess.Designer.cs">
+      <DependentUpon>202505192252257_useraccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202505192256038_useraccesses.cs" />
+    <Compile Include="Migrations\202505192256038_useraccesses.Designer.cs">
+      <DependentUpon>202505192256038_useraccesses.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person\Command\DeletePerson.cs" />
@@ -148,6 +164,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202505172040328_UpdateBook.resx">
       <DependentUpon>202505172040328_UpdateBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505192252257_useraccess.resx">
+      <DependentUpon>202505192252257_useraccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505192256038_useraccesses.resx">
+      <DependentUpon>202505192256038_useraccesses.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,10 +8,10 @@ namespace DataAccess.Access
 {
     public partial class Access_DL
     {
-        AppDb db = new AppDb();
+        AppDb appDb = new AppDb();
         public void SaveChanges()
         {
-            db.SaveChanges();
+            appDb.SaveChanges();
         }
     }
 }

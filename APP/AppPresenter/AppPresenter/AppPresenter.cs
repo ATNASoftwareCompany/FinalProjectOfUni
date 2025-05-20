@@ -14,6 +14,8 @@ using System;
 using Newtonsoft.Json;
 using BusinessLogic;
 using System.Collections.Generic;
+using BusinessLogic.Access;
+using BusinessLogic.Action;
 
 namespace AppPresenter
 {
@@ -26,11 +28,67 @@ namespace AppPresenter
         }
 
         #region Access
+        public BaseResult_VM InsertAccess(List<Access_VM> inputModel)
+        {
+            return _presenter.HandleResponse(new Access_BL().InsertAccess, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertAccess,
+                GenreId = DataModel.Enum.GenreType.Access,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel[0].UserId),
+            });
+        }
 
+        public BaseResult_VM GetUserAccessList(int userId)
+        {
+            return _presenter.HandleResponse(new Access_BL().GetUserAccessList, userId, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertAccess,
+                GenreId = DataModel.Enum.GenreType.Access,
+                MethodInput = JsonConvert.SerializeObject(userId),
+                PointerId = Convert.ToInt64(userId),
+            });
+        }
+
+        public BaseResult_VM UpdateAccessList(List<Access_VM> inputModel)
+        {
+            return _presenter.HandleResponse(new Access_BL().UpdateAccessList, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertAccess,
+                GenreId = DataModel.Enum.GenreType.Access,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(0),
+            });
+        }
         #endregion
 
         #region Action
+        public BaseResult_VM InsertActions(List<Action_VM> inputModel)
+        {
+            return _presenter.HandleResponse(new Action_BL().InsertActions, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertActions,
+                GenreId = DataModel.Enum.GenreType.Action,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                //PointerId = Convert.ToInt64(inputModel[0].),
+            });
+        }
 
+        public BaseResult_VM GetActionsCount(int book)
+        {
+            return _presenter.HandleResponse(new Action_BL().GetActionsCount, book, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.GetUsersCount,
+                GenreId = DataModel.Enum.GenreType.User,
+                MethodInput = JsonConvert.SerializeObject(book),
+                PointerId = Convert.ToInt64(book),
+            });
+        }
         #endregion
 
         #region Activation
@@ -84,7 +142,7 @@ namespace AppPresenter
         #endregion
 
         #region Person
-        public BaseResult_VM InsertPerson(Person_VM inputModel)
+        public BaseResult_VM InsertPerson(Person_VM inputModel, Access_VM access = null)
         {
             return _presenter.HandleResponse(new Person_BL().InsertPerson, inputModel, new DataModel.Logging.RequestBaseLog_VM
             {
@@ -95,6 +153,7 @@ namespace AppPresenter
                 PointerId = Convert.ToInt64(inputModel.PhoneNo),
             });
         }
+        
         #endregion
 
         #region User
@@ -111,7 +170,7 @@ namespace AppPresenter
                 MethodId = DataModel.Enum.MethodsType.GetUserSingle,
                 GenreId = DataModel.Enum.GenreType.User,
                 MethodInput = JsonConvert.SerializeObject(inputModel),
-                PointerId = Convert.ToInt64(inputModel.UserName),
+                PointerId = Convert.ToInt64(0),
             });
         }
 
@@ -492,7 +551,42 @@ namespace AppPresenter
         #endregion
 
         #region Common
-        
+        public BaseResult_VM CheckUserAccess(Access_VM inputModel)
+        {
+            return _presenter.HandleResponse(new Common_BL().CheckUserAccess, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.UpdateUser,
+                GenreId = DataModel.Enum.GenreType.Common,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel.Id),
+            });
+        }
+
+        public BaseResult_VM GenerateEnumToObject(string inputModel)
+        {
+            return _presenter.HandleResponse(new Common_BL().GenerateEnumToObject, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.UpdateUser,
+                GenreId = DataModel.Enum.GenreType.Common,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(0),
+            });
+        }
+
+        public BaseResult_VM GenerateEnumToObject(int inputModel)
+        {
+            return _presenter.HandleResponse(new Common_BL().GenerateEnumToObject, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.UpdateUser,
+                GenreId = DataModel.Enum.GenreType.Common,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                PointerId = Convert.ToInt64(inputModel),
+            });
+        }
+
         #endregion
 
     }

@@ -114,5 +114,8 @@ namespace DataModel.Enum
 
         [Description("ارسال پیامک")]
         SendSms = 10035,
+
+        [Description("ورود به صفحه مدیریت کتابها")]
+        LoginToBookManagmentPage = 10036
     }
 }

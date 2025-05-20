@@ -1,0 +1,48 @@
+﻿<Window x:Class="FinalApp.Users.UsersManagment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalApp.Users"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True"
+        Title="UsersManagment" Height="450" Width="800" FontFamily="B Zar">
+    <Border BorderThickness="5" BorderBrush="#494947" CornerRadius="15">
+        <Grid Background="#494947">
+            <Border BorderBrush="#F5F5DC" BorderThickness="5" CornerRadius="15" Margin="15,10,404,20">
+                <Grid Background="#F5F5DC"  >
+                    <TextBlock x:Name="txbUserNODesc" Text="مدیریت افراد" FontSize="30" Margin="10,10,10,336" TextAlignment="Center"/>
+                    <DataGrid Background="#44CCFF" IsReadOnly="True" Margin="15,105,15,15" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Border>
+            <Border BorderBrush="#44CCFF" BorderThickness="5" CornerRadius="15" Margin="404,10,15,20">
+                <Grid Background="#44CCFF"  >
+                    <TextBlock x:Name="txbUserNODescw" Text="مدیریت کاربران" FontSize="30" Margin="16,10,25,337" TextAlignment="Center"/>
+                    <DataGrid Background="#F5F5DC" IsReadOnly="True" Margin="15,105,15,15" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Border>
+            <Image Margin="0,408,756,0" Source="/Images/icons8-return-48.png" Stretch="Fill"/>
+        </Grid>
+
+    </Border>
+</Window>

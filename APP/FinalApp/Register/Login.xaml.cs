@@ -108,6 +108,9 @@ namespace FinalApp
             }
 
             MainWindow mainWindow = new MainWindow();
+            mainWindow._username = _username;
+            mainWindow._userId = user.Id;
+            mainWindow._password = txtPassword.Password;
             mainWindow.Show();
             this.Close();
         }

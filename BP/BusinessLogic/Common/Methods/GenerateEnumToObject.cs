@@ -1,4 +1,5 @@
-﻿using DataModel.ViewModel;
+﻿using DataModel.Enum;
+using DataModel.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,11 +12,11 @@ namespace BusinessLogic
 {
     public partial class Common_BL
     {
-        public List<EnumInfo> GenerateEnumToObject<T>(string nothing) where T : Enum
+        public BaseResult_VM GenerateEnumToObject(string nothing) //where T : Enum
         {
-            var type = typeof(T);
-            return Enum.GetValues(type)
-                       .Cast<T>()
+            var type = typeof(AccessType);
+            return new BaseResult_VM(Enum.GetValues(type)
+                       .Cast<AccessType>()
                        .Select(e => new EnumInfo
                        {
                            Name = e.ToString(),
@@ -24,7 +25,23 @@ namespace BusinessLogic
                                .GetMember(e.ToString())[0]
                                .GetCustomAttribute<DescriptionAttribute>()?.Description ?? e.ToString()
                        })
-                       .ToList();
+                       .ToList(), 0, "", DataModel.Enum.ErrorType.Sussess);
+        }
+
+        public BaseResult_VM GenerateEnumToObject(int id) //where T : Enum
+        {
+            var type = typeof(AccessType);
+            return new BaseResult_VM(Enum.GetValues(type)
+                       .Cast<AccessType>()
+                       .Select(e => new EnumInfo
+                       {
+                           Name = e.ToString(),
+                           Value = Convert.ToInt32(e),
+                           Description = type
+                               .GetMember(e.ToString())[0]
+                               .GetCustomAttribute<DescriptionAttribute>()?.Description ?? e.ToString()
+                       })
+                       .FirstOrDefault(x => x.Value == id), 0, "", DataModel.Enum.ErrorType.Sussess);
         }
     }
 }

@@ -15,5 +15,6 @@ namespace DataModel.Enum
         Access = 5,
         Book = 6,
         SMS = 7,
+        Common = 8,
     }
 }

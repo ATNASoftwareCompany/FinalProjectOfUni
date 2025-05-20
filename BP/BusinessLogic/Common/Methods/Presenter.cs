@@ -14,11 +14,11 @@ namespace BusinessLogic.Common.Methods
 {
     public class Presenter
     {
-        public BaseResult_VM HandleResponse<T>(Func<T, BaseResult_VM> func, T methodInput, RequestBaseLog_VM requestLog)
+        public BaseResult_VM HandleResponse<T>(Func<T, BaseResult_VM> func, T methodInput, RequestBaseLog_VM requestLog, Access_VM access = null)
         {
             requestLog.MethodInput = JsonConvert.SerializeObject(methodInput);
             BaseResult_VM result = new BaseResult_VM(null, 0, "", DataModel.Enum.ErrorType.Sussess);
-
+            bool hasAccess = true;
             try
             {
                 new Request_DL().InserRequest(new RequestBaseLog_VM
@@ -31,8 +31,14 @@ namespace BusinessLogic.Common.Methods
                     MethodOutput = JsonConvert.SerializeObject(result),
                     PointerId = requestLog.PointerId,
                 });
-
-                result = func.Invoke(methodInput);
+                if (access != null && access.UserId > 0)
+                {
+                    hasAccess = CheckAccess(access);
+                }
+                if (hasAccess)
+                {
+                    result = func.Invoke(methodInput);
+                }
                 new Response_DL().InsertResponse(new ResponseBaseLog_VM
                 {
                     RequestId = requestLog.RequestId,
@@ -45,6 +51,10 @@ namespace BusinessLogic.Common.Methods
                     MethodOutput = JsonConvert.SerializeObject(result),
                     PointerId = requestLog.PointerId,
                 });
+                if (!hasAccess)
+                {
+                    return new BaseResult_VM(null,1369,"شما به این قسمت دسترسی ندارید",DataModel.Enum.ErrorType.Error);
+                }
                 return result;
             }
             catch (Exception ex)
@@ -63,6 +73,16 @@ namespace BusinessLogic.Common.Methods
 
                 return new BaseResult_VM(null, -100, "خطا در اپلیکیشن", DataModel.Enum.ErrorType.Error);
             }
+        }
+
+        private bool CheckAccess(Access_VM inputModel)
+        {
+            var result = new Common_BL().CheckUserAccess(inputModel);
+            if (result.ErrorCode != 0)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

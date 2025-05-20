@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Access\Access_BL.cs" />
+    <Compile Include="Access\Methods\GetUserAccess.cs" />
+    <Compile Include="Access\Methods\GetUserAccessList.cs" />
+    <Compile Include="Access\Methods\InsertAccess.cs" />
+    <Compile Include="Access\Methods\UpdateAccessList.cs" />
+    <Compile Include="Action\Action_BL.cs" />
+    <Compile Include="Action\Methods\GetActionsCount.cs" />
+    <Compile Include="Action\Methods\InsertActions.cs" />
     <Compile Include="Activation\Activation_BL.cs" />
     <Compile Include="Activation\Methods\CheckActivationCode.cs" />
     <Compile Include="Activation\Methods\GenerateActicationCode.cs" />
@@ -79,6 +87,7 @@
     <Compile Include="Book\Methods\InsertBook.cs" />
     <Compile Include="Book\Methods\UpdateBook.cs" />
     <Compile Include="Common\Common_BL.cs" />
+    <Compile Include="Common\Methods\CheckUserAccess.cs" />
     <Compile Include="Common\Methods\GenerateEnumToObject.cs" />
     <Compile Include="Common\Methods\Presenter.cs" />
     <Compile Include="LoggingHandler.cs" />

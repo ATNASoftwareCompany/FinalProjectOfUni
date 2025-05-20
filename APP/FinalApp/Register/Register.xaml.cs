@@ -1,5 +1,6 @@
 ﻿using DataModel;
 using DataModel.Enum;
+using DataModel.ViewModel;
 using FinalApp;
 using System;
 using System.Collections.Generic;
@@ -99,7 +100,7 @@ namespace FinalApp
                 UserName = registerDTO.PhoneNo,
                 Password = registerDTO.Password,
             };
-            
+
             result = _presenter.InsertUser(user);
             if (result.ErrorCode != 0)
             {
@@ -112,7 +113,50 @@ namespace FinalApp
                 });
                 return;
             }
-
+            List<AccessType> accessTypes = new List<AccessType>
+            {
+                AccessType.InsertPerson ,
+                AccessType.InsertUser ,
+                AccessType.InsertBook,
+                AccessType.UserAuthentication,
+                AccessType.UpdateUser ,
+                AccessType.UpdateBook,
+                AccessType.UpdateActivation,
+                AccessType.UpdateBookGenre,
+                AccessType.UpdateBookAuthor,
+                AccessType.UpdateBookPublisher,
+                AccessType.LoginToBookManagmentPage,
+            };
+            List<Access_VM> accesses = new List<Access_VM>();
+            foreach (AccessType accessType in accessTypes)
+            {
+                EnumInfo @enum = _presenter.GenerateEnumToObject(Convert.ToInt32(accessType)).Result as EnumInfo;
+                Access_VM access = new Access_VM
+                {
+                    ActionCode = new Action_VM
+                    {
+                        ActionCode = @enum.Value,
+                        ActionName = @enum.Description
+                    },
+                    UserId = (int)result.Result,
+                    IsDelete = false,
+                    Status = (int)BStatus.Active,
+                    InsertDate = DateTime.Now,
+                };
+                accesses.Add(access);
+            }
+            var saveAccess = _presenter.InsertAccess(accesses);
+            if ((int)saveAccess.ErrorCode != 0)
+            {
+                msgBox.Show(new DataModel.ViewModel.MessageBox_VM
+                {
+                    ErrorType = DataModel.Enum.ErrorType.Error,
+                    OK = true,
+                    Message = "خطا در درج دسترسی های کاربر",
+                    Title = "ثبت نام"
+                });
+                return;
+            }
             msgBox.Show(new DataModel.ViewModel.MessageBox_VM
             {
                 ErrorType = DataModel.Enum.ErrorType.Sussess,

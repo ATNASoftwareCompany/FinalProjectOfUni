@@ -71,6 +71,8 @@
     <Compile Include="Access\AccessManagment.xaml.cs">
       <DependentUpon>AccessManagment.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Access\DTOs\RelayCommand.cs" />
+    <Compile Include="Access\DTOs\TreeViewItemModel.cs" />
     <Compile Include="Book\AddNewAuthor.xaml.cs">
       <DependentUpon>AddNewAuthor.xaml</DependentUpon>
     </Compile>
@@ -112,6 +114,9 @@
     </Compile>
     <Compile Include="Register\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Users\UsersManagment.xaml.cs">
+      <DependentUpon>UsersManagment.xaml</DependentUpon>
     </Compile>
     <Page Include="Access\AccessManagment.xaml">
       <SubType>Designer</SubType>
@@ -178,6 +183,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Register\Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Users\UsersManagment.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

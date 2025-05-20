@@ -44,5 +44,7 @@ namespace DataModel.Enum
         UpdateBookGenre = 10033,
         GetAllBookGenre = 10034,
         SendSms = 10035,
+        InsertAccess = 10036,
+        InsertActions = 10037,
     }
 }

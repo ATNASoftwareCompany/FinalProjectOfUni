@@ -1,4 +1,5 @@
 ﻿using DataModel.ViewModel;
+using FinalApp.Access;
 using FinalApp.Book;
 using System;
 using System.Collections.Generic;
@@ -27,22 +28,48 @@ namespace FinalApp
 
         public static string Username { get; set; }
         public static string Password { get; set; }
+        public static int UserId { get; set; }
+
+        public string _username { get; set; }
+        public string _password { get; set; }
+        public int _userId { get; set; }
+
+        public static void SetStaticValue(int userId , string username , string password)
+        {
+            UserId = userId;
+            Username = username;
+            Password = password;
+        }
 
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             _msBox = new FinalApp.MessageBox();
             _presenter = new AppPresenter.AppPresenter();
+            SetStaticValue(_userId, _username, _password);
             GetBooksCount();
             GetUsersCount();
         }
 
         private void txbBooks_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            var result = _presenter.CheckUserAccess(new Access_VM { ActionCode = new Action_VM { ActionCode = 10036}, UserId = UserId });
+            if (result.ErrorCode != 0)
+            {
+                _msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = DataModel.Enum.ErrorType.Error,
+                    Message = "شما به این قسمت دسترسی ندارید",
+                    Title = "دسترسی"
+                });
+                return;
+            }
             BookManagment bookManagment = new BookManagment();
             bookManagment.ShowDialog();
         }
@@ -90,9 +117,15 @@ namespace FinalApp
         private void imgshutdown_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             Login login = new Login();
-            login._username = MainWindow.Username;
+            login._username = Username;
             login.Show();
             this.Close();
+        }
+
+        private void txbAccess_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            AccessManagment accessManagment = new AccessManagment();
+            accessManagment.ShowDialog();
         }
     }
 }

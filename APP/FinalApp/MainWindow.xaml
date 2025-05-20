@@ -20,9 +20,7 @@
             </Border>
             <TextBlock Text="نرم افزار مدیریت فروش کتاب آتنا ، خوش آمدید" FontSize="30" Height="45" Margin="361,14,361,651" TextAlignment="Center"/>
             <Image x:Name="imgshutdown" Margin="24,16,1196,644" Source="/Images/icons8-shutdown-50.png" ToolTip="خروج" Stretch="Fill" MouseLeftButtonDown="imgshutdown_MouseLeftButtonDown"/>
-            <Image x:Name="imgusers" Margin="90,16,1132,646" Source="/Images/icons8-users-48.png" ToolTip="کاربران" Stretch="Fill"/>
-            <Image x:Name="imginformation" Margin="152,16,1068,644" Source="/Images/icons8-information-50.png" ToolTip="اطلاعات" Stretch="Fill" MouseLeftButtonDown="imginformation_MouseLeftButtonDown"/>
-            <Image x:Name="imgsetting" Margin="1192,16,28,644" Source="/Images/icons8-setting-50.png" ToolTip="تنظیمات" Stretch="Fill"/>
+            <Image x:Name="imginformation" Margin="90,16,1130,644" Source="/Images/icons8-information-50.png" ToolTip="اطلاعات" Stretch="Fill" MouseLeftButtonDown="imginformation_MouseLeftButtonDown"/>
 
             <Border BorderBrush="#E9FFDB" BorderThickness="5" CornerRadius="15" Height="300" Width="420" Margin="458,92,392,318">
                 <Grid Background="#E9FFDB"  >
@@ -46,7 +44,7 @@
                 <Grid Background="#00A693" >
                     <TextBlock x:Name="txbBooks" Text="لیست کتاب ها" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="113,48,45,472" MouseLeftButtonDown="txbBooks_MouseLeftButtonDown"/>
                     <TextBlock x:Name="txbSells" Text="فروش و فاکتور" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="98,136,42,376"/>
-                    <TextBlock x:Name="txbAccess" Text="عملیات دسترسی" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="92,233,38,299"/>
+                    <TextBlock x:Name="txbAccess" Text="عملیات دسترسی" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="92,233,38,299" MouseLeftButtonDown="txbAccess_MouseLeftButtonDown"/>
                     <TextBlock x:Name="txbLogging" Text="مدیریت لاگ ها" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="102,422,28,110"/>
                     <TextBlock x:Name="txbRoles" Text="مدیریت کاربران" FontSize="35" FlowDirection="RightToLeft" TextAlignment="Center" Margin="95,328,35,204"/>
                     <Image Margin="45,150,247,390" Source="/Images/icons8-dollar-sign-50.png" Stretch="Fill"/>

@@ -1,0 +1,12 @@
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\bin\Release\DataModel.dll.config
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\bin\Release\DataModel.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\bin\Release\DataModel.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\bin\Release\EntityFramework.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\bin\Release\EntityFramework.xml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\obj\Release\DataModel.csproj.AssemblyReference.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\obj\Release\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\obj\Release\DataModel.csproj.Up2Date
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\obj\Release\DataModel.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\Common\DataModel\obj\Release\DataModel.pdb

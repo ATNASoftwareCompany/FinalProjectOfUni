@@ -10,19 +10,23 @@
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
         AllowsTransparency="True"
-        Title="UsersManagment" Height="450" Width="800" FontFamily="B Zar">
+        Title="UsersManagment" Height="450" Width="800" FontFamily="B Zar" Loaded="Window_Loaded">
     <Border BorderThickness="5" BorderBrush="#494947" CornerRadius="15">
         <Grid Background="#494947">
             <Border BorderBrush="#F5F5DC" BorderThickness="5" CornerRadius="15" Margin="15,10,404,20">
                 <Grid Background="#F5F5DC"  >
                     <TextBlock x:Name="txbUserNODesc" Text="مدیریت افراد" FontSize="30" Margin="10,10,10,336" TextAlignment="Center"/>
-                    <DataGrid Background="#44CCFF" IsReadOnly="True" Margin="15,105,15,15" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}">
+                    <DataGrid x:Name="prsGrid" Background="#44CCFF" FlowDirection="RightToLeft" IsReadOnly="True" Margin="15,105,15,15" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Header="ردیف" Binding="{Binding RowNumber}" Width="auto"/>
+                            <DataGridTextColumn Width="auto" Header="نام" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Width="auto" Header="نام خانوادگی" Binding="{Binding Family}"/>
+                            <DataGridTextColumn Width="auto" Header="تاریخ تولد" Binding="{Binding BirthDate}"/>
+                            <DataGridTextColumn Width="auto" Header="شماره تماس" Binding="{Binding PhoneNo}"/>
+                            <DataGridTextColumn Width="auto" Header="ایمیل" Binding="{Binding E_Mail}"/>
+                            <DataGridTextColumn Width="auto" Header="وضعیت" Binding="{Binding StatusStr}"/>
+                            <DataGridTextColumn Width="auto" Header="تاریخ ثبت نام" Binding="{Binding InsertDate}"/>
+                            <DataGridTextColumn Width="auto" Header="تاریخ آخرین بروزرسانی" Binding="{Binding UpdateDate}"/>
                         </DataGrid.Columns>
                     </DataGrid>
                 </Grid>
@@ -30,18 +34,18 @@
             <Border BorderBrush="#44CCFF" BorderThickness="5" CornerRadius="15" Margin="404,10,15,20">
                 <Grid Background="#44CCFF"  >
                     <TextBlock x:Name="txbUserNODescw" Text="مدیریت کاربران" FontSize="30" Margin="16,10,25,337" TextAlignment="Center"/>
-                    <DataGrid Background="#F5F5DC" IsReadOnly="True" Margin="15,105,15,15" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}">
+                    <DataGrid x:Name="userGrid" Background="#F5F5DC" FlowDirection="RightToLeft" IsReadOnly="True" Margin="15,105,15,15" AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding}">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
-                            <DataGridTextColumn Header="" Binding="{Binding }"/>
+                            <DataGridTextColumn Width="auto" Header="ردیف" Binding="{Binding RowNumber}"/>
+                            <DataGridTextColumn Width="auto" Header="نام کاربری" Binding="{Binding UserName}"/>
+                            <DataGridTextColumn Width="auto" Header="وضعیت" Binding="{Binding StatusStr}"/>
+                            <DataGridTextColumn Width="auto" Header="تاریخ ثبت نام" Binding="{Binding InsertDate}"/>
+                            <DataGridTextColumn Width="auto" Header="تاریخ آخرین بروزرسانی" Binding="{Binding UpdateDate}"/>
                         </DataGrid.Columns>
                     </DataGrid>
                 </Grid>
             </Border>
-            <Image Margin="0,408,756,0" Source="/Images/icons8-return-48.png" Stretch="Fill"/>
+            <Image Margin="0,408,756,0" Source="/Images/icons8-return-48.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
         </Grid>
 
     </Border>

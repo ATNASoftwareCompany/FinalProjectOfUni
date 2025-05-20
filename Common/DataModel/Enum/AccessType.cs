@@ -116,6 +116,15 @@ namespace DataModel.Enum
         SendSms = 10035,
 
         [Description("ورود به صفحه مدیریت کتابها")]
-        LoginToBookManagmentPage = 10036
+        LoginToBookManagmentPage = 10036,
+
+        [Description("ورود به صفحه مدیریت عملیات دسترسی")]
+        LoginToAccessManagmentPage = 10037,
+
+        [Description("ورود به صفحه مدیریت لاگ ها")]
+        LoginToLogManagmentPage = 10038,
+
+        [Description("ورود به صفحه مدیریت کاربران")]
+        LoginToUsersManagmentPage = 10039,
     }
 }

@@ -91,12 +91,15 @@
     <Compile Include="Common\Methods\GenerateEnumToObject.cs" />
     <Compile Include="Common\Methods\Presenter.cs" />
     <Compile Include="LoggingHandler.cs" />
+    <Compile Include="Logging\GetResponseLogList.cs" />
+    <Compile Include="Person\Methods\GetPersonList.cs" />
     <Compile Include="Person\Methods\InsertPerson.cs" />
     <Compile Include="Person\Person_BL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SMS\Methods\SendSms.cs" />
     <Compile Include="SMS\Sms_BL.cs" />
     <Compile Include="User\Methods\DeleteUser.cs" />
+    <Compile Include="User\Methods\GetUserList.cs" />
     <Compile Include="User\Methods\GetUsers.cs" />
     <Compile Include="User\Methods\GetUsersCount.cs" />
     <Compile Include="User\Methods\GetUserSingle.cs" />

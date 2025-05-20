@@ -3,136 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B6B8DF5-8614-4C0F-AD2B-7716E077291B}|APP\\AppPresenter\\AppPresenter\\AppPresenter.csproj|solutionrelative:app\\apppresenter\\apppresenter\\apppresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\register\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\access\\accessmanagment.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\access\\accessmanagment.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\enum\\accesstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\accesstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\action\\methods\\getactionscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\action\\methods\\getactionscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\action\\action_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\action\\action_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\action\\command\\getcountofactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\action\\command\\getcountofactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\action\\action_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\action\\action_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\action\\command\\getaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\action\\command\\getaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\access\\methods\\updateaccesslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\access\\methods\\updateaccesslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\access\\access_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\access\\access_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\access\\command\\updateaccesslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\access\\command\\updateaccesslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\access\\access_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\access\\access_dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\access\\command\\getaccessbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\access\\command\\getaccessbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\viewmodel\\access_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\access_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\access\\command\\getuseraccesslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\access\\command\\getuseraccesslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\access\\command\\deleteaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\access\\command\\deleteaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\access\\command\\getaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\access\\command\\getaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\access\\methods\\getuseraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\access\\methods\\getuseraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\access\\methods\\getuseraccesslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\access\\methods\\getuseraccesslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\access\\accessmanagment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\access\\accessmanagment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\register\\autenticate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\register\\autenticate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\methods\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\person\\methods\\insertperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\person\\methods\\insertperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\common\\methods\\generateenumtoobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\common\\methods\\generateenumtoobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\action\\command\\insertaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\action\\command\\insertaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\businesslogic\\action\\methods\\insertactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CF418D-AF09-42C1-BE59-6E78486514B0}|BP\\BusinessLogic\\BusinessLogic.csproj|solutionrelative:bp\\businesslogic\\action\\methods\\insertactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\bp\\dataaccess\\access\\command\\checkaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835342BB-B8F8-4DA2-8C55-F8CCCC9566A3}|BP\\DataAccess\\DataAccess.csproj|solutionrelative:bp\\dataaccess\\access\\command\\checkaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\enum\\methodstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\addnewbook.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\addnewbook.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\book\\addnewbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\book\\addnewbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\common\\datamodel\\viewmodel\\action_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FF845F1-495A-41A3-BD2B-F31DCEA9552A}|Common\\DataModel\\DataModel.csproj|solutionrelative:common\\datamodel\\viewmodel\\action_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|c:\\users\\arman heart\\desktop\\engineeringfanalproject\\app\\finalapp\\access\\dtos\\treeviewitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EC2DA3-4C8F-436F-B1C3-C9317EE0D40C}|APP\\FinalApp\\FinalApp.csproj|solutionrelative:app\\finalapp\\access\\dtos\\treeviewitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,433 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetActionsCount.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Action\\Methods\\GetActionsCount.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Action\\Methods\\GetActionsCount.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Action\\Methods\\GetActionsCount.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Action\\Methods\\GetActionsCount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:11:59.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetCountOfActions.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Action\\Command\\GetCountOfActions.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Action\\Command\\GetCountOfActions.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Action\\Command\\GetCountOfActions.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Action\\Command\\GetCountOfActions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:10:22.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetAction.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Action\\Command\\GetAction.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Action\\Command\\GetAction.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Action\\Command\\GetAction.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Action\\Command\\GetAction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:10:01.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateAccessList.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Access\\Methods\\UpdateAccessList.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Access\\Methods\\UpdateAccessList.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Access\\Methods\\UpdateAccessList.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Access\\Methods\\UpdateAccessList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:53:14.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateAccessList.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\UpdateAccessList.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Access\\Command\\UpdateAccessList.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\UpdateAccessList.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Access\\Command\\UpdateAccessList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:48:57.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Access_DL.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Access_DL.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Access\\Access_DL.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Access_DL.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Access\\Access_DL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:47:37.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetAccessById.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\GetAccessById.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Access\\Command\\GetAccessById.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\GetAccessById.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Access\\Command\\GetAccessById.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:47:21.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DeleteAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\DeleteAccess.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Access\\Command\\DeleteAccess.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\DeleteAccess.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Access\\Command\\DeleteAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:41:13.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GetAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\GetAccess.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Access\\Command\\GetAccess.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\GetAccess.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Access\\Command\\GetAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:39:04.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Access_BL.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Access\\Access_BL.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Access\\Access_BL.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Access\\Access_BL.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Access\\Access_BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:16:28.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GetUserAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Access\\Methods\\GetUserAccess.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Access\\Methods\\GetUserAccess.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Access\\Methods\\GetUserAccess.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Access\\Methods\\GetUserAccess.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:16:12.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GetUserAccessList.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Access\\Methods\\GetUserAccessList.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Access\\Methods\\GetUserAccessList.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Access\\Methods\\GetUserAccessList.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Access\\Methods\\GetUserAccessList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:11:57.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GetUserAccessList.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\GetUserAccessList.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Access\\Command\\GetUserAccessList.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\GetUserAccessList.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Access\\Command\\GetUserAccessList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:32:10.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "InsertPerson.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwB8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:05:57.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Autenticate.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Autenticate.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Autenticate.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Autenticate.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Register\\Autenticate.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwDAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:05:57.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Register.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Register.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Register.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Register\\Register.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:03:30.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CheckAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\CheckAccess.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Access\\Command\\CheckAccess.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Access\\Command\\CheckAccess.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Access\\Command\\CheckAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:00:45.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "APP\\FinalApp\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "APP\\FinalApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAswH8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAwKQAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:59:48.184Z",
+              "WhenOpened": "2025-05-20T19:51:47.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "MethodsType.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\MethodsType.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\MethodsType.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\MethodsType.cs",
-              "RelativeToolTip": "Common\\DataModel\\Enum\\MethodsType.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwC8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:58:12.025Z",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\MainWindow.xaml",
+              "RelativeToolTip": "APP\\FinalApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T19:51:08.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "InsertActions.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Action\\Methods\\InsertActions.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Action\\Methods\\InsertActions.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Action\\Methods\\InsertActions.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Action\\Methods\\InsertActions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AccessType.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\AccessType.cs",
+              "RelativeDocumentMoniker": "Common\\DataModel\\Enum\\AccessType.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\Enum\\AccessType.cs",
+              "RelativeToolTip": "Common\\DataModel\\Enum\\AccessType.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwH8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:53:15.748Z",
+              "WhenOpened": "2025-05-20T19:50:09.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Action_BL.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Action\\Action_BL.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Action\\Action_BL.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Action\\Action_BL.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Action\\Action_BL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "InsertPerson.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
+              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
+              "RelativeToolTip": "BP\\BusinessLogic\\Person\\Methods\\InsertPerson.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:52:52.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Action_DL.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Action\\Action_DL.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Action\\Action_DL.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Action\\Action_DL.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Action\\Action_DL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:51:30.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "InsertAction.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Action\\Command\\InsertAction.cs",
-              "RelativeDocumentMoniker": "BP\\DataAccess\\Action\\Command\\InsertAction.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\DataAccess\\Action\\Command\\InsertAction.cs",
-              "RelativeToolTip": "BP\\DataAccess\\Action\\Command\\InsertAction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:50:38.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Presenter.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Methods\\Presenter.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAUwEsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:46:36.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GenerateEnumToObject.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\GenerateEnumToObject.cs",
-              "RelativeDocumentMoniker": "BP\\BusinessLogic\\Common\\Methods\\GenerateEnumToObject.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\BP\\BusinessLogic\\Common\\Methods\\GenerateEnumToObject.cs",
-              "RelativeToolTip": "BP\\BusinessLogic\\Common\\Methods\\GenerateEnumToObject.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwCIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:41:29.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AddNewBook.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewBook.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\AddNewBook.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewBook.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\AddNewBook.xaml.cs",
-              "ViewState": "AgIAAIEBAAAAAAAAAADwv50BAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:41:02.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AddNewBook.xaml",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewBook.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Book\\AddNewBook.xaml",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Book\\AddNewBook.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\Book\\AddNewBook.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T15:40:59.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Action_VM.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\Action_VM.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\Action_VM.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\Action_VM.cs",
-              "RelativeToolTip": "Common\\DataModel\\ViewModel\\Action_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:37:05.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Access_VM.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\Access_VM.cs",
-              "RelativeDocumentMoniker": "Common\\DataModel\\ViewModel\\Access_VM.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\Common\\DataModel\\ViewModel\\Access_VM.cs",
-              "RelativeToolTip": "Common\\DataModel\\ViewModel\\Access_VM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:36:57.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccessManagment.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Access\\AccessManagment.xaml.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Access\\AccessManagment.xaml.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Access\\AccessManagment.xaml.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Access\\AccessManagment.xaml.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAewC0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:44:27.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AccessManagment.xaml",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Access\\AccessManagment.xaml",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Access\\AccessManagment.xaml",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Access\\AccessManagment.xaml",
-              "RelativeToolTip": "APP\\FinalApp\\Access\\AccessManagment.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T14:44:24.052Z",
+              "WhenOpened": "2025-05-20T19:47:33.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "RelativeDocumentMoniker": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "RelativeToolTip": "APP\\AppPresenter\\AppPresenter\\AppPresenter.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwE4AAAAJAAAAAAAAAA==",
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "APP\\FinalApp\\Register\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Register\\Register.xaml.cs",
+              "RelativeToolTip": "APP\\FinalApp\\Register\\Register.xaml.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAiwIIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:44:03.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "TreeViewItemModel.cs",
-              "DocumentMoniker": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Access\\DTOs\\TreeViewItemModel.cs",
-              "RelativeDocumentMoniker": "APP\\FinalApp\\Access\\DTOs\\TreeViewItemModel.cs",
-              "ToolTip": "C:\\Users\\Arman Heart\\Desktop\\EngineeringFanalProject\\APP\\FinalApp\\Access\\DTOs\\TreeViewItemModel.cs",
-              "RelativeToolTip": "APP\\FinalApp\\Access\\DTOs\\TreeViewItemModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:42:28.139Z",
+              "WhenOpened": "2025-05-20T19:47:33.725Z",
               "EditorCaption": ""
             }
           ]

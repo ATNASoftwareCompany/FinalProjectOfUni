@@ -16,6 +16,7 @@ using BusinessLogic;
 using System.Collections.Generic;
 using BusinessLogic.Access;
 using BusinessLogic.Action;
+using BusinessLogic.Logging;
 
 namespace AppPresenter
 {
@@ -153,7 +154,19 @@ namespace AppPresenter
                 PointerId = Convert.ToInt64(inputModel.PhoneNo),
             });
         }
-        
+
+        public BaseResult_VM GetPersonList(int inputModel, Access_VM access = null)
+        {
+            return _presenter.HandleResponse(new Person_BL().GetPersonList, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.InsertPerson,
+                GenreId = DataModel.Enum.GenreType.Person,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                //PointerId = Convert.ToInt64(inputModel.PhoneNo),
+            });
+        }
+
         #endregion
 
         #region User
@@ -196,6 +209,18 @@ namespace AppPresenter
                 GenreId = DataModel.Enum.GenreType.User,
                 MethodInput = JsonConvert.SerializeObject(book),
                 PointerId = Convert.ToInt64(book),
+            });
+        }
+
+        public BaseResult_VM GetUserList(int book)
+        {
+            return _presenter.HandleResponse(new User_BL().GetUserList, book, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.GetUsersCount,
+                GenreId = DataModel.Enum.GenreType.User,
+                MethodInput = JsonConvert.SerializeObject(book),
+                //PointerId = Convert.ToInt64(book),
             });
         }
 
@@ -587,6 +612,20 @@ namespace AppPresenter
             });
         }
 
+        #endregion
+
+        #region Logging
+        public BaseResult_VM GetResponseLogList(int inputModel)
+        {
+            return _presenter.HandleResponse(new GetLogList().GetResponseLogList, inputModel, new DataModel.Logging.RequestBaseLog_VM
+            {
+                CallTime = DateTime.Now,
+                MethodId = DataModel.Enum.MethodsType.UpdateUser,
+                GenreId = DataModel.Enum.GenreType.Common,
+                MethodInput = JsonConvert.SerializeObject(inputModel),
+                //PointerId = Convert.ToInt64(inputModel),
+            });
+        }
         #endregion
 
     }

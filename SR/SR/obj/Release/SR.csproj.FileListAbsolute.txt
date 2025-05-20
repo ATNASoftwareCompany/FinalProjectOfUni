@@ -1,0 +1,12 @@
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\bin\Release\SR.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\bin\Release\SR.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\bin\Release\DataModel.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\bin\Release\Newtonsoft.Json.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\bin\Release\DataModel.pdb
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\bin\Release\DataModel.dll.config
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\bin\Release\Newtonsoft.Json.xml
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Release\SR.csproj.AssemblyReference.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Release\SR.csproj.CoreCompileInputs.cache
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Release\SR.csproj.Up2Date
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Release\SR.dll
+C:\Users\Arman Heart\Desktop\EngineeringFanalProject\SR\SR\obj\Release\SR.pdb

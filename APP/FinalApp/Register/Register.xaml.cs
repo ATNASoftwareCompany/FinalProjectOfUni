@@ -126,6 +126,9 @@ namespace FinalApp
                 AccessType.UpdateBookAuthor,
                 AccessType.UpdateBookPublisher,
                 AccessType.LoginToBookManagmentPage,
+                AccessType.LoginToAccessManagmentPage,
+                AccessType.LoginToLogManagmentPage,
+                AccessType.LoginToUsersManagmentPage,
             };
             List<Access_VM> accesses = new List<Access_VM>();
             foreach (AccessType accessType in accessTypes)
@@ -180,6 +183,12 @@ namespace FinalApp
                 });
                 return;
             }
+        }
+
+        private void btnCancelRegister_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            Application.Current.Shutdown();
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using DataModel.ViewModel;
 using FinalApp.Access;
 using FinalApp.Book;
+using FinalApp.LogManagment;
+using FinalApp.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -124,8 +126,56 @@ namespace FinalApp
 
         private void txbAccess_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            var result = _presenter.CheckUserAccess(new Access_VM { ActionCode = new Action_VM { ActionCode = 10037 }, UserId = UserId });
+            if (result.ErrorCode != 0)
+            {
+                _msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = DataModel.Enum.ErrorType.Error,
+                    Message = "شما به این قسمت دسترسی ندارید",
+                    Title = "دسترسی"
+                });
+                return;
+            }
             AccessManagment accessManagment = new AccessManagment();
             accessManagment.ShowDialog();
+        }
+
+        private void txbRoles_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            var result = _presenter.CheckUserAccess(new Access_VM { ActionCode = new Action_VM { ActionCode = 10039 }, UserId = UserId });
+            if (result.ErrorCode != 0)
+            {
+                _msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = DataModel.Enum.ErrorType.Error,
+                    Message = "شما به این قسمت دسترسی ندارید",
+                    Title = "دسترسی"
+                });
+                return;
+            }
+            UsersManagment usersManagment = new UsersManagment();
+            usersManagment.ShowDialog();
+        }
+
+        private void txbLogging_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            var result = _presenter.CheckUserAccess(new Access_VM { ActionCode = new Action_VM { ActionCode = 10038 }, UserId = UserId });
+            if (result.ErrorCode != 0)
+            {
+                _msBox.Show(new MessageBox_VM
+                {
+                    OK = true,
+                    ErrorType = DataModel.Enum.ErrorType.Error,
+                    Message = "شما به این قسمت دسترسی ندارید",
+                    Title = "دسترسی"
+                });
+                return;
+            }
+            LogManagment.LogManagment logManagment = new LogManagment.LogManagment();
+            logManagment.ShowDialog();
         }
     }
 }

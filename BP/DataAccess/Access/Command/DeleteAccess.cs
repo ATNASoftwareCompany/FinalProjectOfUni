@@ -8,9 +8,9 @@ namespace DataAccess.Access
 {
     public partial class Access_DL
     {
-        public void DeleteAccess()
+        public bool DeleteAccess()
         {
-
+            return true;
         }
     }
 }

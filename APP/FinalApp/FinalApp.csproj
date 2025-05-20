@@ -96,6 +96,9 @@
     <Compile Include="Information\Information.xaml.cs">
       <DependentUpon>Information.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LogManagment\LogManagment.xaml.cs">
+      <DependentUpon>LogManagment.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MessageBox\MessageBox.xaml.cs">
       <DependentUpon>MessageBox.xaml</DependentUpon>
     </Compile>
@@ -115,6 +118,8 @@
     <Compile Include="Register\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Users\DTOs\PersonDto.cs" />
+    <Compile Include="Users\DTOs\UserDto.cs" />
     <Compile Include="Users\UsersManagment.xaml.cs">
       <DependentUpon>UsersManagment.xaml</DependentUpon>
     </Compile>
@@ -147,6 +152,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Information\Information.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogManagment\LogManagment.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
